@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <!-- connection information -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.url">jdbc:mysql://deltawebservices.ddns.net:3306/app</property>
+        <property name="hibernate.connection.username">app</property>
+        <property name="hibernate.connection.password">doEHmk9^j$</property>
+        <property name="hibernate.connection.autoReconnect">true</property>
+
+        <!-- database pooling information -->
+        <property name="connection_provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">100</property>
+        <property name="hibernate.c3p0.timeout">300</property>
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+
+        <mapping class="db.entities.CategoryDB"/>
+        <mapping class="db.entities.VenueDB"/>
+        <mapping class="db.entities.WeatherDB"/>
+        <mapping class="db.entities.CityDB"/>
+        <mapping class="db.entities.CityMetricsDB"/>
+
+        <mapping class="db.entities.AbstractUserDB"/>
+        <mapping class="db.entities.TouristUserDB"/>
+        <mapping class="db.entities.BusinessUserDB"/>
+
+        <mapping class="db.entities.UserPreferenceDB"/>
+    </session-factory>
+</hibernate-configuration>

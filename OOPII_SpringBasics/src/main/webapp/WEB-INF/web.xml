@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>admin</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>rest.admin,jersey</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>admin</servlet-name>
+    <url-pattern>/admin/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>User REST Service</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>rest.user,jersey</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>User REST Service</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>Restrict Admin REST access to localhost</filter-name>
+    <filter-class>org.apache.catalina.filters.RemoteAddrFilter</filter-class>
+    <init-param>
+      <param-name>allow</param-name>
+      <param-value>127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>Restrict Admin REST access to localhost</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+
+
+
+</web-app>
