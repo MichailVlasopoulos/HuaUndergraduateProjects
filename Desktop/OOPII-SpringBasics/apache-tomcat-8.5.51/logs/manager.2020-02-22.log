@@ -1,0 +1,54 @@
+22-Feb-2020 13:36:55.913 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+22-Feb-2020 13:36:55.913 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+22-Feb-2020 13:36:55.920 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:36:55.921 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war
+22-Feb-2020 13:37:16.290 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+22-Feb-2020 13:37:16.290 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+22-Feb-2020 13:37:16.299 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 13:38:49.047 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+22-Feb-2020 13:38:49.047 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+22-Feb-2020 13:38:49.050 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 13:39:21.694 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+22-Feb-2020 13:39:21.694 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+22-Feb-2020 13:39:21.694 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:39:21.694 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 13:39:28.590 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 13:40:21.236 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/HelloWeb'
+22-Feb-2020 13:40:21.752 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 13:43:30.216 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:43:30.216 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 13:44:27.571 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:44:27.571 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 13:44:49.383 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 13:48:32.204 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:48:32.204 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 13:50:12.046 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:50:12.046 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 13:50:23.612 INFO [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 13:56:53.123 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:56:53.123 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 13:59:05.829 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 13:59:05.829 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 14:01:59.680 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/HelloWeb'
+22-Feb-2020 14:01:59.681 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war.tmp
+22-Feb-2020 14:02:14.299 INFO [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 14:04:07.851 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/CityWeatherApp'
+22-Feb-2020 14:04:07.851 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherApp.war.tmp
+22-Feb-2020 14:04:20.934 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 14:26:42.405 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+22-Feb-2020 14:26:42.405 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+22-Feb-2020 14:26:42.408 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 14:27:39.521 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+22-Feb-2020 14:27:39.521 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+22-Feb-2020 14:27:39.522 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/CityWeatherSite'
+22-Feb-2020 14:27:39.522 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war.tmp
+22-Feb-2020 14:27:44.594 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+22-Feb-2020 14:34:41.240 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/CityWeatherSite'
+22-Feb-2020 14:34:41.240 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war.tmp
+22-Feb-2020 14:37:43.669 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/CityWeatherSite'
+22-Feb-2020 14:37:43.669 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war.tmp
+22-Feb-2020 14:44:48.138 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/CityWeatherSite'
+22-Feb-2020 14:44:48.138 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war.tmp
+22-Feb-2020 14:47:57.738 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/CityWeatherSite'
+22-Feb-2020 14:47:57.738 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war.tmp
+22-Feb-2020 14:48:18.636 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

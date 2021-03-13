@@ -1,0 +1,150 @@
+21-Feb-2020 23:25:15.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+21-Feb-2020 23:25:15.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Feb-2020 23:25:15.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+21-Feb-2020 23:25:15.555 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:25:15.588 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Feb-2020 23:25:15.607 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 387 ms
+21-Feb-2020 23:25:15.662 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Feb-2020 23:25:15.662 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+21-Feb-2020 23:25:15.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+21-Feb-2020 23:25:15.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [166] ms
+21-Feb-2020 23:25:15.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+21-Feb-2020 23:25:15.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [13] ms
+21-Feb-2020 23:25:15.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+21-Feb-2020 23:25:15.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [23] ms
+21-Feb-2020 23:25:15.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+21-Feb-2020 23:25:16.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [170] ms
+21-Feb-2020 23:25:16.043 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war]
+21-Feb-2020 23:25:16.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war] has finished in [26] ms
+21-Feb-2020 23:25:16.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+21-Feb-2020 23:25:16.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [14] ms
+21-Feb-2020 23:25:16.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:25:16.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 487 ms
+21-Feb-2020 23:33:36.234 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/delta/Desktop/apache-tomcat-8.5.51/conf/tomcat-users.xml]
+21-Feb-2020 23:40:15.873 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+21-Feb-2020 23:40:37.135 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Feb-2020 23:40:37.136 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:40:37.143 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Feb-2020 23:40:37.176 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:40:37.178 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:43:15.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+21-Feb-2020 23:43:15.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+21-Feb-2020 23:43:15.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+21-Feb-2020 23:43:15.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:43:15.822 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Feb-2020 23:43:15.842 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 378 ms
+21-Feb-2020 23:43:15.883 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Feb-2020 23:43:15.883 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+21-Feb-2020 23:43:15.890 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+21-Feb-2020 23:43:16.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [169] ms
+21-Feb-2020 23:43:16.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+21-Feb-2020 23:43:16.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [14] ms
+21-Feb-2020 23:43:16.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+21-Feb-2020 23:43:16.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [23] ms
+21-Feb-2020 23:43:16.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+21-Feb-2020 23:43:16.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [154] ms
+21-Feb-2020 23:43:16.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war]
+21-Feb-2020 23:43:16.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war] has finished in [32] ms
+21-Feb-2020 23:43:16.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+21-Feb-2020 23:43:16.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [20] ms
+21-Feb-2020 23:43:16.305 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:43:16.312 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 469 ms
+21-Feb-2020 23:45:16.862 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simple_war]
+21-Feb-2020 23:45:22.229 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Feb-2020 23:45:22.229 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:45:22.238 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Feb-2020 23:45:22.278 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:45:22.283 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:52:51.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+21-Feb-2020 23:52:51.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+21-Feb-2020 23:52:51.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+21-Feb-2020 23:52:51.949 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:52:51.965 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Feb-2020 23:52:52.004 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 723 ms
+21-Feb-2020 23:52:52.080 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Feb-2020 23:52:52.081 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+21-Feb-2020 23:52:52.096 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+21-Feb-2020 23:52:52.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [410] ms
+21-Feb-2020 23:52:52.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+21-Feb-2020 23:52:52.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [38] ms
+21-Feb-2020 23:52:52.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+21-Feb-2020 23:52:52.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [50] ms
+21-Feb-2020 23:52:52.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+21-Feb-2020 23:52:52.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [326] ms
+21-Feb-2020 23:52:52.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+21-Feb-2020 23:52:52.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [52] ms
+21-Feb-2020 23:52:52.981 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:52:53.000 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 995 ms
+21-Feb-2020 23:53:24.112 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war]
+21-Feb-2020 23:53:24.158 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war] has finished in [45] ms
+21-Feb-2020 23:55:19.095 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simple]
+21-Feb-2020 23:55:19.131 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war]
+21-Feb-2020 23:55:19.171 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war] has finished in [40] ms
+21-Feb-2020 23:57:21.802 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Feb-2020 23:57:21.972 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:57:21.983 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Feb-2020 23:57:22.061 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:57:22.064 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

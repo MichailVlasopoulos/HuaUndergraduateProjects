@@ -1,0 +1,886 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:25:15.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+21-Feb-2020 23:25:15.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Feb-2020 23:25:15.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+21-Feb-2020 23:25:15.528 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+21-Feb-2020 23:25:15.555 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:25:15.588 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Feb-2020 23:25:15.607 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 387 ms
+21-Feb-2020 23:25:15.662 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Feb-2020 23:25:15.662 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+21-Feb-2020 23:25:15.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+21-Feb-2020 23:25:15.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [166] ms
+21-Feb-2020 23:25:15.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+21-Feb-2020 23:25:15.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [13] ms
+21-Feb-2020 23:25:15.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+21-Feb-2020 23:25:15.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [23] ms
+21-Feb-2020 23:25:15.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+21-Feb-2020 23:25:16.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [170] ms
+21-Feb-2020 23:25:16.043 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war]
+21-Feb-2020 23:25:16.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war] has finished in [26] ms
+21-Feb-2020 23:25:16.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+21-Feb-2020 23:25:16.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [14] ms
+21-Feb-2020 23:25:16.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:25:16.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 487 ms
+21-Feb-2020 23:33:36.234 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/delta/Desktop/apache-tomcat-8.5.51/conf/tomcat-users.xml]
+21-Feb-2020 23:40:15.873 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+21-Feb-2020 23:40:37.135 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Feb-2020 23:40:37.136 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:40:37.143 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Feb-2020 23:40:37.176 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:40:37.178 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:43:15.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+21-Feb-2020 23:43:15.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+21-Feb-2020 23:43:15.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+21-Feb-2020 23:43:15.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Feb-2020 23:43:15.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+21-Feb-2020 23:43:15.788 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+21-Feb-2020 23:43:15.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:43:15.822 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Feb-2020 23:43:15.842 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 378 ms
+21-Feb-2020 23:43:15.883 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Feb-2020 23:43:15.883 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+21-Feb-2020 23:43:15.890 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+21-Feb-2020 23:43:16.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [169] ms
+21-Feb-2020 23:43:16.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+21-Feb-2020 23:43:16.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [14] ms
+21-Feb-2020 23:43:16.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+21-Feb-2020 23:43:16.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [23] ms
+21-Feb-2020 23:43:16.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+21-Feb-2020 23:43:16.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [154] ms
+21-Feb-2020 23:43:16.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war]
+21-Feb-2020 23:43:16.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple_war] has finished in [32] ms
+21-Feb-2020 23:43:16.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+21-Feb-2020 23:43:16.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [20] ms
+21-Feb-2020 23:43:16.305 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:43:16.312 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 469 ms
+21-Feb-2020 23:45:16.862 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simple_war]
+21-Feb-2020 23:45:22.229 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Feb-2020 23:45:22.229 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:45:22.238 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Feb-2020 23:45:22.278 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:45:22.283 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:52:51.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+21-Feb-2020 23:52:51.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+21-Feb-2020 23:52:51.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Feb-2020 23:52:51.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Feb-2020 23:52:51.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Feb-2020 23:52:51.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+21-Feb-2020 23:52:51.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+21-Feb-2020 23:52:51.949 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:52:51.965 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Feb-2020 23:52:52.004 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 723 ms
+21-Feb-2020 23:52:52.080 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Feb-2020 23:52:52.081 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+21-Feb-2020 23:52:52.096 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+21-Feb-2020 23:52:52.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [410] ms
+21-Feb-2020 23:52:52.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+21-Feb-2020 23:52:52.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [38] ms
+21-Feb-2020 23:52:52.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+21-Feb-2020 23:52:52.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [50] ms
+21-Feb-2020 23:52:52.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+21-Feb-2020 23:52:52.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [326] ms
+21-Feb-2020 23:52:52.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+21-Feb-2020 23:52:52.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [52] ms
+21-Feb-2020 23:52:52.981 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:52:53.000 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 995 ms
+21-Feb-2020 23:53:24.112 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war]
+21-Feb-2020 23:53:24.158 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war] has finished in [45] ms
+21-Feb-2020 23:55:19.095 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simple]
+21-Feb-2020 23:55:19.131 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war]
+21-Feb-2020 23:55:19.171 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war] has finished in [40] ms
+21-Feb-2020 23:57:21.802 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Feb-2020 23:57:21.972 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:57:21.983 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Feb-2020 23:57:22.061 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Feb-2020 23:57:22.064 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 13:36:45.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+22-Feb-2020 13:36:45.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:36:45.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:36:45.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 13:36:45.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 13:36:45.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 13:36:45.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+22-Feb-2020 13:36:45.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 13:36:45.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+22-Feb-2020 13:36:45.026 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+22-Feb-2020 13:36:45.052 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 13:36:45.064 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Feb-2020 13:36:45.083 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 387 ms
+22-Feb-2020 13:36:45.130 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 13:36:45.130 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+22-Feb-2020 13:36:45.147 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war]
+22-Feb-2020 13:36:45.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/simple.war] has finished in [201] ms
+22-Feb-2020 13:36:45.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+22-Feb-2020 13:36:45.365 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [16] ms
+22-Feb-2020 13:36:45.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+22-Feb-2020 13:36:45.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [15] ms
+22-Feb-2020 13:36:45.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/servlet_war]
+22-Feb-2020 13:36:45.390 SEVERE [localhost-startStop-1] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 1 column 1: Premature end of file.
+	org.xml.sax.SAXParseException; systemId: file:/home/delta/Desktop/apache-tomcat-8.5.51/webapps/servlet_war/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1503)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1115)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:776)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5063)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1859)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+22-Feb-2020 13:36:45.391 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/home/delta/Desktop/apache-tomcat-8.5.51/webapps/servlet_war/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/home/delta/Desktop/apache-tomcat-8.5.51/webapps/servlet_war/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1503)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1115)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:776)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5063)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1125)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1859)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+22-Feb-2020 13:36:45.391 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+22-Feb-2020 13:36:45.393 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+22-Feb-2020 13:36:45.394 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+22-Feb-2020 13:36:45.394 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/servlet_war] startup failed due to previous errors
+22-Feb-2020 13:36:45.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/servlet_war] has finished in [19] ms
+22-Feb-2020 13:36:45.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+22-Feb-2020 13:36:45.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [23] ms
+22-Feb-2020 13:36:45.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb_war]
+22-Feb-2020 13:36:45.447 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb_war] has finished in [22] ms
+22-Feb-2020 13:36:45.448 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+22-Feb-2020 13:36:45.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [199] ms
+22-Feb-2020 13:36:45.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+22-Feb-2020 13:36:45.666 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [19] ms
+22-Feb-2020 13:36:45.669 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 13:36:45.681 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 597 ms
+22-Feb-2020 13:36:55.926 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:36:55.948 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HelloWeb]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1634)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1559)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:814)
+		at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:447)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [SimpleServlet] and [com.hua.SimpleServlet] are both mapped to the url-pattern [/home] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:339)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:332)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2408)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2084)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2073)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1965)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1959)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1959)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1227)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1141)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:776)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5063)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 45 more
+22-Feb-2020 13:36:55.950 SEVERE [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HelloWeb]]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1634)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1559)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:814)
+		at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:447)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+22-Feb-2020 13:36:55.952 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [25] ms
+22-Feb-2020 13:38:06.350 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Feb-2020 13:38:06.350 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 13:38:06.357 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 13:38:06.387 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 13:38:06.389 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 13:38:35.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+22-Feb-2020 13:38:35.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+22-Feb-2020 13:38:35.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+22-Feb-2020 13:38:35.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Feb-2020 13:38:35.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+22-Feb-2020 13:38:35.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Feb-2020 13:38:35.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+22-Feb-2020 13:38:35.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+22-Feb-2020 13:38:35.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+22-Feb-2020 13:38:35.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:38:35.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:38:35.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 13:38:35.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:38:35.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 13:38:35.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+22-Feb-2020 13:38:35.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+22-Feb-2020 13:38:35.137 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 13:38:35.146 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Feb-2020 13:38:35.163 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 336 ms
+22-Feb-2020 13:38:35.203 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 13:38:35.203 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+22-Feb-2020 13:38:35.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+22-Feb-2020 13:38:35.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [167] ms
+22-Feb-2020 13:38:35.379 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+22-Feb-2020 13:38:35.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [13] ms
+22-Feb-2020 13:38:35.393 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+22-Feb-2020 13:38:35.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [21] ms
+22-Feb-2020 13:38:35.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+22-Feb-2020 13:38:35.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [153] ms
+22-Feb-2020 13:38:35.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+22-Feb-2020 13:38:35.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [26] ms
+22-Feb-2020 13:38:35.599 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 13:38:35.614 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 450 ms
+22-Feb-2020 13:39:21.696 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:39:21.719 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HelloWeb]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1634)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1559)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:814)
+		at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:447)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [SimpleServlet] and [com.hua.SimpleServlet] are both mapped to the url-pattern [/home] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:339)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:332)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2408)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2084)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2073)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1965)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1959)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1959)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1227)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1141)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:776)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5063)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 45 more
+22-Feb-2020 13:39:21.721 SEVERE [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+	java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HelloWeb]]
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1634)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1559)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:814)
+		at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:447)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+22-Feb-2020 13:39:21.722 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [26] ms
+22-Feb-2020 13:40:21.748 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 13:43:30.217 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:43:30.260 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [43] ms
+22-Feb-2020 13:44:27.572 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 13:44:27.583 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:44:27.611 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [28] ms
+22-Feb-2020 13:48:32.205 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 13:48:32.216 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:48:32.246 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [30] ms
+22-Feb-2020 13:50:12.047 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 13:50:12.054 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:50:12.079 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [24] ms
+22-Feb-2020 13:56:53.124 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 13:56:53.132 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:56:53.159 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [27] ms
+22-Feb-2020 13:59:05.830 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 13:59:05.838 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 13:59:05.864 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [26] ms
+22-Feb-2020 14:01:59.682 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 14:01:59.688 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war]
+22-Feb-2020 14:01:59.714 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/HelloWeb.war] has finished in [26] ms
+22-Feb-2020 14:04:07.852 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherApp.war]
+22-Feb-2020 14:04:07.880 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherApp.war] has finished in [28] ms
+22-Feb-2020 14:25:36.866 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherApp]
+22-Feb-2020 14:25:36.881 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherApp.war]
+22-Feb-2020 14:25:36.902 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherApp.war] has finished in [21] ms
+22-Feb-2020 14:25:47.403 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherApp]
+22-Feb-2020 14:25:47.916 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HelloWeb]
+22-Feb-2020 14:25:54.060 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Feb-2020 14:25:54.061 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 14:25:54.067 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 14:25:54.079 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 14:25:54.081 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 14:26:01.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+22-Feb-2020 14:26:01.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+22-Feb-2020 14:26:01.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+22-Feb-2020 14:26:01.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Feb-2020 14:26:01.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+22-Feb-2020 14:26:01.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Feb-2020 14:26:01.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+22-Feb-2020 14:26:01.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+22-Feb-2020 14:26:01.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+22-Feb-2020 14:26:01.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 14:26:01.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 14:26:01.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/Desktop/apache-tomcat-8.5.51/conf/logging.properties
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 14:26:01.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 14:26:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/Desktop/apache-tomcat-8.5.51
+22-Feb-2020 14:26:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/Desktop/apache-tomcat-8.5.51/temp
+22-Feb-2020 14:26:01.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+22-Feb-2020 14:26:01.581 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 14:26:01.589 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Feb-2020 14:26:01.596 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 319 ms
+22-Feb-2020 14:26:01.641 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 14:26:01.641 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+22-Feb-2020 14:26:01.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs]
+22-Feb-2020 14:26:01.826 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/docs] has finished in [178] ms
+22-Feb-2020 14:26:01.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT]
+22-Feb-2020 14:26:01.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/ROOT] has finished in [17] ms
+22-Feb-2020 14:26:01.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager]
+22-Feb-2020 14:26:01.871 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/host-manager] has finished in [27] ms
+22-Feb-2020 14:26:01.871 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples]
+22-Feb-2020 14:26:02.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/examples] has finished in [203] ms
+22-Feb-2020 14:26:02.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager]
+22-Feb-2020 14:26:02.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/manager] has finished in [27] ms
+22-Feb-2020 14:26:02.104 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 14:26:02.121 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 524 ms
+22-Feb-2020 14:27:39.523 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+22-Feb-2020 14:27:39.556 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [33] ms
+22-Feb-2020 14:34:41.241 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+22-Feb-2020 14:34:41.263 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+22-Feb-2020 14:34:41.298 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [35] ms
+22-Feb-2020 14:37:43.670 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+22-Feb-2020 14:37:43.682 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+22-Feb-2020 14:37:43.712 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [29] ms
+22-Feb-2020 14:44:48.139 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+22-Feb-2020 14:44:48.146 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+22-Feb-2020 14:44:48.174 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [29] ms
+22-Feb-2020 14:47:42.936 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+22-Feb-2020 14:47:57.739 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+22-Feb-2020 14:47:57.764 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/Desktop/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [25] ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2020 12:21:18.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+27-Feb-2020 12:21:18.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+27-Feb-2020 12:21:18.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+27-Feb-2020 12:21:18.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Feb-2020 12:21:18.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+27-Feb-2020 12:21:18.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Feb-2020 12:21:18.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+27-Feb-2020 12:21:18.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+27-Feb-2020 12:21:18.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+27-Feb-2020 12:21:18.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:21:18.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:21:18.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Feb-2020 12:21:18.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Feb-2020 12:21:18.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2020 12:21:18.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/conf/logging.properties
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/temp
+27-Feb-2020 12:21:18.723 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+27-Feb-2020 12:21:18.748 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:21:18.761 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2020 12:21:18.777 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 464 ms
+27-Feb-2020 12:21:18.814 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2020 12:21:18.814 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+27-Feb-2020 12:21:18.829 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+27-Feb-2020 12:21:19.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [195] ms
+27-Feb-2020 12:21:19.026 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs]
+27-Feb-2020 12:21:19.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs] has finished in [13] ms
+27-Feb-2020 12:21:19.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT]
+27-Feb-2020 12:21:19.050 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT] has finished in [11] ms
+27-Feb-2020 12:21:19.051 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager]
+27-Feb-2020 12:21:19.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager] has finished in [19] ms
+27-Feb-2020 12:21:19.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples]
+27-Feb-2020 12:21:19.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples] has finished in [135] ms
+27-Feb-2020 12:21:19.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager]
+27-Feb-2020 12:21:19.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager] has finished in [12] ms
+27-Feb-2020 12:21:19.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/OOPII_21821_21810_war]
+27-Feb-2020 12:21:19.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/OOPII_21821_21810_war] has finished in [13] ms
+27-Feb-2020 12:21:19.233 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:21:19.242 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 465 ms
+27-Feb-2020 12:21:59.625 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/OOPII_21821_21810_war]
+27-Feb-2020 12:22:02.018 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+27-Feb-2020 12:22:31.521 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+27-Feb-2020 12:22:31.540 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [19] ms
+27-Feb-2020 12:22:44.087 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+27-Feb-2020 12:24:03.723 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+27-Feb-2020 12:24:03.754 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [31] ms
+27-Feb-2020 12:29:44.047 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+27-Feb-2020 12:30:03.705 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2020 12:30:03.706 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:30:03.713 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2020 12:30:03.744 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:30:03.746 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2020 12:38:50.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+27-Feb-2020 12:38:50.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+27-Feb-2020 12:38:50.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+27-Feb-2020 12:38:50.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Feb-2020 12:38:50.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+27-Feb-2020 12:38:50.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Feb-2020 12:38:50.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+27-Feb-2020 12:38:50.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+27-Feb-2020 12:38:50.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+27-Feb-2020 12:38:50.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:38:50.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:38:50.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Feb-2020 12:38:50.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Feb-2020 12:38:50.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2020 12:38:50.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/conf/logging.properties
+27-Feb-2020 12:38:50.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Feb-2020 12:38:50.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Feb-2020 12:38:50.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Feb-2020 12:38:50.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Feb-2020 12:38:50.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Feb-2020 12:38:50.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:38:50.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:38:50.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/temp
+27-Feb-2020 12:38:50.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+27-Feb-2020 12:38:50.620 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:38:50.640 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2020 12:38:50.662 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1176 ms
+27-Feb-2020 12:38:50.767 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2020 12:38:50.767 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+27-Feb-2020 12:38:50.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+27-Feb-2020 12:38:51.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [288] ms
+27-Feb-2020 12:38:51.089 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs]
+27-Feb-2020 12:38:51.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs] has finished in [22] ms
+27-Feb-2020 12:38:51.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT]
+27-Feb-2020 12:38:51.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT] has finished in [20] ms
+27-Feb-2020 12:38:51.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager]
+27-Feb-2020 12:38:51.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager] has finished in [35] ms
+27-Feb-2020 12:38:51.167 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples]
+27-Feb-2020 12:38:51.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples] has finished in [303] ms
+27-Feb-2020 12:38:51.471 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager]
+27-Feb-2020 12:38:51.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager] has finished in [36] ms
+27-Feb-2020 12:38:51.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/OOPII_21821_21810_war]
+27-Feb-2020 12:38:51.544 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/OOPII_21821_21810_war] has finished in [36] ms
+27-Feb-2020 12:38:51.562 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:38:51.590 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 927 ms
+27-Feb-2020 12:38:54.268 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+27-Feb-2020 12:40:32.107 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+27-Feb-2020 12:40:32.678 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/OOPII_21821_21810_war]
+27-Feb-2020 12:40:39.570 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2020 12:40:39.571 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:40:39.577 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2020 12:40:39.594 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:40:39.596 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2020 12:40:48.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+27-Feb-2020 12:40:48.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+27-Feb-2020 12:40:48.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+27-Feb-2020 12:40:48.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Feb-2020 12:40:48.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+27-Feb-2020 12:40:48.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Feb-2020 12:40:48.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+27-Feb-2020 12:40:48.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+27-Feb-2020 12:40:48.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+27-Feb-2020 12:40:48.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:40:48.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:40:48.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/conf/logging.properties
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Feb-2020 12:40:48.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Feb-2020 12:40:48.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Feb-2020 12:40:48.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:40:48.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51
+27-Feb-2020 12:40:48.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/temp
+27-Feb-2020 12:40:48.303 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+27-Feb-2020 12:40:48.351 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:40:48.365 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Feb-2020 12:40:48.398 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1178 ms
+27-Feb-2020 12:40:48.475 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Feb-2020 12:40:48.476 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+27-Feb-2020 12:40:48.486 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs]
+27-Feb-2020 12:40:48.846 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs] has finished in [360] ms
+27-Feb-2020 12:40:48.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT]
+27-Feb-2020 12:40:48.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT] has finished in [25] ms
+27-Feb-2020 12:40:48.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager]
+27-Feb-2020 12:40:48.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager] has finished in [47] ms
+27-Feb-2020 12:40:48.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples]
+27-Feb-2020 12:40:49.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples] has finished in [332] ms
+27-Feb-2020 12:40:49.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager]
+27-Feb-2020 12:40:49.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager] has finished in [51] ms
+27-Feb-2020 12:40:49.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:40:49.370 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 971 ms
+27-Feb-2020 12:40:51.523 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+27-Feb-2020 12:40:51.570 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/IdeaProjects/IntelliJ/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [47] ms
+27-Feb-2020 12:40:52.002 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+27-Feb-2020 12:42:55.331 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+27-Feb-2020 12:43:04.057 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Feb-2020 12:43:04.058 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:43:04.064 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Feb-2020 12:43:04.093 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Feb-2020 12:43:04.094 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Mar-2020 02:53:36.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+10-Mar-2020 02:53:36.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-40-generic
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu118.04.1
+10-Mar-2020 02:53:36.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+10-Mar-2020 02:53:36.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/delta/OOPII_21821_21810/apache-tomcat-8.5.51
+10-Mar-2020 02:53:36.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/delta/OOPII_21821_21810/apache-tomcat-8.5.51
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/conf/logging.properties
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Mar-2020 02:53:36.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Mar-2020 02:53:36.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Mar-2020 02:53:36.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Mar-2020 02:53:36.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51
+10-Mar-2020 02:53:36.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51
+10-Mar-2020 02:53:36.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/temp
+10-Mar-2020 02:53:36.941 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+10-Mar-2020 02:53:36.963 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Mar-2020 02:53:36.976 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2020 02:53:36.994 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 421 ms
+10-Mar-2020 02:53:37.033 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Mar-2020 02:53:37.033 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+10-Mar-2020 02:53:37.043 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/test]
+10-Mar-2020 02:53:37.601 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Mar-2020 02:53:37.636 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/test] has finished in [593] ms
+10-Mar-2020 02:53:37.636 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager]
+10-Mar-2020 02:53:37.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/host-manager] has finished in [20] ms
+10-Mar-2020 02:53:37.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples]
+10-Mar-2020 02:53:37.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/examples] has finished in [136] ms
+10-Mar-2020 02:53:37.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs]
+10-Mar-2020 02:53:37.803 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/docs] has finished in [10] ms
+10-Mar-2020 02:53:37.803 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityRecommendationApp]
+10-Mar-2020 02:53:37.852 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Mar-2020 02:53:37.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityRecommendationApp] has finished in [51] ms
+10-Mar-2020 02:53:37.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager]
+10-Mar-2020 02:53:37.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/manager] has finished in [20] ms
+10-Mar-2020 02:53:37.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT]
+10-Mar-2020 02:53:37.882 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/ROOT] has finished in [8] ms
+10-Mar-2020 02:53:37.888 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Mar-2020 02:53:37.911 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 916 ms
+10-Mar-2020 02:54:53.679 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+10-Mar-2020 02:54:53.935 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Mar-2020 02:54:53.936 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [257] ms
+10-Mar-2020 02:55:20.497 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityRecommendationApp]
+10-Mar-2020 02:55:23.418 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+10-Mar-2020 02:57:00.475 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+10-Mar-2020 02:57:00.687 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Mar-2020 02:57:00.689 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [214] ms
+10-Mar-2020 02:58:38.454 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CityWeatherSite]
+10-Mar-2020 02:58:38.962 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/test]
+10-Mar-2020 02:58:38.967 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload InstanceManager.destroy() for servlet [Example API] threw exception
+	java.lang.NullPointerException
+		at org.apache.catalina.core.DefaultInstanceManager.destroyInstance(DefaultInstanceManager.java:197)
+		at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1319)
+		at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1629)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5391)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:834)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1417)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1344)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+10-Mar-2020 02:58:40.202 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war]
+10-Mar-2020 02:58:40.472 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Mar-2020 02:58:40.473 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/delta/OOPII_21821_21810/apache-tomcat-8.5.51/webapps/CityWeatherSite.war] has finished in [271] ms
+10-Mar-2020 02:59:42.362 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Mar-2020 02:59:42.362 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Mar-2020 02:59:42.369 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Mar-2020 02:59:42.397 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Mar-2020 02:59:42.399 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
