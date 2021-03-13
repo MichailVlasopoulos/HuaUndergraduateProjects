@@ -1,0 +1,40 @@
+Team	Team's abbreviated name
+Game	Number of game for each team
+Date	The date of the game
+Home	Whether the game was at the home court or away
+Opponent	The opponent's abbreviated name
+WINorLOSS	Whether this team won or lost the game
+TeamPoints	The points this team scored
+OpponentPoints	The points the opponent team scored
+FieldGoals	Number of succeeded attempts
+FieldGoalsAttempted	Number of total attempts made
+FieldGoals.	Percentage of the scoring attempts made
+X3PointShots	Number of succeeded attempts for 3 points
+X3PointShotsAttempted	Number of total attempts made for 3 points
+X3PointShots.	Percentage of the 3 point attempts made
+FreeThrows	Number of succeeded attempts for free throws
+FreeThrowsAttempted	Number of total attempts made for free throws
+FreeThrows.	Percentage of the free throw attempts made
+OffRebounds	Number of offencive rebounds
+TotalRebounds	Number of total rebounds
+Assists	Number of assists
+Steals	Number of steals
+Blocks	Number of blocks
+Turnovers	Number of turnovers
+TotalFouls	Number of total fouls commited
+Opp.FieldGoals	Opponent's number of succeeded attempts
+Opp.FieldGoalsAttempted	Opponent's number of total attempts made
+Opp.FieldGoals.	Opponent's percentage of the scoring attempts made
+Opp.3PointShots	Opponent's number of succeeded attempts for 3 points
+Opp.3PointShotsAttempted	Opponent's number of total attempts made for 3 points
+Opp.3PointShots.	Opponent's percentage of the 3 point attempts made
+Opp.FreeThrows	Opponent's number of succeeded attempts for free throws
+Opp.FreeThrowsAttempted	Opponent's number of total attempts made for free throws
+Opp.FreeThrows.	Opponent's percentage of the free throw attempts made
+Opp.OffRebounds	Opponent's number of offencive rebounds
+Opp.TotalRebounds	Opponent's number of total rebounds
+Opp.Assists	Opponent's number of assists
+Opp.Steals	Opponent's number of steals
+Opp.Blocks	Opponent's number of blocks
+Opp.Turnovers	Opponent's number of turnovers
+Opp.TotalFouls	Opponent's number of total fouls commited

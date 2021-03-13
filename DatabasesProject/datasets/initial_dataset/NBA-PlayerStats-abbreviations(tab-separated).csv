@@ -1,0 +1,44 @@
+Player	Player name\codename
+Pos	Player's positions. They are defined as the point guard (PG), the shooting guard (SG), the small forward (SF), the power forward (PF), and the center (C).
+Age	Player's age.
+Tm	Team
+G	Games. The number of games a player or team played where a specified criteria occured.
+GS	Games Started
+MP	Minutes Played
+PTS	Points. The number of points scored.
+TS%	True Shooting Percentage. A shooting percentage that factors in the value of three-point field goals and free throws in addition to conventional two-point.
+FTM	Free Throws Made. The number of free throws that a player or team has made.
+FTA	Free Throws Attempted. The number of free throws that a player or team has attempted.
+FT%	Free Throw Percentage. The percentage of free throw attempts that a player or team has made.
+FGM	Field Goals Made. The number of field goals that a player or team has made. This includes both 2 pointers and 3 pointers.
+FGA	Field Goals Attempted. The number of field goals that a player or team has attempted. This includes both 2 pointers and 3 pointers.
+FG%	Field Goal Percentage. The percentage of field goal attempts that a player makes.
+3PM	3 Point Field Goals Made. The number of 3 point field goals that a player or team has made.
+3PA	3 Point Field Goals Attempted. The number of 3 point field goals that a player or team has attempted.
+3P%	3 Point Field Goal Percentage. The percentage of 3 point field goal attempts that a player makes.
+2PM	2 Point Field Goals Made. The number of 2 point field goals that a player or team has made.
+2PA	2 Point Field Goals Attempted. The number of 2 point field goals that a player or team has attempted.
+2P%	2 Point Field Goal Percentage. The percentage of 2 point field goal attempts that a player makes.
+OREB	Offensive Rebounds. The number of rebounds a player or team has collected while they were on offense.
+OREB%	Offensive Rebounding Percentage. The percentage of available offensive rebounds a player or team obtains while on the floor.
+DREB	Defensive Rebounds. The number of rebounds a player or team has collected while they were on defense.
+DREB%	Defensive Rebounding Percentage. The percentage of available defensive rebounds a player or team obtains while on the floor.
+TREB	Total Rebounds
+TREB%	Total Rebound Percentage
+AST	Assists. The number of assists -- passes that lead directly to a made basket -- by a player.
+AST%	Assist Percentage. The percentage of teammate field goals a player assisted on while he was on the floor.
+STL	Steals. Number of times a defensive player or team takes the ball from a player on offense, causing a turnover.
+STL%	Steals Percentage. The percentage of a team's steals that a player has while on the court.
+BLK	Blocks. A block occurs when an offensive player attempts a shot, and the defense player tips the ball, blocking their chance to score.
+BLK%	Block Percentage. The percentage of a team's blocks that a player has while on the court.
+TOV	Turnovers. A turnover occurs when the player or team on offense loses the ball to the defense.
+TOV%	Turnover Percentage. Percentage of plays that end in a player or team's turnover.
+USG%	Usage Percentage. The percentage of team plays used by a player when he is on the floor.
+OFFWS	Offensive Win Shares. Share of wins a player contributes to their team from offense.
+DEFWS	Defensive Win Shares. Share of wins a player contributes to their team from defense.
+WS	Win Shares. An estimate of the total number of wins contributed by a player.
+WS/48	Win Shares Per 48 Minutes. An estimate of the number of wins contributed by the player per 48 minutes (league average is approximately 0.100).
+BPM	Box Plus/Minus. A box score estimate of the points per 100 possessions that a player contributed above a league-average player, translated to an average team.
+VORP	Value Over Replacement Player. A box score estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player, translated to an average team and prorated to an 82-game season. Multiply by 2.70 to convert to wins over replacement.
+eFG%	Effective Field Goal Percentage. Measures field goal percentage adjusting for made 3-point field goals being 1.5 times more valuable than made 2-point field.
+PF	Personal Fouls. The number of personal fouls a player or team committed.
