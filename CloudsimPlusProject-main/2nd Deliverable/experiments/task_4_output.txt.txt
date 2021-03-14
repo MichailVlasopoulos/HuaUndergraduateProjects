@@ -1,0 +1,1779 @@
+INFO  
+================== Starting CloudSim Plus 6.0.0 ==================
+
+INFO  DatacenterBrokerLoadBalancer1 is starting...
+INFO  0,00: DatacenterSimple2 is starting...
+INFO  Entities started.
+INFO  0,00: DatacenterBrokerLoadBalancer1: List of 1 datacenters(s) received.
+INFO  0,00: DatacenterBrokerLoadBalancer1: Trying to create Vm 0 in DatacenterSimple2
+INFO  0,00: DatacenterBrokerLoadBalancer1: Trying to create Vm 1 in DatacenterSimple2
+INFO  0,00: DatacenterBrokerLoadBalancer1: Trying to create Vm 2 in DatacenterSimple2
+INFO  0,00: DatacenterBrokerLoadBalancer1: Trying to create Vm 3 in DatacenterSimple2
+INFO  0,00: DatacenterBrokerLoadBalancer1: Trying to create Vm 4 in DatacenterSimple2
+INFO  0,00: DatacenterBrokerLoadBalancer1: Trying to create Vm 5 in DatacenterSimple2
+INFO  0,00: VmAllocationPolicySimple: Vm 0 has been allocated to Host 0/DC 2
+INFO  0,00: VmAllocationPolicySimple: Vm 1 has been allocated to Host 1/DC 2
+INFO  0,00: VmAllocationPolicySimple: Vm 2 has been allocated to Host 2/DC 2
+INFO  0,00: VmAllocationPolicySimple: Vm 3 has been allocated to Host 3/DC 2
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 0 to Vm 0 in Host 0/DC 2.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 1 to Vm 1 in Host 1/DC 2.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 2 to Vm 2 in Host 2/DC 2.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 3 to Vm 3 in Host 3/DC 2 with a requested delay of 0 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 4 to Vm 0 in Host 0/DC 2 with a requested delay of 0 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 5 to Vm 3 in Host 3/DC 2 with a requested delay of 0 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 6 to Vm 1 in Host 1/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 7 to Vm 0 in Host 0/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 8 to Vm 1 in Host 1/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 9 to Vm 0 in Host 0/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 10 to Vm 2 in Host 2/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 11 to Vm 0 in Host 0/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 12 to Vm 3 in Host 3/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 13 to Vm 3 in Host 3/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 14 to Vm 2 in Host 2/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 15 to Vm 1 in Host 1/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 16 to Vm 3 in Host 3/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 17 to Vm 1 in Host 1/DC 2 with a requested delay of 1 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 18 to Vm 0 in Host 0/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 19 to Vm 3 in Host 3/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 20 to Vm 2 in Host 2/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 21 to Vm 0 in Host 0/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 22 to Vm 0 in Host 0/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 23 to Vm 3 in Host 3/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 24 to Vm 1 in Host 1/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 25 to Vm 0 in Host 0/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 26 to Vm 1 in Host 1/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 27 to Vm 2 in Host 2/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 28 to Vm 0 in Host 0/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 29 to Vm 2 in Host 2/DC 2 with a requested delay of 2 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 30 to Vm 3 in Host 3/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 31 to Vm 3 in Host 3/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 32 to Vm 0 in Host 0/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 33 to Vm 1 in Host 1/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 34 to Vm 1 in Host 1/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 35 to Vm 3 in Host 3/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 36 to Vm 2 in Host 2/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 37 to Vm 1 in Host 1/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 38 to Vm 2 in Host 2/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 39 to Vm 0 in Host 0/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 40 to Vm 0 in Host 0/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 41 to Vm 1 in Host 1/DC 2 with a requested delay of 3 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 42 to Vm 3 in Host 3/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 43 to Vm 3 in Host 3/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 44 to Vm 0 in Host 0/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 45 to Vm 2 in Host 2/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 46 to Vm 3 in Host 3/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 47 to Vm 2 in Host 2/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 48 to Vm 1 in Host 1/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 49 to Vm 1 in Host 1/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 50 to Vm 3 in Host 3/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 51 to Vm 0 in Host 0/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 52 to Vm 0 in Host 0/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 53 to Vm 1 in Host 1/DC 2 with a requested delay of 4 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 54 to Vm 2 in Host 2/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 55 to Vm 2 in Host 2/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 56 to Vm 0 in Host 0/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 57 to Vm 3 in Host 3/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 58 to Vm 2 in Host 2/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 59 to Vm 3 in Host 3/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 60 to Vm 1 in Host 1/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 61 to Vm 1 in Host 1/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 62 to Vm 2 in Host 2/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 63 to Vm 0 in Host 0/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 64 to Vm 0 in Host 0/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 65 to Vm 1 in Host 1/DC 2 with a requested delay of 5 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 66 to Vm 3 in Host 3/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 67 to Vm 3 in Host 3/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 68 to Vm 0 in Host 0/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 69 to Vm 2 in Host 2/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 70 to Vm 3 in Host 3/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 71 to Vm 2 in Host 2/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 72 to Vm 1 in Host 1/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 73 to Vm 1 in Host 1/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 74 to Vm 3 in Host 3/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 75 to Vm 1 in Host 1/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 76 to Vm 0 in Host 0/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 77 to Vm 2 in Host 2/DC 2 with a requested delay of 6 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 78 to Vm 1 in Host 1/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 79 to Vm 1 in Host 1/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 80 to Vm 0 in Host 0/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 81 to Vm 3 in Host 3/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 82 to Vm 1 in Host 1/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 83 to Vm 3 in Host 3/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 84 to Vm 2 in Host 2/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 85 to Vm 1 in Host 1/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 86 to Vm 2 in Host 2/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 87 to Vm 0 in Host 0/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 88 to Vm 1 in Host 1/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 89 to Vm 0 in Host 0/DC 2 with a requested delay of 7 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 90 to Vm 3 in Host 3/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 91 to Vm 3 in Host 3/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 92 to Vm 1 in Host 1/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 93 to Vm 2 in Host 2/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 94 to Vm 3 in Host 3/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 95 to Vm 2 in Host 2/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 96 to Vm 0 in Host 0/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 97 to Vm 0 in Host 0/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 98 to Vm 3 in Host 3/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 99 to Vm 1 in Host 1/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 100 to Vm 1 in Host 1/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 101 to Vm 0 in Host 0/DC 2 with a requested delay of 8 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 102 to Vm 2 in Host 2/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 103 to Vm 2 in Host 2/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 104 to Vm 3 in Host 3/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 105 to Vm 1 in Host 1/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 106 to Vm 1 in Host 1/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 107 to Vm 2 in Host 2/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 108 to Vm 0 in Host 0/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 109 to Vm 1 in Host 1/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 110 to Vm 0 in Host 0/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 111 to Vm 3 in Host 3/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 112 to Vm 3 in Host 3/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 113 to Vm 1 in Host 1/DC 2 with a requested delay of 9 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 114 to Vm 2 in Host 2/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 115 to Vm 3 in Host 3/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 116 to Vm 2 in Host 2/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 117 to Vm 0 in Host 0/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 118 to Vm 0 in Host 0/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 119 to Vm 3 in Host 3/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 120 to Vm 1 in Host 1/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 121 to Vm 1 in Host 1/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 122 to Vm 0 in Host 0/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 123 to Vm 1 in Host 1/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 124 to Vm 2 in Host 2/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 125 to Vm 1 in Host 1/DC 2 with a requested delay of 10 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 126 to Vm 2 in Host 2/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 127 to Vm 3 in Host 3/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 128 to Vm 2 in Host 2/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 129 to Vm 0 in Host 0/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 130 to Vm 0 in Host 0/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 131 to Vm 3 in Host 3/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 132 to Vm 1 in Host 1/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 133 to Vm 0 in Host 0/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 134 to Vm 1 in Host 1/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 135 to Vm 2 in Host 2/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 136 to Vm 0 in Host 0/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 137 to Vm 3 in Host 3/DC 2 with a requested delay of 11 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 138 to Vm 2 in Host 2/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 139 to Vm 2 in Host 2/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 140 to Vm 0 in Host 0/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 141 to Vm 1 in Host 1/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 142 to Vm 2 in Host 2/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 143 to Vm 1 in Host 1/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 144 to Vm 3 in Host 3/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 145 to Vm 3 in Host 3/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 146 to Vm 2 in Host 2/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 147 to Vm 0 in Host 0/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 148 to Vm 0 in Host 0/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 149 to Vm 1 in Host 1/DC 2 with a requested delay of 12 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 150 to Vm 3 in Host 3/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 151 to Vm 3 in Host 3/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 152 to Vm 0 in Host 0/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 153 to Vm 2 in Host 2/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 154 to Vm 3 in Host 3/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 155 to Vm 2 in Host 2/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 156 to Vm 1 in Host 1/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 157 to Vm 3 in Host 3/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 158 to Vm 1 in Host 1/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 159 to Vm 0 in Host 0/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 160 to Vm 0 in Host 0/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 161 to Vm 3 in Host 3/DC 2 with a requested delay of 13 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 162 to Vm 2 in Host 2/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 163 to Vm 2 in Host 2/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 164 to Vm 1 in Host 1/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 165 to Vm 0 in Host 0/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 166 to Vm 2 in Host 2/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 167 to Vm 0 in Host 0/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 168 to Vm 3 in Host 3/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 169 to Vm 2 in Host 2/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 170 to Vm 3 in Host 3/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 171 to Vm 1 in Host 1/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 172 to Vm 1 in Host 1/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 173 to Vm 2 in Host 2/DC 2 with a requested delay of 14 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 174 to Vm 0 in Host 0/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 175 to Vm 0 in Host 0/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 176 to Vm 1 in Host 1/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 177 to Vm 3 in Host 3/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 178 to Vm 3 in Host 3/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 179 to Vm 0 in Host 0/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 180 to Vm 2 in Host 2/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 181 to Vm 3 in Host 3/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 182 to Vm 1 in Host 1/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 183 to Vm 2 in Host 2/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 184 to Vm 2 in Host 2/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 185 to Vm 3 in Host 3/DC 2 with a requested delay of 15 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 186 to Vm 0 in Host 0/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 187 to Vm 2 in Host 2/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 188 to Vm 0 in Host 0/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 189 to Vm 1 in Host 1/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 190 to Vm 2 in Host 2/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 191 to Vm 1 in Host 1/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 192 to Vm 3 in Host 3/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 193 to Vm 3 in Host 3/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 194 to Vm 2 in Host 2/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 195 to Vm 0 in Host 0/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 196 to Vm 0 in Host 0/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 197 to Vm 3 in Host 3/DC 2 with a requested delay of 16 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 198 to Vm 1 in Host 1/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 199 to Vm 1 in Host 1/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 200 to Vm 0 in Host 0/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 201 to Vm 2 in Host 2/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 202 to Vm 2 in Host 2/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 203 to Vm 1 in Host 1/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 204 to Vm 3 in Host 3/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 205 to Vm 3 in Host 3/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 206 to Vm 2 in Host 2/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 207 to Vm 0 in Host 0/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 208 to Vm 0 in Host 0/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 209 to Vm 3 in Host 3/DC 2 with a requested delay of 17 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 210 to Vm 1 in Host 1/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 211 to Vm 1 in Host 1/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 212 to Vm 0 in Host 0/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 213 to Vm 2 in Host 2/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 214 to Vm 2 in Host 2/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 215 to Vm 1 in Host 1/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 216 to Vm 3 in Host 3/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 217 to Vm 3 in Host 3/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 218 to Vm 2 in Host 2/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 219 to Vm 0 in Host 0/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 220 to Vm 3 in Host 3/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 221 to Vm 0 in Host 0/DC 2 with a requested delay of 18 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 222 to Vm 1 in Host 1/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 223 to Vm 1 in Host 1/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 224 to Vm 3 in Host 3/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 225 to Vm 2 in Host 2/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 226 to Vm 2 in Host 2/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 227 to Vm 1 in Host 1/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 228 to Vm 0 in Host 0/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 229 to Vm 0 in Host 0/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 230 to Vm 2 in Host 2/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 231 to Vm 3 in Host 3/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 232 to Vm 3 in Host 3/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 233 to Vm 0 in Host 0/DC 2 with a requested delay of 19 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 234 to Vm 1 in Host 1/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 235 to Vm 1 in Host 1/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 236 to Vm 3 in Host 3/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 237 to Vm 2 in Host 2/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 238 to Vm 2 in Host 2/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 239 to Vm 1 in Host 1/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 240 to Vm 0 in Host 0/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 241 to Vm 0 in Host 0/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 242 to Vm 2 in Host 2/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 243 to Vm 3 in Host 3/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 244 to Vm 3 in Host 3/DC 2 with a requested delay of 20 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 245 to Vm 0 in Host 0/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 246 to Vm 0 in Host 0/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 247 to Vm 1 in Host 1/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 248 to Vm 1 in Host 1/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 249 to Vm 3 in Host 3/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 250 to Vm 3 in Host 3/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 251 to Vm 0 in Host 0/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 252 to Vm 2 in Host 2/DC 2 with a requested delay of 21 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 253 to Vm 0 in Host 0/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 254 to Vm 1 in Host 1/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 255 to Vm 0 in Host 0/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 256 to Vm 3 in Host 3/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 257 to Vm 2 in Host 2/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 258 to Vm 0 in Host 0/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 259 to Vm 2 in Host 2/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 260 to Vm 1 in Host 1/DC 2 with a requested delay of 22 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 261 to Vm 2 in Host 2/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 262 to Vm 3 in Host 3/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 263 to Vm 2 in Host 2/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 264 to Vm 0 in Host 0/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 265 to Vm 1 in Host 1/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 266 to Vm 2 in Host 2/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 267 to Vm 1 in Host 1/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 268 to Vm 3 in Host 3/DC 2 with a requested delay of 23 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 269 to Vm 1 in Host 1/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 270 to Vm 0 in Host 0/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 271 to Vm 2 in Host 2/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 272 to Vm 1 in Host 1/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 273 to Vm 3 in Host 3/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 274 to Vm 2 in Host 2/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 275 to Vm 0 in Host 0/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 276 to Vm 3 in Host 3/DC 2 with a requested delay of 24 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 277 to Vm 0 in Host 0/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 278 to Vm 1 in Host 1/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 279 to Vm 0 in Host 0/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 280 to Vm 2 in Host 2/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 281 to Vm 0 in Host 0/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 282 to Vm 3 in Host 3/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 283 to Vm 1 in Host 1/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 284 to Vm 0 in Host 0/DC 2 with a requested delay of 25 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 285 to Vm 1 in Host 1/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 286 to Vm 2 in Host 2/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 287 to Vm 3 in Host 3/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 288 to Vm 1 in Host 1/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 289 to Vm 3 in Host 3/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 290 to Vm 0 in Host 0/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 291 to Vm 2 in Host 2/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 292 to Vm 3 in Host 3/DC 2 with a requested delay of 26 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 293 to Vm 2 in Host 2/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 294 to Vm 1 in Host 1/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 295 to Vm 2 in Host 2/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 296 to Vm 0 in Host 0/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 297 to Vm 3 in Host 3/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 298 to Vm 2 in Host 2/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 299 to Vm 1 in Host 1/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 300 to Vm 3 in Host 3/DC 2 with a requested delay of 27 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 301 to Vm 1 in Host 1/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 302 to Vm 0 in Host 0/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 303 to Vm 1 in Host 1/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 304 to Vm 2 in Host 2/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 305 to Vm 3 in Host 3/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 306 to Vm 1 in Host 1/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 307 to Vm 3 in Host 3/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 308 to Vm 0 in Host 0/DC 2 with a requested delay of 28 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 309 to Vm 2 in Host 2/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 310 to Vm 3 in Host 3/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 311 to Vm 2 in Host 2/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 312 to Vm 1 in Host 1/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 313 to Vm 2 in Host 2/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 314 to Vm 0 in Host 0/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 315 to Vm 3 in Host 3/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 316 to Vm 2 in Host 2/DC 2 with a requested delay of 29 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 317 to Vm 1 in Host 1/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 318 to Vm 3 in Host 3/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 319 to Vm 1 in Host 1/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 320 to Vm 0 in Host 0/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 321 to Vm 1 in Host 1/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 322 to Vm 2 in Host 2/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 323 to Vm 3 in Host 3/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 324 to Vm 1 in Host 1/DC 2 with a requested delay of 30 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 325 to Vm 0 in Host 0/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 326 to Vm 3 in Host 3/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 327 to Vm 2 in Host 2/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 328 to Vm 0 in Host 0/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 329 to Vm 2 in Host 2/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 330 to Vm 1 in Host 1/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 331 to Vm 3 in Host 3/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 332 to Vm 2 in Host 2/DC 2 with a requested delay of 31 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 333 to Vm 0 in Host 0/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 334 to Vm 3 in Host 3/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 335 to Vm 1 in Host 1/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 336 to Vm 0 in Host 0/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 337 to Vm 2 in Host 2/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 338 to Vm 1 in Host 1/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 339 to Vm 2 in Host 2/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 340 to Vm 3 in Host 3/DC 2 with a requested delay of 32 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 341 to Vm 0 in Host 0/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 342 to Vm 2 in Host 2/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 343 to Vm 0 in Host 0/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 344 to Vm 1 in Host 1/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 345 to Vm 0 in Host 0/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 346 to Vm 3 in Host 3/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 347 to Vm 0 in Host 0/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 348 to Vm 2 in Host 2/DC 2 with a requested delay of 33 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 349 to Vm 1 in Host 1/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 350 to Vm 0 in Host 0/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 351 to Vm 1 in Host 1/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 352 to Vm 3 in Host 3/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 353 to Vm 1 in Host 1/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 354 to Vm 2 in Host 2/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 355 to Vm 0 in Host 0/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 356 to Vm 1 in Host 1/DC 2 with a requested delay of 34 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 357 to Vm 0 in Host 0/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 358 to Vm 3 in Host 3/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 359 to Vm 2 in Host 2/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 360 to Vm 0 in Host 0/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 361 to Vm 1 in Host 1/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 362 to Vm 2 in Host 2/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 363 to Vm 3 in Host 3/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 364 to Vm 1 in Host 1/DC 2 with a requested delay of 35 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 365 to Vm 3 in Host 3/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 366 to Vm 0 in Host 0/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 367 to Vm 2 in Host 2/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 368 to Vm 3 in Host 3/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 369 to Vm 1 in Host 1/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 370 to Vm 2 in Host 2/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 371 to Vm 0 in Host 0/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 372 to Vm 1 in Host 1/DC 2 with a requested delay of 36 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 373 to Vm 0 in Host 0/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 374 to Vm 3 in Host 3/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 375 to Vm 2 in Host 2/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 376 to Vm 0 in Host 0/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 377 to Vm 2 in Host 2/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 378 to Vm 1 in Host 1/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 379 to Vm 3 in Host 3/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 380 to Vm 2 in Host 2/DC 2 with a requested delay of 37 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 381 to Vm 0 in Host 0/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 382 to Vm 3 in Host 3/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 383 to Vm 0 in Host 0/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 384 to Vm 1 in Host 1/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 385 to Vm 0 in Host 0/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 386 to Vm 2 in Host 2/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 387 to Vm 0 in Host 0/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 388 to Vm 3 in Host 3/DC 2 with a requested delay of 38 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 389 to Vm 1 in Host 1/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 390 to Vm 0 in Host 0/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 391 to Vm 2 in Host 2/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 392 to Vm 1 in Host 1/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 393 to Vm 2 in Host 2/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 394 to Vm 3 in Host 3/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 395 to Vm 0 in Host 0/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 396 to Vm 2 in Host 2/DC 2 with a requested delay of 39 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 397 to Vm 0 in Host 0/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 398 to Vm 1 in Host 1/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 399 to Vm 0 in Host 0/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 400 to Vm 3 in Host 3/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 401 to Vm 0 in Host 0/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 402 to Vm 2 in Host 2/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 403 to Vm 1 in Host 1/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 404 to Vm 0 in Host 0/DC 2 with a requested delay of 40 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 405 to Vm 3 in Host 3/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 406 to Vm 1 in Host 1/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 407 to Vm 3 in Host 3/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 408 to Vm 2 in Host 2/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 409 to Vm 0 in Host 0/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 410 to Vm 3 in Host 3/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 411 to Vm 1 in Host 1/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 412 to Vm 0 in Host 0/DC 2 with a requested delay of 41 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 413 to Vm 1 in Host 1/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 414 to Vm 2 in Host 2/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 415 to Vm 1 in Host 1/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 416 to Vm 3 in Host 3/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 417 to Vm 0 in Host 0/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 418 to Vm 1 in Host 1/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 419 to Vm 0 in Host 0/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 420 to Vm 2 in Host 2/DC 2 with a requested delay of 42 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 421 to Vm 3 in Host 3/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 422 to Vm 0 in Host 0/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 423 to Vm 3 in Host 3/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 424 to Vm 1 in Host 1/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 425 to Vm 3 in Host 3/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 426 to Vm 2 in Host 2/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 427 to Vm 0 in Host 0/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 428 to Vm 3 in Host 3/DC 2 with a requested delay of 43 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 429 to Vm 1 in Host 1/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 430 to Vm 0 in Host 0/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 431 to Vm 1 in Host 1/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 432 to Vm 2 in Host 2/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 433 to Vm 3 in Host 3/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 434 to Vm 1 in Host 1/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 435 to Vm 0 in Host 0/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 436 to Vm 3 in Host 3/DC 2 with a requested delay of 44 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 437 to Vm 2 in Host 2/DC 2 with a requested delay of 45 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 438 to Vm 0 in Host 0/DC 2 with a requested delay of 45 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 439 to Vm 1 in Host 1/DC 2 with a requested delay of 45 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 440 to Vm 2 in Host 2/DC 2 with a requested delay of 45 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 441 to Vm 3 in Host 3/DC 2 with a requested delay of 45 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 442 to Vm 1 in Host 1/DC 2 with a requested delay of 45 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 443 to Vm 0 in Host 0/DC 2 with a requested delay of 46 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 444 to Vm 3 in Host 3/DC 2 with a requested delay of 46 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 445 to Vm 1 in Host 1/DC 2 with a requested delay of 46 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 446 to Vm 2 in Host 2/DC 2 with a requested delay of 46 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 447 to Vm 0 in Host 0/DC 2 with a requested delay of 47 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 448 to Vm 3 in Host 3/DC 2 with a requested delay of 47 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 449 to Vm 1 in Host 1/DC 2 with a requested delay of 47 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 450 to Vm 2 in Host 2/DC 2 with a requested delay of 47 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 451 to Vm 0 in Host 0/DC 2 with a requested delay of 48 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 452 to Vm 3 in Host 3/DC 2 with a requested delay of 48 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 453 to Vm 1 in Host 1/DC 2 with a requested delay of 48 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 454 to Vm 2 in Host 2/DC 2 with a requested delay of 48 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 455 to Vm 0 in Host 0/DC 2 with a requested delay of 49 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 456 to Vm 3 in Host 3/DC 2 with a requested delay of 49 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 457 to Vm 1 in Host 1/DC 2 with a requested delay of 49 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 458 to Vm 0 in Host 0/DC 2 with a requested delay of 49 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 459 to Vm 2 in Host 2/DC 2 with a requested delay of 50 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 460 to Vm 3 in Host 3/DC 2 with a requested delay of 50 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 461 to Vm 1 in Host 1/DC 2 with a requested delay of 50 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 462 to Vm 2 in Host 2/DC 2 with a requested delay of 50 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 463 to Vm 0 in Host 0/DC 2 with a requested delay of 51 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 464 to Vm 3 in Host 3/DC 2 with a requested delay of 51 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 465 to Vm 1 in Host 1/DC 2 with a requested delay of 51 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 466 to Vm 2 in Host 2/DC 2 with a requested delay of 51 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 467 to Vm 0 in Host 0/DC 2 with a requested delay of 52 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 468 to Vm 3 in Host 3/DC 2 with a requested delay of 52 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 469 to Vm 1 in Host 1/DC 2 with a requested delay of 52 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 470 to Vm 0 in Host 0/DC 2 with a requested delay of 52 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 471 to Vm 2 in Host 2/DC 2 with a requested delay of 53 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 472 to Vm 3 in Host 3/DC 2 with a requested delay of 53 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 473 to Vm 1 in Host 1/DC 2 with a requested delay of 53 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 474 to Vm 2 in Host 2/DC 2 with a requested delay of 53 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 475 to Vm 0 in Host 0/DC 2 with a requested delay of 54 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 476 to Vm 3 in Host 3/DC 2 with a requested delay of 54 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 477 to Vm 1 in Host 1/DC 2 with a requested delay of 54 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 478 to Vm 2 in Host 2/DC 2 with a requested delay of 54 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 479 to Vm 0 in Host 0/DC 2 with a requested delay of 55 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 480 to Vm 3 in Host 3/DC 2 with a requested delay of 55 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 481 to Vm 1 in Host 1/DC 2 with a requested delay of 55 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 482 to Vm 0 in Host 0/DC 2 with a requested delay of 55 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 483 to Vm 2 in Host 2/DC 2 with a requested delay of 56 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 484 to Vm 3 in Host 3/DC 2 with a requested delay of 56 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 485 to Vm 1 in Host 1/DC 2 with a requested delay of 56 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 486 to Vm 0 in Host 0/DC 2 with a requested delay of 56 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 487 to Vm 2 in Host 2/DC 2 with a requested delay of 57 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 488 to Vm 3 in Host 3/DC 2 with a requested delay of 57 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 489 to Vm 1 in Host 1/DC 2 with a requested delay of 57 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 490 to Vm 0 in Host 0/DC 2 with a requested delay of 57 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 491 to Vm 2 in Host 2/DC 2 with a requested delay of 58 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 492 to Vm 3 in Host 3/DC 2 with a requested delay of 58 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 493 to Vm 1 in Host 1/DC 2 with a requested delay of 58 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 494 to Vm 0 in Host 0/DC 2 with a requested delay of 58 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 495 to Vm 2 in Host 2/DC 2 with a requested delay of 59 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 496 to Vm 3 in Host 3/DC 2 with a requested delay of 59 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 497 to Vm 1 in Host 1/DC 2 with a requested delay of 59 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 498 to Vm 0 in Host 0/DC 2 with a requested delay of 59 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 499 to Vm 2 in Host 2/DC 2 with a requested delay of 60 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 500 to Vm 3 in Host 3/DC 2 with a requested delay of 60 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 501 to Vm 1 in Host 1/DC 2 with a requested delay of 60 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 502 to Vm 0 in Host 0/DC 2 with a requested delay of 60 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 503 to Vm 2 in Host 2/DC 2 with a requested delay of 61 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 504 to Vm 3 in Host 3/DC 2 with a requested delay of 61 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 505 to Vm 1 in Host 1/DC 2 with a requested delay of 61 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 506 to Vm 0 in Host 0/DC 2 with a requested delay of 61 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 507 to Vm 2 in Host 2/DC 2 with a requested delay of 62 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 508 to Vm 3 in Host 3/DC 2 with a requested delay of 62 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 509 to Vm 1 in Host 1/DC 2 with a requested delay of 62 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 510 to Vm 0 in Host 0/DC 2 with a requested delay of 62 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 511 to Vm 2 in Host 2/DC 2 with a requested delay of 63 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 512 to Vm 3 in Host 3/DC 2 with a requested delay of 63 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 513 to Vm 1 in Host 1/DC 2 with a requested delay of 63 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 514 to Vm 0 in Host 0/DC 2 with a requested delay of 63 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 515 to Vm 2 in Host 2/DC 2 with a requested delay of 64 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 516 to Vm 3 in Host 3/DC 2 with a requested delay of 64 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 517 to Vm 1 in Host 1/DC 2 with a requested delay of 64 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 518 to Vm 0 in Host 0/DC 2 with a requested delay of 64 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 519 to Vm 2 in Host 2/DC 2 with a requested delay of 65 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 520 to Vm 3 in Host 3/DC 2 with a requested delay of 65 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 521 to Vm 1 in Host 1/DC 2 with a requested delay of 65 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 522 to Vm 0 in Host 0/DC 2 with a requested delay of 65 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 523 to Vm 2 in Host 2/DC 2 with a requested delay of 66 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 524 to Vm 1 in Host 1/DC 2 with a requested delay of 66 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 525 to Vm 3 in Host 3/DC 2 with a requested delay of 66 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 526 to Vm 0 in Host 0/DC 2 with a requested delay of 66 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 527 to Vm 2 in Host 2/DC 2 with a requested delay of 67 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 528 to Vm 3 in Host 3/DC 2 with a requested delay of 67 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 529 to Vm 1 in Host 1/DC 2 with a requested delay of 67 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 530 to Vm 0 in Host 0/DC 2 with a requested delay of 67 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 531 to Vm 2 in Host 2/DC 2 with a requested delay of 68 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 532 to Vm 3 in Host 3/DC 2 with a requested delay of 68 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 533 to Vm 1 in Host 1/DC 2 with a requested delay of 68 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 534 to Vm 0 in Host 0/DC 2 with a requested delay of 68 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 535 to Vm 2 in Host 2/DC 2 with a requested delay of 69 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 536 to Vm 1 in Host 1/DC 2 with a requested delay of 69 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 537 to Vm 3 in Host 3/DC 2 with a requested delay of 69 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 538 to Vm 0 in Host 0/DC 2 with a requested delay of 69 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 539 to Vm 2 in Host 2/DC 2 with a requested delay of 70 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 540 to Vm 3 in Host 3/DC 2 with a requested delay of 70 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 541 to Vm 1 in Host 1/DC 2 with a requested delay of 70 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 542 to Vm 0 in Host 0/DC 2 with a requested delay of 70 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 543 to Vm 2 in Host 2/DC 2 with a requested delay of 71 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 544 to Vm 1 in Host 1/DC 2 with a requested delay of 71 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 545 to Vm 3 in Host 3/DC 2 with a requested delay of 71 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 546 to Vm 0 in Host 0/DC 2 with a requested delay of 71 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 547 to Vm 2 in Host 2/DC 2 with a requested delay of 72 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 548 to Vm 1 in Host 1/DC 2 with a requested delay of 72 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 549 to Vm 3 in Host 3/DC 2 with a requested delay of 72 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 550 to Vm 0 in Host 0/DC 2 with a requested delay of 72 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 551 to Vm 2 in Host 2/DC 2 with a requested delay of 73 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 552 to Vm 1 in Host 1/DC 2 with a requested delay of 73 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 553 to Vm 3 in Host 3/DC 2 with a requested delay of 73 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 554 to Vm 0 in Host 0/DC 2 with a requested delay of 73 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 555 to Vm 2 in Host 2/DC 2 with a requested delay of 74 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 556 to Vm 1 in Host 1/DC 2 with a requested delay of 74 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 557 to Vm 3 in Host 3/DC 2 with a requested delay of 74 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 558 to Vm 0 in Host 0/DC 2 with a requested delay of 74 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 559 to Vm 2 in Host 2/DC 2 with a requested delay of 75 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 560 to Vm 3 in Host 3/DC 2 with a requested delay of 75 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 561 to Vm 1 in Host 1/DC 2 with a requested delay of 75 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 562 to Vm 2 in Host 2/DC 2 with a requested delay of 75 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 563 to Vm 0 in Host 0/DC 2 with a requested delay of 76 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 564 to Vm 3 in Host 3/DC 2 with a requested delay of 76 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 565 to Vm 1 in Host 1/DC 2 with a requested delay of 76 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 566 to Vm 2 in Host 2/DC 2 with a requested delay of 76 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 567 to Vm 0 in Host 0/DC 2 with a requested delay of 77 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 568 to Vm 3 in Host 3/DC 2 with a requested delay of 77 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 569 to Vm 1 in Host 1/DC 2 with a requested delay of 77 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 570 to Vm 2 in Host 2/DC 2 with a requested delay of 77 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 571 to Vm 0 in Host 0/DC 2 with a requested delay of 78 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: Sending Cloudlet 572 to Vm 3 in Host 3/DC 2 with a requested delay of 78 seconds.
+INFO  0,10: DatacenterBrokerLoadBalancer1: All waiting Cloudlets submitted to some VM.
+INFO  0,51: HorizontalVmScalingSimpleVm 0: Requesting creation of Vm 6 to receive new Cloudlets in order to balance load of Vm 0. 0 CPU usage is 100.0%
+INFO  0,51: DatacenterBrokerLoadBalancer1: List of 1 VMs submitted to the broker during simulation execution. VMs creation request sent to Datacenter.
+INFO  0,51: HorizontalVmScalingSimpleVm 1: Requesting creation of Vm 7 to receive new Cloudlets in order to balance load of Vm 1. 1 CPU usage is 100.0%
+INFO  0,51: DatacenterBrokerLoadBalancer1: List of 1 VMs submitted to the broker during simulation execution. VMs creation request sent to Datacenter.
+INFO  0,51: HorizontalVmScalingSimpleVm 2: Requesting creation of Vm 8 to receive new Cloudlets in order to balance load of Vm 2. 2 CPU usage is 100.0%
+INFO  0,51: DatacenterBrokerLoadBalancer1: List of 1 VMs submitted to the broker during simulation execution. VMs creation request sent to Datacenter.
+INFO  0,51: HorizontalVmScalingSimpleVm 3: Requesting creation of Vm 9 to receive new Cloudlets in order to balance load of Vm 3. 3 CPU usage is 100.0%
+INFO  0,51: DatacenterBrokerLoadBalancer1: List of 1 VMs submitted to the broker during simulation execution. VMs creation request sent to Datacenter.
+INFO  1,35: DatacenterBrokerLoadBalancer1: Cloudlet 3 finished in Vm 3 and returned to broker.
+INFO  1,46: DatacenterBrokerLoadBalancer1: Cloudlet 0 finished in Vm 0 and returned to broker.
+INFO  2,58: DatacenterBrokerLoadBalancer1: Cloudlet 6 finished in Vm 1 and returned to broker.
+INFO  2,97: DatacenterBrokerLoadBalancer1: Cloudlet 1 finished in Vm 1 and returned to broker.
+INFO  3,69: DatacenterBrokerLoadBalancer1: Cloudlet 9 finished in Vm 0 and returned to broker.
+INFO  3,91: DatacenterBrokerLoadBalancer1: Cloudlet 12 finished in Vm 3 and returned to broker.
+INFO  4,02: DatacenterBrokerLoadBalancer1: Cloudlet 15 finished in Vm 1 and returned to broker.
+INFO  6,01: DatacenterBrokerLoadBalancer1: Cloudlet 18 finished in Vm 0 and returned to broker.
+INFO  6,23: DatacenterBrokerLoadBalancer1: Cloudlet 24 finished in Vm 1 and returned to broker.
+INFO  6,73: DatacenterBrokerLoadBalancer1: Cloudlet 27 finished in Vm 2 and returned to broker.
+INFO  6,84: DatacenterBrokerLoadBalancer1: Cloudlet 21 finished in Vm 0 and returned to broker.
+INFO  8,12: DatacenterBrokerLoadBalancer1: Cloudlet 33 finished in Vm 1 and returned to broker.
+INFO  8,54: DatacenterBrokerLoadBalancer1: Cloudlet 10 finished in Vm 2 and returned to broker.
+INFO  8,65: DatacenterBrokerLoadBalancer1: Cloudlet 36 finished in Vm 2 and returned to broker.
+INFO  8,76: DatacenterBrokerLoadBalancer1: Cloudlet 30 finished in Vm 3 and returned to broker.
+INFO  9,56: DatacenterBrokerLoadBalancer1: Cloudlet 45 finished in Vm 2 and returned to broker.
+INFO  9,89: DatacenterBrokerLoadBalancer1: Cloudlet 42 finished in Vm 3 and returned to broker.
+INFO  10,34: DatacenterBrokerLoadBalancer1: Cloudlet 4 finished in Vm 0 and returned to broker.
+INFO  10,82: DatacenterBrokerLoadBalancer1: Cloudlet 39 finished in Vm 0 and returned to broker.
+INFO  11,30: DatacenterBrokerLoadBalancer1: Cloudlet 54 finished in Vm 2 and returned to broker.
+INFO  11,52: DatacenterBrokerLoadBalancer1: Cloudlet 13 finished in Vm 3 and returned to broker.
+INFO  11,74: DatacenterBrokerLoadBalancer1: Cloudlet 7 finished in Vm 0 and returned to broker.
+INFO  11,85: DatacenterBrokerLoadBalancer1: Cloudlet 48 finished in Vm 1 and returned to broker.
+INFO  12,39: DatacenterBrokerLoadBalancer1: Cloudlet 51 finished in Vm 0 and returned to broker.
+INFO  14,32: DatacenterBrokerLoadBalancer1: Cloudlet 60 finished in Vm 1 and returned to broker.
+INFO  14,95: DatacenterBrokerLoadBalancer1: Cloudlet 69 finished in Vm 2 and returned to broker.
+INFO  14,95: DatacenterBrokerLoadBalancer1: Cloudlet 66 finished in Vm 3 and returned to broker.
+INFO  15,28: DatacenterBrokerLoadBalancer1: Cloudlet 57 finished in Vm 3 and returned to broker.
+INFO  15,72: DatacenterBrokerLoadBalancer1: Cloudlet 63 finished in Vm 0 and returned to broker.
+INFO  15,94: DatacenterBrokerLoadBalancer1: Cloudlet 72 finished in Vm 1 and returned to broker.
+INFO  15,94: DatacenterBrokerLoadBalancer1: Cloudlet 16 finished in Vm 3 and returned to broker.
+INFO  18,47: DatacenterBrokerLoadBalancer1: Cloudlet 75 finished in Vm 1 and returned to broker.
+INFO  18,69: DatacenterBrokerLoadBalancer1: Cloudlet 84 finished in Vm 2 and returned to broker.
+INFO  19,61: DatacenterBrokerLoadBalancer1: Cloudlet 81 finished in Vm 3 and returned to broker.
+INFO  19,83: DatacenterBrokerLoadBalancer1: Cloudlet 93 finished in Vm 2 and returned to broker.
+INFO  20,19: DatacenterBrokerLoadBalancer1: Cloudlet 22 finished in Vm 0 and returned to broker.
+INFO  20,41: DatacenterBrokerLoadBalancer1: Cloudlet 78 finished in Vm 1 and returned to broker.
+INFO  21,29: DatacenterBrokerLoadBalancer1: Cloudlet 87 finished in Vm 0 and returned to broker.
+INFO  21,94: DatacenterBrokerLoadBalancer1: Cloudlet 19 finished in Vm 3 and returned to broker.
+INFO  22,05: DatacenterBrokerLoadBalancer1: Cloudlet 102 finished in Vm 2 and returned to broker.
+INFO  23,01: DatacenterBrokerLoadBalancer1: Cloudlet 96 finished in Vm 0 and returned to broker.
+INFO  23,57: DatacenterBrokerLoadBalancer1: Cloudlet 90 finished in Vm 3 and returned to broker.
+INFO  23,68: DatacenterBrokerLoadBalancer1: Cloudlet 108 finished in Vm 0 and returned to broker.
+INFO  24,01: DatacenterBrokerLoadBalancer1: Cloudlet 99 finished in Vm 1 and returned to broker.
+INFO  24,90: DatacenterBrokerLoadBalancer1: Cloudlet 111 finished in Vm 3 and returned to broker.
+INFO  26,65: DatacenterBrokerLoadBalancer1: Cloudlet 105 finished in Vm 1 and returned to broker.
+INFO  27,11: DatacenterBrokerLoadBalancer1: Cloudlet 126 finished in Vm 2 and returned to broker.
+INFO  27,44: DatacenterBrokerLoadBalancer1: Cloudlet 114 finished in Vm 2 and returned to broker.
+INFO  27,55: DatacenterBrokerLoadBalancer1: Cloudlet 117 finished in Vm 0 and returned to broker.
+INFO  28,59: DatacenterBrokerLoadBalancer1: Cloudlet 123 finished in Vm 1 and returned to broker.
+INFO  30,09: DatacenterBrokerLoadBalancer1: Cloudlet 120 finished in Vm 1 and returned to broker.
+INFO  30,71: DatacenterBrokerLoadBalancer1: Cloudlet 129 finished in Vm 0 and returned to broker.
+INFO  30,71: DatacenterBrokerLoadBalancer1: Cloudlet 132 finished in Vm 1 and returned to broker.
+INFO  30,71: DatacenterBrokerLoadBalancer1: Cloudlet 135 finished in Vm 2 and returned to broker.
+INFO  30,93: DatacenterBrokerLoadBalancer1: Cloudlet 138 finished in Vm 2 and returned to broker.
+INFO  32,02: DatacenterBrokerLoadBalancer1: Cloudlet 2 finished in Vm 2 and returned to broker.
+INFO  32,79: DatacenterBrokerLoadBalancer1: Cloudlet 144 finished in Vm 3 and returned to broker.
+INFO  33,33: DatacenterBrokerLoadBalancer1: Cloudlet 156 finished in Vm 1 and returned to broker.
+INFO  33,44: DatacenterBrokerLoadBalancer1: Cloudlet 141 finished in Vm 1 and returned to broker.
+INFO  33,44: DatacenterBrokerLoadBalancer1: Cloudlet 153 finished in Vm 2 and returned to broker.
+INFO  33,44: DatacenterBrokerLoadBalancer1: Cloudlet 162 finished in Vm 2 and returned to broker.
+INFO  34,61: DatacenterBrokerLoadBalancer1: Cloudlet 25 finished in Vm 0 and returned to broker.
+INFO  34,72: DatacenterBrokerLoadBalancer1: Cloudlet 147 finished in Vm 0 and returned to broker.
+INFO  34,83: DatacenterBrokerLoadBalancer1: Cloudlet 180 finished in Vm 2 and returned to broker.
+INFO  35,95: DatacenterBrokerLoadBalancer1: Cloudlet 150 finished in Vm 3 and returned to broker.
+INFO  36,06: DatacenterBrokerLoadBalancer1: Cloudlet 168 finished in Vm 3 and returned to broker.
+INFO  36,28: DatacenterBrokerLoadBalancer1: Cloudlet 40 finished in Vm 0 and returned to broker.
+INFO  36,73: DatacenterBrokerLoadBalancer1: Cloudlet 171 finished in Vm 1 and returned to broker.
+INFO  37,57: DatacenterBrokerLoadBalancer1: Cloudlet 159 finished in Vm 0 and returned to broker.
+INFO  38,68: DatacenterBrokerLoadBalancer1: Cloudlet 165 finished in Vm 0 and returned to broker.
+INFO  39,67: DatacenterBrokerLoadBalancer1: Cloudlet 174 finished in Vm 0 and returned to broker.
+INFO  39,78: DatacenterBrokerLoadBalancer1: Cloudlet 177 finished in Vm 3 and returned to broker.
+INFO  40,26: DatacenterBrokerLoadBalancer1: Cloudlet 195 finished in Vm 0 and returned to broker.
+INFO  40,70: DatacenterBrokerLoadBalancer1: Cloudlet 189 finished in Vm 1 and returned to broker.
+INFO  41,26: DatacenterBrokerLoadBalancer1: Cloudlet 192 finished in Vm 3 and returned to broker.
+INFO  41,48: DatacenterBrokerLoadBalancer1: Cloudlet 183 finished in Vm 2 and returned to broker.
+INFO  41,59: DatacenterBrokerLoadBalancer1: Cloudlet 213 finished in Vm 2 and returned to broker.
+INFO  41,70: DatacenterBrokerLoadBalancer1: Cloudlet 204 finished in Vm 3 and returned to broker.
+INFO  42,03: DatacenterBrokerLoadBalancer1: Cloudlet 186 finished in Vm 0 and returned to broker.
+INFO  42,03: DatacenterBrokerLoadBalancer1: Cloudlet 67 finished in Vm 3 and returned to broker.
+INFO  42,14: DatacenterBrokerLoadBalancer1: Cloudlet 34 finished in Vm 1 and returned to broker.
+INFO  42,69: DatacenterBrokerLoadBalancer1: Cloudlet 31 finished in Vm 3 and returned to broker.
+INFO  43,13: DatacenterBrokerLoadBalancer1: Cloudlet 198 finished in Vm 1 and returned to broker.
+INFO  43,24: DatacenterBrokerLoadBalancer1: Cloudlet 207 finished in Vm 0 and returned to broker.
+INFO  44,19: DatacenterBrokerLoadBalancer1: Cloudlet 201 finished in Vm 2 and returned to broker.
+INFO  44,19: DatacenterBrokerLoadBalancer1: Cloudlet 216 finished in Vm 3 and returned to broker.
+INFO  44,66: DatacenterBrokerLoadBalancer1: Cloudlet 210 finished in Vm 1 and returned to broker.
+INFO  44,77: DatacenterBrokerLoadBalancer1: Cloudlet 234 finished in Vm 1 and returned to broker.
+INFO  45,10: DatacenterBrokerLoadBalancer1: Cloudlet 219 finished in Vm 0 and returned to broker.
+INFO  45,31: DatacenterBrokerLoadBalancer1: Cloudlet 46 finished in Vm 3 and returned to broker.
+INFO  46,11: DatacenterBrokerLoadBalancer1: Cloudlet 228 finished in Vm 0 and returned to broker.
+INFO  46,44: DatacenterBrokerLoadBalancer1: Cloudlet 225 finished in Vm 2 and returned to broker.
+INFO  46,88: DatacenterBrokerLoadBalancer1: Cloudlet 55 finished in Vm 2 and returned to broker.
+INFO  47,21: DatacenterBrokerLoadBalancer1: Cloudlet 231 finished in Vm 3 and returned to broker.
+INFO  47,32: DatacenterBrokerLoadBalancer1: Cloudlet 243 finished in Vm 3 and returned to broker.
+INFO  47,76: DatacenterBrokerLoadBalancer1: Cloudlet 222 finished in Vm 1 and returned to broker.
+INFO  47,98: DatacenterBrokerLoadBalancer1: Cloudlet 28 finished in Vm 0 and returned to broker.
+INFO  48,42: DatacenterBrokerLoadBalancer1: Cloudlet 245 finished in Vm 0 and returned to broker.
+INFO  48,53: DatacenterBrokerLoadBalancer1: Cloudlet 251 finished in Vm 0 and returned to broker.
+INFO  48,53: DatacenterBrokerLoadBalancer1: Cloudlet 265 finished in Vm 1 and returned to broker.
+INFO  48,75: DatacenterBrokerLoadBalancer1: Cloudlet 249 finished in Vm 3 and returned to broker.
+INFO  48,86: DatacenterBrokerLoadBalancer1: Cloudlet 247 finished in Vm 1 and returned to broker.
+INFO  48,86: DatacenterBrokerLoadBalancer1: Cloudlet 257 finished in Vm 2 and returned to broker.
+INFO  49,19: DatacenterBrokerLoadBalancer1: Cloudlet 253 finished in Vm 0 and returned to broker.
+INFO  50,00: DatacenterBrokerLoadBalancer1: Cloudlet 240 finished in Vm 0 and returned to broker.
+INFO  50,00: DatacenterBrokerLoadBalancer1: Cloudlet 237 finished in Vm 2 and returned to broker.
+INFO  50,44: DatacenterBrokerLoadBalancer1: Cloudlet 58 finished in Vm 2 and returned to broker.
+INFO  50,66: DatacenterBrokerLoadBalancer1: Cloudlet 259 finished in Vm 2 and returned to broker.
+INFO  51,21: DatacenterBrokerLoadBalancer1: Cloudlet 52 finished in Vm 0 and returned to broker.
+INFO  51,65: DatacenterBrokerLoadBalancer1: Cloudlet 267 finished in Vm 1 and returned to broker.
+INFO  52,31: DatacenterBrokerLoadBalancer1: Cloudlet 37 finished in Vm 1 and returned to broker.
+INFO  52,31: DatacenterBrokerLoadBalancer1: Cloudlet 261 finished in Vm 2 and returned to broker.
+INFO  52,42: DatacenterBrokerLoadBalancer1: Cloudlet 14 finished in Vm 2 and returned to broker.
+INFO  52,86: DatacenterBrokerLoadBalancer1: Cloudlet 277 finished in Vm 0 and returned to broker.
+INFO  53,08: DatacenterBrokerLoadBalancer1: Cloudlet 255 finished in Vm 0 and returned to broker.
+INFO  53,30: DatacenterBrokerLoadBalancer1: Cloudlet 271 finished in Vm 2 and returned to broker.
+INFO  53,30: DatacenterBrokerLoadBalancer1: Cloudlet 293 finished in Vm 2 and returned to broker.
+INFO  54,14: DatacenterBrokerLoadBalancer1: Cloudlet 289 finished in Vm 3 and returned to broker.
+INFO  54,47: DatacenterBrokerLoadBalancer1: Cloudlet 82 finished in Vm 1 and returned to broker.
+INFO  55,13: DatacenterBrokerLoadBalancer1: Cloudlet 70 finished in Vm 3 and returned to broker.
+INFO  55,24: DatacenterBrokerLoadBalancer1: Cloudlet 273 finished in Vm 3 and returned to broker.
+INFO  55,57: DatacenterBrokerLoadBalancer1: Cloudlet 263 finished in Vm 2 and returned to broker.
+INFO  55,79: DatacenterBrokerLoadBalancer1: Cloudlet 269 finished in Vm 1 and returned to broker.
+INFO  56,01: DatacenterBrokerLoadBalancer1: Cloudlet 275 finished in Vm 0 and returned to broker.
+INFO  56,01: DatacenterBrokerLoadBalancer1: Cloudlet 283 finished in Vm 1 and returned to broker.
+INFO  56,12: DatacenterBrokerLoadBalancer1: Cloudlet 279 finished in Vm 0 and returned to broker.
+INFO  56,23: DatacenterBrokerLoadBalancer1: Cloudlet 291 finished in Vm 2 and returned to broker.
+INFO  57,03: DatacenterBrokerLoadBalancer1: Cloudlet 285 finished in Vm 1 and returned to broker.
+INFO  58,03: DatacenterBrokerLoadBalancer1: Cloudlet 295 finished in Vm 2 and returned to broker.
+INFO  58,03: DatacenterBrokerLoadBalancer1: Cloudlet 287 finished in Vm 3 and returned to broker.
+INFO  58,90: DatacenterBrokerLoadBalancer1: Cloudlet 281 finished in Vm 0 and returned to broker.
+INFO  58,90: DatacenterBrokerLoadBalancer1: Cloudlet 61 finished in Vm 1 and returned to broker.
+INFO  59,96: DatacenterBrokerLoadBalancer1: Cloudlet 299 finished in Vm 1 and returned to broker.
+INFO  60,29: DatacenterBrokerLoadBalancer1: Cloudlet 91 finished in Vm 3 and returned to broker.
+INFO  60,72: DatacenterBrokerLoadBalancer1: Cloudlet 297 finished in Vm 3 and returned to broker.
+INFO  61,16: DatacenterBrokerLoadBalancer1: Cloudlet 305 finished in Vm 3 and returned to broker.
+INFO  61,27: DatacenterBrokerLoadBalancer1: Cloudlet 311 finished in Vm 2 and returned to broker.
+INFO  61,38: DatacenterBrokerLoadBalancer1: Cloudlet 49 finished in Vm 1 and returned to broker.
+INFO  61,49: DatacenterBrokerLoadBalancer1: Cloudlet 301 finished in Vm 1 and returned to broker.
+INFO  62,41: DatacenterBrokerLoadBalancer1: Cloudlet 307 finished in Vm 3 and returned to broker.
+INFO  63,45: DatacenterBrokerLoadBalancer1: Cloudlet 313 finished in Vm 2 and returned to broker.
+INFO  63,78: DatacenterBrokerLoadBalancer1: Cloudlet 323 finished in Vm 3 and returned to broker.
+INFO  64,44: DatacenterBrokerLoadBalancer1: Cloudlet 43 finished in Vm 3 and returned to broker.
+INFO  64,44: DatacenterBrokerLoadBalancer1: Cloudlet 315 finished in Vm 3 and returned to broker.
+INFO  64,66: DatacenterBrokerLoadBalancer1: Cloudlet 345 finished in Vm 0 and returned to broker.
+INFO  64,66: DatacenterBrokerLoadBalancer1: Cloudlet 321 finished in Vm 1 and returned to broker.
+INFO  64,66: DatacenterBrokerLoadBalancer1: Cloudlet 327 finished in Vm 2 and returned to broker.
+INFO  64,76: DatacenterBrokerLoadBalancer1: Cloudlet 303 finished in Vm 1 and returned to broker.
+INFO  64,76: DatacenterBrokerLoadBalancer1: Cloudlet 309 finished in Vm 2 and returned to broker.
+INFO  64,87: DatacenterBrokerLoadBalancer1: Cloudlet 325 finished in Vm 0 and returned to broker.
+INFO  64,87: DatacenterBrokerLoadBalancer1: Cloudlet 339 finished in Vm 2 and returned to broker.
+INFO  64,98: DatacenterBrokerLoadBalancer1: Cloudlet 317 finished in Vm 1 and returned to broker.
+INFO  65,20: DatacenterBrokerLoadBalancer1: Cloudlet 88 finished in Vm 1 and returned to broker.
+INFO  65,31: DatacenterBrokerLoadBalancer1: Cloudlet 329 finished in Vm 2 and returned to broker.
+INFO  65,42: DatacenterBrokerLoadBalancer1: Cloudlet 73 finished in Vm 1 and returned to broker.
+INFO  65,42: DatacenterBrokerLoadBalancer1: Cloudlet 337 finished in Vm 2 and returned to broker.
+INFO  65,42: DatacenterBrokerLoadBalancer1: Cloudlet 331 finished in Vm 3 and returned to broker.
+INFO  65,75: DatacenterBrokerLoadBalancer1: Cloudlet 335 finished in Vm 1 and returned to broker.
+INFO  66,19: DatacenterBrokerLoadBalancer1: Cloudlet 79 finished in Vm 1 and returned to broker.
+INFO  66,19: DatacenterBrokerLoadBalancer1: Cloudlet 103 finished in Vm 2 and returned to broker.
+INFO  66,30: DatacenterBrokerLoadBalancer1: Cloudlet 319 finished in Vm 1 and returned to broker.
+INFO  67,02: DatacenterBrokerLoadBalancer1: Cloudlet 106 finished in Vm 1 and returned to broker.
+INFO  67,68: DatacenterBrokerLoadBalancer1: Cloudlet 85 finished in Vm 1 and returned to broker.
+INFO  67,90: DatacenterBrokerLoadBalancer1: Cloudlet 349 finished in Vm 1 and returned to broker.
+INFO  68,56: DatacenterBrokerLoadBalancer1: Cloudlet 121 finished in Vm 1 and returned to broker.
+INFO  68,78: DatacenterBrokerLoadBalancer1: Cloudlet 343 finished in Vm 0 and returned to broker.
+INFO  68,89: DatacenterBrokerLoadBalancer1: Cloudlet 367 finished in Vm 2 and returned to broker.
+INFO  69,11: DatacenterBrokerLoadBalancer1: Cloudlet 341 finished in Vm 0 and returned to broker.
+INFO  69,22: DatacenterBrokerLoadBalancer1: Cloudlet 363 finished in Vm 3 and returned to broker.
+INFO  69,33: DatacenterBrokerLoadBalancer1: Cloudlet 347 finished in Vm 0 and returned to broker.
+INFO  69,97: DatacenterBrokerLoadBalancer1: Cloudlet 333 finished in Vm 0 and returned to broker.
+INFO  70,19: DatacenterBrokerLoadBalancer1: Cloudlet 375 finished in Vm 2 and returned to broker.
+INFO  70,52: DatacenterBrokerLoadBalancer1: Cloudlet 377 finished in Vm 2 and returned to broker.
+INFO  70,74: DatacenterBrokerLoadBalancer1: Cloudlet 127 finished in Vm 3 and returned to broker.
+INFO  71,46: DatacenterBrokerLoadBalancer1: Cloudlet 353 finished in Vm 1 and returned to broker.
+INFO  71,68: DatacenterBrokerLoadBalancer1: Cloudlet 357 finished in Vm 0 and returned to broker.
+INFO  72,33: DatacenterBrokerLoadBalancer1: Cloudlet 351 finished in Vm 1 and returned to broker.
+INFO  72,33: DatacenterBrokerLoadBalancer1: Cloudlet 391 finished in Vm 2 and returned to broker.
+INFO  72,44: DatacenterBrokerLoadBalancer1: Cloudlet 361 finished in Vm 1 and returned to broker.
+INFO  72,44: DatacenterBrokerLoadBalancer1: Cloudlet 359 finished in Vm 2 and returned to broker.
+INFO  72,44: DatacenterBrokerLoadBalancer1: Cloudlet 393 finished in Vm 2 and returned to broker.
+INFO  72,88: DatacenterBrokerLoadBalancer1: Cloudlet 64 finished in Vm 0 and returned to broker.
+INFO  73,21: DatacenterBrokerLoadBalancer1: Cloudlet 355 finished in Vm 0 and returned to broker.
+INFO  73,21: DatacenterBrokerLoadBalancer1: Cloudlet 383 finished in Vm 0 and returned to broker.
+INFO  73,43: DatacenterBrokerLoadBalancer1: Cloudlet 373 finished in Vm 0 and returned to broker.
+INFO  73,76: DatacenterBrokerLoadBalancer1: Cloudlet 369 finished in Vm 1 and returned to broker.
+INFO  73,76: DatacenterBrokerLoadBalancer1: Cloudlet 389 finished in Vm 1 and returned to broker.
+INFO  73,87: DatacenterBrokerLoadBalancer1: Cloudlet 112 finished in Vm 3 and returned to broker.
+INFO  73,98: DatacenterBrokerLoadBalancer1: Cloudlet 139 finished in Vm 2 and returned to broker.
+INFO  74,09: DatacenterBrokerLoadBalancer1: Cloudlet 94 finished in Vm 3 and returned to broker.
+INFO  74,30: DatacenterBrokerLoadBalancer1: Cloudlet 371 finished in Vm 0 and returned to broker.
+INFO  74,52: DatacenterBrokerLoadBalancer1: Cloudlet 381 finished in Vm 0 and returned to broker.
+INFO  74,85: DatacenterBrokerLoadBalancer1: Cloudlet 76 finished in Vm 0 and returned to broker.
+INFO  75,18: DatacenterBrokerLoadBalancer1: Cloudlet 130 finished in Vm 0 and returned to broker.
+INFO  75,40: DatacenterBrokerLoadBalancer1: Cloudlet 124 finished in Vm 2 and returned to broker.
+INFO  75,51: DatacenterBrokerLoadBalancer1: Cloudlet 411 finished in Vm 1 and returned to broker.
+INFO  75,84: DatacenterBrokerLoadBalancer1: Cloudlet 437 finished in Vm 2 and returned to broker.
+INFO  75,95: DatacenterBrokerLoadBalancer1: Cloudlet 97 finished in Vm 0 and returned to broker.
+INFO  76,06: DatacenterBrokerLoadBalancer1: Cloudlet 385 finished in Vm 0 and returned to broker.
+INFO  76,06: DatacenterBrokerLoadBalancer1: Cloudlet 397 finished in Vm 0 and returned to broker.
+INFO  76,39: DatacenterBrokerLoadBalancer1: Cloudlet 403 finished in Vm 1 and returned to broker.
+INFO  76,71: DatacenterBrokerLoadBalancer1: Cloudlet 109 finished in Vm 1 and returned to broker.
+INFO  76,71: DatacenterBrokerLoadBalancer1: Cloudlet 413 finished in Vm 1 and returned to broker.
+INFO  76,82: DatacenterBrokerLoadBalancer1: Cloudlet 399 finished in Vm 0 and returned to broker.
+INFO  76,82: DatacenterBrokerLoadBalancer1: Cloudlet 425 finished in Vm 3 and returned to broker.
+INFO  76,93: DatacenterBrokerLoadBalancer1: Cloudlet 365 finished in Vm 3 and returned to broker.
+INFO  77,59: DatacenterBrokerLoadBalancer1: Cloudlet 172 finished in Vm 1 and returned to broker.
+INFO  77,59: DatacenterBrokerLoadBalancer1: Cloudlet 429 finished in Vm 1 and returned to broker.
+INFO  77,70: DatacenterBrokerLoadBalancer1: Cloudlet 387 finished in Vm 0 and returned to broker.
+INFO  77,81: DatacenterBrokerLoadBalancer1: Cloudlet 379 finished in Vm 3 and returned to broker.
+INFO  78,03: DatacenterBrokerLoadBalancer1: Cloudlet 157 finished in Vm 3 and returned to broker.
+INFO  78,14: DatacenterBrokerLoadBalancer1: Cloudlet 409 finished in Vm 0 and returned to broker.
+INFO  78,36: DatacenterBrokerLoadBalancer1: Cloudlet 405 finished in Vm 3 and returned to broker.
+INFO  78,58: DatacenterBrokerLoadBalancer1: Cloudlet 395 finished in Vm 0 and returned to broker.
+INFO  78,58: DatacenterBrokerLoadBalancer1: Cloudlet 415 finished in Vm 1 and returned to broker.
+INFO  78,58: DatacenterBrokerLoadBalancer1: Cloudlet 184 finished in Vm 2 and returned to broker.
+INFO  78,69: DatacenterBrokerLoadBalancer1: Cloudlet 423 finished in Vm 3 and returned to broker.
+INFO  78,80: DatacenterBrokerLoadBalancer1: Cloudlet 115 finished in Vm 3 and returned to broker.
+INFO  79,75: DatacenterBrokerLoadBalancer1: Cloudlet 421 finished in Vm 3 and returned to broker.
+INFO  80,86: DatacenterBrokerLoadBalancer1: Cloudlet 407 finished in Vm 3 and returned to broker.
+INFO  80,97: DatacenterBrokerLoadBalancer1: Cloudlet 419 finished in Vm 0 and returned to broker.
+INFO  80,97: DatacenterBrokerLoadBalancer1: Cloudlet 435 finished in Vm 0 and returned to broker.
+INFO  80,97: DatacenterBrokerLoadBalancer1: Cloudlet 446 finished in Vm 2 and returned to broker.
+INFO  81,19: DatacenterBrokerLoadBalancer1: Cloudlet 441 finished in Vm 3 and returned to broker.
+INFO  81,30: DatacenterBrokerLoadBalancer1: Cloudlet 163 finished in Vm 2 and returned to broker.
+INFO  81,30: DatacenterBrokerLoadBalancer1: Cloudlet 433 finished in Vm 3 and returned to broker.
+INFO  81,63: DatacenterBrokerLoadBalancer1: Cloudlet 459 finished in Vm 2 and returned to broker.
+INFO  81,85: DatacenterBrokerLoadBalancer1: Cloudlet 442 finished in Vm 1 and returned to broker.
+INFO  82,07: DatacenterBrokerLoadBalancer1: Cloudlet 439 finished in Vm 1 and returned to broker.
+INFO  82,07: DatacenterBrokerLoadBalancer1: Cloudlet 450 finished in Vm 2 and returned to broker.
+INFO  82,18: DatacenterBrokerLoadBalancer1: Cloudlet 417 finished in Vm 0 and returned to broker.
+INFO  82,29: DatacenterBrokerLoadBalancer1: Cloudlet 427 finished in Vm 0 and returned to broker.
+INFO  82,29: DatacenterBrokerLoadBalancer1: Cloudlet 443 finished in Vm 0 and returned to broker.
+INFO  82,73: DatacenterBrokerLoadBalancer1: Cloudlet 447 finished in Vm 0 and returned to broker.
+INFO  82,84: DatacenterBrokerLoadBalancer1: Cloudlet 401 finished in Vm 0 and returned to broker.
+INFO  82,95: DatacenterBrokerLoadBalancer1: Cloudlet 118 finished in Vm 0 and returned to broker.
+INFO  82,95: DatacenterBrokerLoadBalancer1: Cloudlet 154 finished in Vm 3 and returned to broker.
+INFO  83,06: DatacenterBrokerLoadBalancer1: Cloudlet 444 finished in Vm 3 and returned to broker.
+INFO  83,39: DatacenterBrokerLoadBalancer1: Cloudlet 461 finished in Vm 1 and returned to broker.
+INFO  83,50: DatacenterBrokerLoadBalancer1: Cloudlet 431 finished in Vm 1 and returned to broker.
+INFO  83,83: DatacenterBrokerLoadBalancer1: Cloudlet 449 finished in Vm 1 and returned to broker.
+INFO  84,53: DatacenterBrokerLoadBalancer1: Cloudlet 451 finished in Vm 0 and returned to broker.
+INFO  84,97: DatacenterBrokerLoadBalancer1: Cloudlet 445 finished in Vm 1 and returned to broker.
+INFO  85,08: DatacenterBrokerLoadBalancer1: Cloudlet 453 finished in Vm 1 and returned to broker.
+INFO  85,30: DatacenterBrokerLoadBalancer1: Cloudlet 462 finished in Vm 2 and returned to broker.
+INFO  85,52: DatacenterBrokerLoadBalancer1: Cloudlet 100 finished in Vm 1 and returned to broker.
+INFO  85,96: DatacenterBrokerLoadBalancer1: Cloudlet 466 finished in Vm 2 and returned to broker.
+INFO  85,96: DatacenterBrokerLoadBalancer1: Cloudlet 151 finished in Vm 3 and returned to broker.
+INFO  85,96: DatacenterBrokerLoadBalancer1: Cloudlet 452 finished in Vm 3 and returned to broker.
+INFO  86,29: DatacenterBrokerLoadBalancer1: Cloudlet 458 finished in Vm 0 and returned to broker.
+INFO  86,29: DatacenterBrokerLoadBalancer1: Cloudlet 142 finished in Vm 2 and returned to broker.
+INFO  86,29: DatacenterBrokerLoadBalancer1: Cloudlet 471 finished in Vm 2 and returned to broker.
+INFO  86,40: DatacenterBrokerLoadBalancer1: Cloudlet 136 finished in Vm 0 and returned to broker.
+INFO  86,97: DatacenterBrokerLoadBalancer1: Cloudlet 465 finished in Vm 1 and returned to broker.
+INFO  86,97: DatacenterBrokerLoadBalancer1: Cloudlet 464 finished in Vm 3 and returned to broker.
+INFO  87,19: DatacenterBrokerLoadBalancer1: Cloudlet 455 finished in Vm 0 and returned to broker.
+INFO  87,30: DatacenterBrokerLoadBalancer1: Cloudlet 457 finished in Vm 1 and returned to broker.
+INFO  87,30: DatacenterBrokerLoadBalancer1: Cloudlet 448 finished in Vm 3 and returned to broker.
+INFO  87,63: DatacenterBrokerLoadBalancer1: Cloudlet 473 finished in Vm 1 and returned to broker.
+INFO  87,74: DatacenterBrokerLoadBalancer1: Cloudlet 467 finished in Vm 0 and returned to broker.
+INFO  87,85: DatacenterBrokerLoadBalancer1: Cloudlet 454 finished in Vm 2 and returned to broker.
+INFO  87,85: DatacenterBrokerLoadBalancer1: Cloudlet 178 finished in Vm 3 and returned to broker.
+INFO  87,85: DatacenterBrokerLoadBalancer1: Cloudlet 460 finished in Vm 3 and returned to broker.
+INFO  87,96: DatacenterBrokerLoadBalancer1: Cloudlet 463 finished in Vm 0 and returned to broker.
+INFO  88,07: DatacenterBrokerLoadBalancer1: Cloudlet 169 finished in Vm 2 and returned to broker.
+INFO  88,29: DatacenterBrokerLoadBalancer1: Cloudlet 472 finished in Vm 3 and returned to broker.
+INFO  88,40: DatacenterBrokerLoadBalancer1: Cloudlet 456 finished in Vm 3 and returned to broker.
+INFO  88,84: DatacenterBrokerLoadBalancer1: Cloudlet 474 finished in Vm 2 and returned to broker.
+INFO  88,95: DatacenterBrokerLoadBalancer1: Cloudlet 145 finished in Vm 3 and returned to broker.
+INFO  89,06: DatacenterBrokerLoadBalancer1: Cloudlet 190 finished in Vm 2 and returned to broker.
+INFO  89,17: DatacenterBrokerLoadBalancer1: Cloudlet 181 finished in Vm 3 and returned to broker.
+INFO  89,17: DatacenterBrokerLoadBalancer1: Cloudlet 468 finished in Vm 3 and returned to broker.
+INFO  89,28: DatacenterBrokerLoadBalancer1: Cloudlet 479 finished in Vm 0 and returned to broker.
+INFO  89,28: DatacenterBrokerLoadBalancer1: Cloudlet 483 finished in Vm 2 and returned to broker.
+INFO  89,39: DatacenterBrokerLoadBalancer1: Cloudlet 270 finished in Vm 0 and returned to broker.
+INFO  89,39: DatacenterBrokerLoadBalancer1: Cloudlet 478 finished in Vm 2 and returned to broker.
+INFO  89,72: DatacenterBrokerLoadBalancer1: Cloudlet 477 finished in Vm 1 and returned to broker.
+INFO  90,05: DatacenterBrokerLoadBalancer1: Cloudlet 133 finished in Vm 0 and returned to broker.
+INFO  90,05: DatacenterBrokerLoadBalancer1: Cloudlet 470 finished in Vm 0 and returned to broker.
+INFO  90,27: DatacenterBrokerLoadBalancer1: Cloudlet 469 finished in Vm 1 and returned to broker.
+INFO  90,60: DatacenterBrokerLoadBalancer1: Cloudlet 5 finished in Vm 3 and returned to broker.
+INFO  90,82: DatacenterBrokerLoadBalancer1: Cloudlet 475 finished in Vm 0 and returned to broker.
+INFO  90,93: DatacenterBrokerLoadBalancer1: Cloudlet 487 finished in Vm 2 and returned to broker.
+INFO  91,48: DatacenterBrokerLoadBalancer1: Cloudlet 485 finished in Vm 1 and returned to broker.
+INFO  91,59: DatacenterBrokerLoadBalancer1: Cloudlet 482 finished in Vm 0 and returned to broker.
+INFO  91,59: DatacenterBrokerLoadBalancer1: Cloudlet 481 finished in Vm 1 and returned to broker.
+INFO  91,59: DatacenterBrokerLoadBalancer1: Cloudlet 193 finished in Vm 3 and returned to broker.
+INFO  91,59: DatacenterBrokerLoadBalancer1: Cloudlet 250 finished in Vm 3 and returned to broker.
+INFO  91,70: DatacenterBrokerLoadBalancer1: Cloudlet 486 finished in Vm 0 and returned to broker.
+INFO  91,81: DatacenterBrokerLoadBalancer1: Cloudlet 476 finished in Vm 3 and returned to broker.
+INFO  92,03: DatacenterBrokerLoadBalancer1: Cloudlet 507 finished in Vm 2 and returned to broker.
+INFO  92,03: DatacenterBrokerLoadBalancer1: Cloudlet 217 finished in Vm 3 and returned to broker.
+INFO  92,14: DatacenterBrokerLoadBalancer1: Cloudlet 497 finished in Vm 1 and returned to broker.
+INFO  92,36: DatacenterBrokerLoadBalancer1: Cloudlet 493 finished in Vm 1 and returned to broker.
+INFO  92,36: DatacenterBrokerLoadBalancer1: Cloudlet 509 finished in Vm 1 and returned to broker.
+INFO  92,36: DatacenterBrokerLoadBalancer1: Cloudlet 480 finished in Vm 3 and returned to broker.
+INFO  92,47: DatacenterBrokerLoadBalancer1: Cloudlet 490 finished in Vm 0 and returned to broker.
+INFO  92,47: DatacenterBrokerLoadBalancer1: Cloudlet 494 finished in Vm 0 and returned to broker.
+INFO  92,47: DatacenterBrokerLoadBalancer1: Cloudlet 492 finished in Vm 3 and returned to broker.
+INFO  92,58: DatacenterBrokerLoadBalancer1: Cloudlet 488 finished in Vm 3 and returned to broker.
+INFO  92,69: DatacenterBrokerLoadBalancer1: Cloudlet 166 finished in Vm 2 and returned to broker.
+INFO  92,69: DatacenterBrokerLoadBalancer1: Cloudlet 187 finished in Vm 2 and returned to broker.
+INFO  92,91: DatacenterBrokerLoadBalancer1: Cloudlet 226 finished in Vm 2 and returned to broker.
+INFO  92,91: DatacenterBrokerLoadBalancer1: Cloudlet 484 finished in Vm 3 and returned to broker.
+INFO  93,02: DatacenterBrokerLoadBalancer1: Cloudlet 489 finished in Vm 1 and returned to broker.
+INFO  93,13: DatacenterBrokerLoadBalancer1: Cloudlet 499 finished in Vm 2 and returned to broker.
+INFO  93,68: DatacenterBrokerLoadBalancer1: Cloudlet 495 finished in Vm 2 and returned to broker.
+INFO  93,79: DatacenterBrokerLoadBalancer1: Cloudlet 501 finished in Vm 1 and returned to broker.
+INFO  93,90: DatacenterBrokerLoadBalancer1: Cloudlet 505 finished in Vm 1 and returned to broker.
+INFO  93,90: DatacenterBrokerLoadBalancer1: Cloudlet 491 finished in Vm 2 and returned to broker.
+INFO  94,01: DatacenterBrokerLoadBalancer1: Cloudlet 211 finished in Vm 1 and returned to broker.
+INFO  94,12: DatacenterBrokerLoadBalancer1: Cloudlet 502 finished in Vm 0 and returned to broker.
+INFO  94,34: DatacenterBrokerLoadBalancer1: Cloudlet 496 finished in Vm 3 and returned to broker.
+INFO  94,34: DatacenterBrokerLoadBalancer1: Cloudlet 500 finished in Vm 3 and returned to broker.
+INFO  94,45: DatacenterBrokerLoadBalancer1: Cloudlet 514 finished in Vm 0 and returned to broker.
+INFO  94,45: DatacenterBrokerLoadBalancer1: Cloudlet 252 finished in Vm 2 and returned to broker.
+INFO  94,67: DatacenterBrokerLoadBalancer1: Cloudlet 148 finished in Vm 0 and returned to broker.
+INFO  94,78: DatacenterBrokerLoadBalancer1: Cloudlet 202 finished in Vm 2 and returned to broker.
+INFO  94,89: DatacenterBrokerLoadBalancer1: Cloudlet 515 finished in Vm 2 and returned to broker.
+INFO  94,89: DatacenterBrokerLoadBalancer1: Cloudlet 232 finished in Vm 3 and returned to broker.
+INFO  95,44: DatacenterBrokerLoadBalancer1: Cloudlet 286 finished in Vm 2 and returned to broker.
+INFO  95,44: DatacenterBrokerLoadBalancer1: Cloudlet 304 finished in Vm 2 and returned to broker.
+INFO  95,44: DatacenterBrokerLoadBalancer1: Cloudlet 503 finished in Vm 2 and returned to broker.
+INFO  95,55: DatacenterBrokerLoadBalancer1: Cloudlet 506 finished in Vm 0 and returned to broker.
+INFO  95,88: DatacenterBrokerLoadBalancer1: Cloudlet 511 finished in Vm 2 and returned to broker.
+INFO  95,99: DatacenterBrokerLoadBalancer1: Cloudlet 517 finished in Vm 1 and returned to broker.
+INFO  95,99: DatacenterBrokerLoadBalancer1: Cloudlet 214 finished in Vm 2 and returned to broker.
+INFO  96,10: DatacenterBrokerLoadBalancer1: Cloudlet 527 finished in Vm 2 and returned to broker.
+INFO  96,10: DatacenterBrokerLoadBalancer1: Cloudlet 282 finished in Vm 3 and returned to broker.
+INFO  96,10: DatacenterBrokerLoadBalancer1: Cloudlet 516 finished in Vm 3 and returned to broker.
+INFO  96,21: DatacenterBrokerLoadBalancer1: Cloudlet 268 finished in Vm 3 and returned to broker.
+INFO  96,32: DatacenterBrokerLoadBalancer1: Cloudlet 246 finished in Vm 0 and returned to broker.
+INFO  96,32: DatacenterBrokerLoadBalancer1: Cloudlet 8 finished in Vm 1 and returned to broker.
+INFO  96,54: DatacenterBrokerLoadBalancer1: Cloudlet 521 finished in Vm 1 and returned to broker.
+INFO  96,54: DatacenterBrokerLoadBalancer1: Cloudlet 523 finished in Vm 2 and returned to broker.
+INFO  96,98: DatacenterBrokerLoadBalancer1: Cloudlet 513 finished in Vm 1 and returned to broker.
+INFO  96,98: DatacenterBrokerLoadBalancer1: Cloudlet 504 finished in Vm 3 and returned to broker.
+INFO  97,09: DatacenterBrokerLoadBalancer1: Cloudlet 498 finished in Vm 0 and returned to broker.
+INFO  97,09: DatacenterBrokerLoadBalancer1: Cloudlet 20 finished in Vm 2 and returned to broker.
+INFO  97,20: DatacenterBrokerLoadBalancer1: Cloudlet 522 finished in Vm 0 and returned to broker.
+INFO  97,20: DatacenterBrokerLoadBalancer1: Cloudlet 519 finished in Vm 2 and returned to broker.
+INFO  97,42: DatacenterBrokerLoadBalancer1: Cloudlet 510 finished in Vm 0 and returned to broker.
+INFO  97,53: DatacenterBrokerLoadBalancer1: Cloudlet 235 finished in Vm 1 and returned to broker.
+INFO  97,53: DatacenterBrokerLoadBalancer1: Cloudlet 260 finished in Vm 1 and returned to broker.
+INFO  97,86: DatacenterBrokerLoadBalancer1: Cloudlet 531 finished in Vm 2 and returned to broker.
+INFO  97,97: DatacenterBrokerLoadBalancer1: Cloudlet 524 finished in Vm 1 and returned to broker.
+INFO  98,08: DatacenterBrokerLoadBalancer1: Cloudlet 266 finished in Vm 2 and returned to broker.
+INFO  98,08: DatacenterBrokerLoadBalancer1: Cloudlet 220 finished in Vm 3 and returned to broker.
+INFO  98,08: DatacenterBrokerLoadBalancer1: Cloudlet 508 finished in Vm 3 and returned to broker.
+INFO  98,19: DatacenterBrokerLoadBalancer1: Cloudlet 160 finished in Vm 0 and returned to broker.
+INFO  98,30: DatacenterBrokerLoadBalancer1: Cloudlet 518 finished in Vm 0 and returned to broker.
+INFO  98,41: DatacenterBrokerLoadBalancer1: Cloudlet 530 finished in Vm 0 and returned to broker.
+INFO  98,52: DatacenterBrokerLoadBalancer1: Cloudlet 238 finished in Vm 2 and returned to broker.
+INFO  98,63: DatacenterBrokerLoadBalancer1: Cloudlet 512 finished in Vm 3 and returned to broker.
+INFO  98,74: DatacenterBrokerLoadBalancer1: Cloudlet 278 finished in Vm 1 and returned to broker.
+INFO  98,96: DatacenterBrokerLoadBalancer1: Cloudlet 525 finished in Vm 3 and returned to broker.
+INFO  99,07: DatacenterBrokerLoadBalancer1: Cloudlet 533 finished in Vm 1 and returned to broker.
+INFO  99,07: DatacenterBrokerLoadBalancer1: Cloudlet 520 finished in Vm 3 and returned to broker.
+INFO  99,18: DatacenterBrokerLoadBalancer1: Cloudlet 535 finished in Vm 2 and returned to broker.
+INFO  99,29: DatacenterBrokerLoadBalancer1: Cloudlet 241 finished in Vm 0 and returned to broker.
+INFO  99,40: DatacenterBrokerLoadBalancer1: Cloudlet 526 finished in Vm 0 and returned to broker.
+INFO  99,51: DatacenterBrokerLoadBalancer1: Cloudlet 312 finished in Vm 1 and returned to broker.
+INFO  99,73: DatacenterBrokerLoadBalancer1: Cloudlet 208 finished in Vm 0 and returned to broker.
+INFO  99,73: DatacenterBrokerLoadBalancer1: Cloudlet 536 finished in Vm 1 and returned to broker.
+INFO  99,73: DatacenterBrokerLoadBalancer1: Cloudlet 541 finished in Vm 1 and returned to broker.
+INFO  99,84: DatacenterBrokerLoadBalancer1: Cloudlet 196 finished in Vm 0 and returned to broker.
+INFO  99,84: DatacenterBrokerLoadBalancer1: Cloudlet 248 finished in Vm 1 and returned to broker.
+INFO  99,84: DatacenterBrokerLoadBalancer1: Cloudlet 529 finished in Vm 1 and returned to broker.
+INFO  99,84: DatacenterBrokerLoadBalancer1: Cloudlet 528 finished in Vm 3 and returned to broker.
+INFO  100,17: DatacenterBrokerLoadBalancer1: Cloudlet 537 finished in Vm 3 and returned to broker.
+INFO  100,50: DatacenterBrokerLoadBalancer1: Cloudlet 542 finished in Vm 0 and returned to broker.
+INFO  100,61: DatacenterBrokerLoadBalancer1: Cloudlet 539 finished in Vm 2 and returned to broker.
+INFO  100,61: DatacenterBrokerLoadBalancer1: Cloudlet 547 finished in Vm 2 and returned to broker.
+INFO  100,61: DatacenterBrokerLoadBalancer1: Cloudlet 262 finished in Vm 3 and returned to broker.
+INFO  100,72: DatacenterBrokerLoadBalancer1: Cloudlet 548 finished in Vm 1 and returned to broker.
+INFO  100,83: DatacenterBrokerLoadBalancer1: Cloudlet 538 finished in Vm 0 and returned to broker.
+INFO  100,83: DatacenterBrokerLoadBalancer1: Cloudlet 551 finished in Vm 2 and returned to broker.
+INFO  100,83: DatacenterBrokerLoadBalancer1: Cloudlet 559 finished in Vm 2 and returned to broker.
+INFO  100,94: DatacenterBrokerLoadBalancer1: Cloudlet 534 finished in Vm 0 and returned to broker.
+INFO  101,05: DatacenterBrokerLoadBalancer1: Cloudlet 350 finished in Vm 0 and returned to broker.
+INFO  101,05: DatacenterBrokerLoadBalancer1: Cloudlet 223 finished in Vm 1 and returned to broker.
+INFO  101,05: DatacenterBrokerLoadBalancer1: Cloudlet 544 finished in Vm 1 and returned to broker.
+INFO  101,05: DatacenterBrokerLoadBalancer1: Cloudlet 543 finished in Vm 2 and returned to broker.
+INFO  101,27: DatacenterBrokerLoadBalancer1: Cloudlet 199 finished in Vm 1 and returned to broker.
+INFO  101,71: DatacenterBrokerLoadBalancer1: Cloudlet 300 finished in Vm 3 and returned to broker.
+INFO  101,71: DatacenterBrokerLoadBalancer1: Cloudlet 532 finished in Vm 3 and returned to broker.
+INFO  101,71: DatacenterBrokerLoadBalancer1: Cloudlet 553 finished in Vm 3 and returned to broker.
+INFO  101,82: DatacenterBrokerLoadBalancer1: Cloudlet 229 finished in Vm 0 and returned to broker.
+INFO  102,04: DatacenterBrokerLoadBalancer1: Cloudlet 280 finished in Vm 2 and returned to broker.
+INFO  102,04: DatacenterBrokerLoadBalancer1: Cloudlet 322 finished in Vm 2 and returned to broker.
+INFO  102,15: DatacenterBrokerLoadBalancer1: Cloudlet 344 finished in Vm 1 and returned to broker.
+INFO  102,15: DatacenterBrokerLoadBalancer1: Cloudlet 555 finished in Vm 2 and returned to broker.
+INFO  102,15: DatacenterBrokerLoadBalancer1: Cloudlet 562 finished in Vm 2 and returned to broker.
+INFO  102,15: DatacenterBrokerLoadBalancer1: Cloudlet 318 finished in Vm 3 and returned to broker.
+INFO  102,26: DatacenterBrokerLoadBalancer1: Cloudlet 550 finished in Vm 0 and returned to broker.
+INFO  102,26: DatacenterBrokerLoadBalancer1: Cloudlet 540 finished in Vm 3 and returned to broker.
+INFO  102,48: DatacenterBrokerLoadBalancer1: Cloudlet 546 finished in Vm 0 and returned to broker.
+INFO  102,59: DatacenterBrokerLoadBalancer1: Cloudlet 175 finished in Vm 0 and returned to broker.
+INFO  102,59: DatacenterBrokerLoadBalancer1: Cloudlet 272 finished in Vm 1 and returned to broker.
+INFO  102,70: DatacenterBrokerLoadBalancer1: Cloudlet 561 finished in Vm 1 and returned to broker.
+INFO  102,70: DatacenterBrokerLoadBalancer1: Cloudlet 274 finished in Vm 2 and returned to broker.
+INFO  102,70: DatacenterBrokerLoadBalancer1: Cloudlet 332 finished in Vm 2 and returned to broker.
+INFO  102,70: DatacenterBrokerLoadBalancer1: Cloudlet 370 finished in Vm 2 and returned to broker.
+INFO  102,70: DatacenterBrokerLoadBalancer1: Cloudlet 557 finished in Vm 3 and returned to broker.
+INFO  102,81: DatacenterBrokerLoadBalancer1: Cloudlet 554 finished in Vm 0 and returned to broker.
+INFO  102,81: DatacenterBrokerLoadBalancer1: Cloudlet 552 finished in Vm 1 and returned to broker.
+INFO  102,92: DatacenterBrokerLoadBalancer1: Cloudlet 565 finished in Vm 1 and returned to broker.
+INFO  102,92: DatacenterBrokerLoadBalancer1: Cloudlet 244 finished in Vm 3 and returned to broker.
+INFO  102,92: DatacenterBrokerLoadBalancer1: Cloudlet 276 finished in Vm 3 and returned to broker.
+INFO  102,92: DatacenterBrokerLoadBalancer1: Cloudlet 549 finished in Vm 3 and returned to broker.
+INFO  103,03: DatacenterBrokerLoadBalancer1: Cloudlet 306 finished in Vm 1 and returned to broker.
+INFO  103,14: DatacenterBrokerLoadBalancer1: Cloudlet 254 finished in Vm 1 and returned to broker.
+INFO  103,14: DatacenterBrokerLoadBalancer1: Cloudlet 316 finished in Vm 2 and returned to broker.
+INFO  103,25: DatacenterBrokerLoadBalancer1: Cloudlet 302 finished in Vm 0 and returned to broker.
+INFO  103,25: DatacenterBrokerLoadBalancer1: Cloudlet 314 finished in Vm 0 and returned to broker.
+INFO  103,25: DatacenterBrokerLoadBalancer1: Cloudlet 566 finished in Vm 2 and returned to broker.
+INFO  103,58: DatacenterBrokerLoadBalancer1: Cloudlet 570 finished in Vm 2 and returned to broker.
+INFO  103,80: DatacenterBrokerLoadBalancer1: Cloudlet 560 finished in Vm 3 and returned to broker.
+INFO  104,02: DatacenterBrokerLoadBalancer1: Cloudlet 264 finished in Vm 0 and returned to broker.
+INFO  104,02: DatacenterBrokerLoadBalancer1: Cloudlet 567 finished in Vm 0 and returned to broker.
+INFO  104,02: DatacenterBrokerLoadBalancer1: Cloudlet 572 finished in Vm 3 and returned to broker.
+INFO  104,24: DatacenterBrokerLoadBalancer1: Cloudlet 556 finished in Vm 1 and returned to broker.
+INFO  104,35: DatacenterBrokerLoadBalancer1: Cloudlet 294 finished in Vm 1 and returned to broker.
+INFO  104,35: DatacenterBrokerLoadBalancer1: Cloudlet 569 finished in Vm 1 and returned to broker.
+INFO  104,35: DatacenterBrokerLoadBalancer1: Cloudlet 545 finished in Vm 3 and returned to broker.
+INFO  104,46: DatacenterBrokerLoadBalancer1: Cloudlet 563 finished in Vm 0 and returned to broker.
+INFO  104,46: DatacenterBrokerLoadBalancer1: Cloudlet 41 finished in Vm 1 and returned to broker.
+INFO  104,57: DatacenterBrokerLoadBalancer1: Cloudlet 11 finished in Vm 0 and returned to broker.
+INFO  104,57: DatacenterBrokerLoadBalancer1: Cloudlet 571 finished in Vm 0 and returned to broker.
+INFO  104,57: DatacenterBrokerLoadBalancer1: Cloudlet 62 finished in Vm 2 and returned to broker.
+INFO  104,57: DatacenterBrokerLoadBalancer1: Cloudlet 564 finished in Vm 3 and returned to broker.
+INFO  104,68: DatacenterBrokerLoadBalancer1: Cloudlet 348 finished in Vm 2 and returned to broker.
+INFO  104,79: DatacenterBrokerLoadBalancer1: Cloudlet 284 finished in Vm 0 and returned to broker.
+INFO  104,79: DatacenterBrokerLoadBalancer1: Cloudlet 336 finished in Vm 0 and returned to broker.
+INFO  104,90: DatacenterBrokerLoadBalancer1: Cloudlet 558 finished in Vm 0 and returned to broker.
+INFO  104,90: DatacenterBrokerLoadBalancer1: Cloudlet 71 finished in Vm 2 and returned to broker.
+INFO  105,01: DatacenterBrokerLoadBalancer1: Cloudlet 288 finished in Vm 1 and returned to broker.
+INFO  105,12: DatacenterBrokerLoadBalancer1: Cloudlet 205 finished in Vm 3 and returned to broker.
+INFO  105,12: DatacenterBrokerLoadBalancer1: Cloudlet 374 finished in Vm 3 and returned to broker.
+INFO  105,12: DatacenterBrokerLoadBalancer1: Cloudlet 568 finished in Vm 3 and returned to broker.
+INFO  105,23: DatacenterBrokerLoadBalancer1: Cloudlet 366 finished in Vm 0 and returned to broker.
+INFO  105,45: DatacenterBrokerLoadBalancer1: Cloudlet 328 finished in Vm 0 and returned to broker.
+INFO  105,45: DatacenterBrokerLoadBalancer1: Cloudlet 324 finished in Vm 1 and returned to broker.
+INFO  105,45: DatacenterBrokerLoadBalancer1: Cloudlet 330 finished in Vm 1 and returned to broker.
+INFO  105,56: DatacenterBrokerLoadBalancer1: Cloudlet 296 finished in Vm 0 and returned to broker.
+INFO  105,56: DatacenterBrokerLoadBalancer1: Cloudlet 17 finished in Vm 1 and returned to broker.
+INFO  105,89: DatacenterBrokerLoadBalancer1: Cloudlet 290 finished in Vm 0 and returned to broker.
+INFO  106,00: DatacenterBrokerLoadBalancer1: Cloudlet 356 finished in Vm 1 and returned to broker.
+INFO  106,00: DatacenterBrokerLoadBalancer1: Cloudlet 23 finished in Vm 3 and returned to broker.
+INFO  106,11: DatacenterBrokerLoadBalancer1: Cloudlet 346 finished in Vm 3 and returned to broker.
+INFO  106,22: DatacenterBrokerLoadBalancer1: Cloudlet 386 finished in Vm 2 and returned to broker.
+INFO  106,22: DatacenterBrokerLoadBalancer1: Cloudlet 352 finished in Vm 3 and returned to broker.
+INFO  106,33: DatacenterBrokerLoadBalancer1: Cloudlet 26 finished in Vm 1 and returned to broker.
+INFO  106,33: DatacenterBrokerLoadBalancer1: Cloudlet 362 finished in Vm 2 and returned to broker.
+INFO  106,44: DatacenterBrokerLoadBalancer1: Cloudlet 404 finished in Vm 0 and returned to broker.
+INFO  106,44: DatacenterBrokerLoadBalancer1: Cloudlet 65 finished in Vm 1 and returned to broker.
+INFO  106,44: DatacenterBrokerLoadBalancer1: Cloudlet 354 finished in Vm 2 and returned to broker.
+INFO  106,77: DatacenterBrokerLoadBalancer1: Cloudlet 364 finished in Vm 1 and returned to broker.
+INFO  106,88: DatacenterBrokerLoadBalancer1: Cloudlet 258 finished in Vm 0 and returned to broker.
+INFO  106,88: DatacenterBrokerLoadBalancer1: Cloudlet 376 finished in Vm 0 and returned to broker.
+INFO  106,99: DatacenterBrokerLoadBalancer1: Cloudlet 338 finished in Vm 1 and returned to broker.
+INFO  107,21: DatacenterBrokerLoadBalancer1: Cloudlet 342 finished in Vm 2 and returned to broker.
+INFO  107,32: DatacenterBrokerLoadBalancer1: Cloudlet 47 finished in Vm 2 and returned to broker.
+INFO  107,43: DatacenterBrokerLoadBalancer1: Cloudlet 320 finished in Vm 0 and returned to broker.
+INFO  107,43: DatacenterBrokerLoadBalancer1: Cloudlet 292 finished in Vm 3 and returned to broker.
+INFO  107,54: DatacenterBrokerLoadBalancer1: Cloudlet 390 finished in Vm 0 and returned to broker.
+INFO  107,76: DatacenterBrokerLoadBalancer1: Cloudlet 53 finished in Vm 1 and returned to broker.
+INFO  107,87: DatacenterBrokerLoadBalancer1: Cloudlet 310 finished in Vm 3 and returned to broker.
+INFO  107,98: DatacenterBrokerLoadBalancer1: Cloudlet 406 finished in Vm 1 and returned to broker.
+INFO  107,98: DatacenterBrokerLoadBalancer1: Cloudlet 334 finished in Vm 3 and returned to broker.
+INFO  108,09: DatacenterBrokerLoadBalancer1: Cloudlet 378 finished in Vm 1 and returned to broker.
+INFO  108,09: DatacenterBrokerLoadBalancer1: Cloudlet 298 finished in Vm 2 and returned to broker.
+INFO  108,09: DatacenterBrokerLoadBalancer1: Cloudlet 256 finished in Vm 3 and returned to broker.
+INFO  108,31: DatacenterBrokerLoadBalancer1: Cloudlet 358 finished in Vm 3 and returned to broker.
+INFO  108,64: DatacenterBrokerLoadBalancer1: Cloudlet 426 finished in Vm 2 and returned to broker.
+INFO  108,75: DatacenterBrokerLoadBalancer1: Cloudlet 32 finished in Vm 0 and returned to broker.
+INFO  108,86: DatacenterBrokerLoadBalancer1: Cloudlet 372 finished in Vm 1 and returned to broker.
+INFO  108,86: DatacenterBrokerLoadBalancer1: Cloudlet 432 finished in Vm 2 and returned to broker.
+INFO  108,97: DatacenterBrokerLoadBalancer1: Cloudlet 360 finished in Vm 0 and returned to broker.
+INFO  108,97: DatacenterBrokerLoadBalancer1: Cloudlet 35 finished in Vm 3 and returned to broker.
+INFO  109,08: DatacenterBrokerLoadBalancer1: Cloudlet 424 finished in Vm 1 and returned to broker.
+INFO  109,08: DatacenterBrokerLoadBalancer1: Cloudlet 440 finished in Vm 2 and returned to broker.
+INFO  109,19: DatacenterBrokerLoadBalancer1: Cloudlet 384 finished in Vm 1 and returned to broker.
+INFO  109,30: DatacenterBrokerLoadBalancer1: Cloudlet 434 finished in Vm 1 and returned to broker.
+INFO  109,41: DatacenterBrokerLoadBalancer1: Cloudlet 368 finished in Vm 3 and returned to broker.
+INFO  109,63: DatacenterBrokerLoadBalancer1: Cloudlet 422 finished in Vm 0 and returned to broker.
+INFO  109,74: DatacenterBrokerLoadBalancer1: Cloudlet 59 finished in Vm 3 and returned to broker.
+INFO  109,85: DatacenterBrokerLoadBalancer1: Cloudlet 414 finished in Vm 2 and returned to broker.
+INFO  109,96: DatacenterBrokerLoadBalancer1: Cloudlet 430 finished in Vm 0 and returned to broker.
+INFO  110,07: DatacenterBrokerLoadBalancer1: Cloudlet 398 finished in Vm 1 and returned to broker.
+INFO  110,18: DatacenterBrokerLoadBalancer1: Cloudlet 438 finished in Vm 0 and returned to broker.
+INFO  110,18: DatacenterBrokerLoadBalancer1: Cloudlet 392 finished in Vm 1 and returned to broker.
+INFO  110,18: DatacenterBrokerLoadBalancer1: Cloudlet 396 finished in Vm 2 and returned to broker.
+INFO  110,29: DatacenterBrokerLoadBalancer1: Cloudlet 29 finished in Vm 2 and returned to broker.
+INFO  110,29: DatacenterBrokerLoadBalancer1: Cloudlet 380 finished in Vm 2 and returned to broker.
+INFO  110,40: DatacenterBrokerLoadBalancer1: Cloudlet 308 finished in Vm 0 and returned to broker.
+INFO  110,51: DatacenterBrokerLoadBalancer1: Cloudlet 56 finished in Vm 0 and returned to broker.
+INFO  110,51: DatacenterBrokerLoadBalancer1: Cloudlet 410 finished in Vm 3 and returned to broker.
+INFO  110,62: DatacenterBrokerLoadBalancer1: Cloudlet 408 finished in Vm 2 and returned to broker.
+INFO  110,62: DatacenterBrokerLoadBalancer1: Cloudlet 326 finished in Vm 3 and returned to broker.
+INFO  110,62: DatacenterBrokerLoadBalancer1: Cloudlet 416 finished in Vm 3 and returned to broker.
+INFO  110,73: DatacenterBrokerLoadBalancer1: Cloudlet 382 finished in Vm 3 and returned to broker.
+INFO  110,73: DatacenterBrokerLoadBalancer1: Cloudlet 400 finished in Vm 3 and returned to broker.
+INFO  110,73: DatacenterBrokerLoadBalancer1: Cloudlet 428 finished in Vm 3 and returned to broker.
+INFO  110,95: DatacenterBrokerLoadBalancer1: Cloudlet 436 finished in Vm 3 and returned to broker.
+INFO  111,17: DatacenterBrokerLoadBalancer1: Cloudlet 418 finished in Vm 1 and returned to broker.
+INFO  111,17: DatacenterBrokerLoadBalancer1: Cloudlet 394 finished in Vm 3 and returned to broker.
+INFO  111,28: DatacenterBrokerLoadBalancer1: Cloudlet 340 finished in Vm 3 and returned to broker.
+INFO  111,50: DatacenterBrokerLoadBalancer1: Cloudlet 420 finished in Vm 2 and returned to broker.
+INFO  111,72: DatacenterBrokerLoadBalancer1: Cloudlet 412 finished in Vm 0 and returned to broker.
+INFO  111,83: DatacenterBrokerLoadBalancer1: Cloudlet 402 finished in Vm 2 and returned to broker.
+INFO  112,05: DatacenterBrokerLoadBalancer1: Cloudlet 388 finished in Vm 3 and returned to broker.
+INFO  112,16: DatacenterBrokerLoadBalancer1: Cloudlet 50 finished in Vm 3 and returned to broker.
+INFO  112,84: DatacenterBrokerLoadBalancer1: Cloudlet 95 finished in Vm 2 and returned to broker.
+INFO  113,06: DatacenterBrokerLoadBalancer1: Cloudlet 122 finished in Vm 0 and returned to broker.
+INFO  113,17: DatacenterBrokerLoadBalancer1: Cloudlet 98 finished in Vm 3 and returned to broker.
+INFO  113,28: DatacenterBrokerLoadBalancer1: Cloudlet 89 finished in Vm 0 and returned to broker.
+INFO  113,90: DatacenterBrokerLoadBalancer1: Cloudlet 140 finished in Vm 0 and returned to broker.
+INFO  113,90: DatacenterBrokerLoadBalancer1: Cloudlet 143 finished in Vm 1 and returned to broker.
+INFO  113,90: DatacenterBrokerLoadBalancer1: Cloudlet 38 finished in Vm 2 and returned to broker.
+INFO  114,72: DatacenterBrokerLoadBalancer1: Cloudlet 158 finished in Vm 1 and returned to broker.
+INFO  114,72: DatacenterBrokerLoadBalancer1: Cloudlet 77 finished in Vm 2 and returned to broker.
+INFO  114,83: DatacenterBrokerLoadBalancer1: Cloudlet 113 finished in Vm 1 and returned to broker.
+INFO  114,94: DatacenterBrokerLoadBalancer1: Cloudlet 80 finished in Vm 0 and returned to broker.
+INFO  115,16: DatacenterBrokerLoadBalancer1: Cloudlet 44 finished in Vm 0 and returned to broker.
+INFO  115,16: DatacenterBrokerLoadBalancer1: Cloudlet 146 finished in Vm 2 and returned to broker.
+INFO  115,16: DatacenterBrokerLoadBalancer1: Cloudlet 104 finished in Vm 3 and returned to broker.
+INFO  115,49: DatacenterBrokerLoadBalancer1: Cloudlet 68 finished in Vm 0 and returned to broker.
+INFO  115,49: DatacenterBrokerLoadBalancer1: Cloudlet 155 finished in Vm 2 and returned to broker.
+INFO  115,60: DatacenterBrokerLoadBalancer1: Cloudlet 176 finished in Vm 1 and returned to broker.
+INFO  115,82: DatacenterBrokerLoadBalancer1: Cloudlet 83 finished in Vm 3 and returned to broker.
+INFO  115,93: DatacenterBrokerLoadBalancer1: Cloudlet 116 finished in Vm 2 and returned to broker.
+INFO  115,93: DatacenterBrokerLoadBalancer1: Cloudlet 74 finished in Vm 3 and returned to broker.
+INFO  115,93: DatacenterBrokerLoadBalancer1: Cloudlet 131 finished in Vm 3 and returned to broker.
+INFO  116,04: DatacenterBrokerLoadBalancer1: Cloudlet 86 finished in Vm 2 and returned to broker.
+INFO  116,04: DatacenterBrokerLoadBalancer1: Cloudlet 137 finished in Vm 3 and returned to broker.
+INFO  116,26: DatacenterBrokerLoadBalancer1: Cloudlet 152 finished in Vm 0 and returned to broker.
+INFO  116,26: DatacenterBrokerLoadBalancer1: Cloudlet 92 finished in Vm 1 and returned to broker.
+INFO  116,72: DatacenterBrokerLoadBalancer1: Cloudlet 194 finished in Vm 2 and returned to broker.
+INFO  116,72: DatacenterBrokerLoadBalancer1: Cloudlet 185 finished in Vm 3 and returned to broker.
+INFO  116,83: DatacenterBrokerLoadBalancer1: Cloudlet 149 finished in Vm 1 and returned to broker.
+INFO  116,83: DatacenterBrokerLoadBalancer1: Cloudlet 191 finished in Vm 1 and returned to broker.
+INFO  116,94: DatacenterBrokerLoadBalancer1: Cloudlet 134 finished in Vm 1 and returned to broker.
+INFO  117,16: DatacenterBrokerLoadBalancer1: Cloudlet 101 finished in Vm 0 and returned to broker.
+INFO  117,16: DatacenterBrokerLoadBalancer1: Cloudlet 197 finished in Vm 3 and returned to broker.
+INFO  117,27: DatacenterBrokerLoadBalancer1: Cloudlet 188 finished in Vm 0 and returned to broker.
+INFO  117,38: DatacenterBrokerLoadBalancer1: Cloudlet 206 finished in Vm 2 and returned to broker.
+INFO  117,49: DatacenterBrokerLoadBalancer1: Cloudlet 128 finished in Vm 2 and returned to broker.
+INFO  117,49: DatacenterBrokerLoadBalancer1: Cloudlet 218 finished in Vm 2 and returned to broker.
+INFO  117,60: DatacenterBrokerLoadBalancer1: Cloudlet 230 finished in Vm 2 and returned to broker.
+INFO  117,71: DatacenterBrokerLoadBalancer1: Cloudlet 164 finished in Vm 1 and returned to broker.
+INFO  117,71: DatacenterBrokerLoadBalancer1: Cloudlet 182 finished in Vm 1 and returned to broker.
+INFO  117,71: DatacenterBrokerLoadBalancer1: Cloudlet 203 finished in Vm 1 and returned to broker.
+INFO  117,71: DatacenterBrokerLoadBalancer1: Cloudlet 242 finished in Vm 2 and returned to broker.
+INFO  117,82: DatacenterBrokerLoadBalancer1: Cloudlet 110 finished in Vm 0 and returned to broker.
+INFO  117,82: DatacenterBrokerLoadBalancer1: Cloudlet 215 finished in Vm 1 and returned to broker.
+INFO  117,82: DatacenterBrokerLoadBalancer1: Cloudlet 107 finished in Vm 2 and returned to broker.
+INFO  117,93: DatacenterBrokerLoadBalancer1: Cloudlet 200 finished in Vm 0 and returned to broker.
+INFO  117,93: DatacenterBrokerLoadBalancer1: Cloudlet 227 finished in Vm 1 and returned to broker.
+INFO  117,93: DatacenterBrokerLoadBalancer1: Cloudlet 239 finished in Vm 1 and returned to broker.
+INFO  118,04: DatacenterBrokerLoadBalancer1: Cloudlet 167 finished in Vm 0 and returned to broker.
+INFO  118,04: DatacenterBrokerLoadBalancer1: Cloudlet 212 finished in Vm 0 and returned to broker.
+INFO  118,04: DatacenterBrokerLoadBalancer1: Cloudlet 125 finished in Vm 1 and returned to broker.
+INFO  118,04: DatacenterBrokerLoadBalancer1: Cloudlet 173 finished in Vm 2 and returned to broker.
+INFO  118,04: DatacenterBrokerLoadBalancer1: Cloudlet 209 finished in Vm 3 and returned to broker.
+INFO  118,15: DatacenterBrokerLoadBalancer1: Cloudlet 221 finished in Vm 0 and returned to broker.
+INFO  118,15: DatacenterBrokerLoadBalancer1: Cloudlet 233 finished in Vm 0 and returned to broker.
+INFO  118,15: DatacenterBrokerLoadBalancer1: Cloudlet 161 finished in Vm 3 and returned to broker.
+INFO  118,15: DatacenterBrokerLoadBalancer1: Cloudlet 170 finished in Vm 3 and returned to broker.
+INFO  118,15: DatacenterBrokerLoadBalancer1: Cloudlet 224 finished in Vm 3 and returned to broker.
+INFO  118,26: DatacenterBrokerLoadBalancer1: Cloudlet 179 finished in Vm 0 and returned to broker.
+INFO  118,26: DatacenterBrokerLoadBalancer1: Cloudlet 236 finished in Vm 3 and returned to broker.
+INFO  118,48: DatacenterBrokerLoadBalancer1: Cloudlet 119 finished in Vm 3 and returned to broker.
+INFO  118,59: Processing last events before simulation shutdown.
+INFO  118,59: DatacenterBrokerLoadBalancer1 is shutting down...
+INFO  118,59: DatacenterBrokerLoadBalancer1: Requesting Vm 3 destruction.
+INFO  118,59: DatacenterBrokerLoadBalancer1: Requesting Vm 2 destruction.
+INFO  118,59: DatacenterBrokerLoadBalancer1: Requesting Vm 1 destruction.
+INFO  118,59: DatacenterBrokerLoadBalancer1: Requesting Vm 0 destruction.
+INFO  118,59: DatacenterSimple: Vm 3 destroyed on Host 3/DC 2. 
+INFO  118,59: DatacenterSimple: Vm 2 destroyed on Host 2/DC 2. 
+INFO  118,59: DatacenterSimple: Vm 1 destroyed on Host 1/DC 2. 
+INFO  118,59: DatacenterSimple: Vm 0 destroyed on Host 0/DC 2. 
+INFO  Simulation: No more future events
+
+INFO  CloudInformationService0: Notify all CloudSim Plus entities to shutdown.
+
+INFO  118,59: DatacenterSimple2 is shutting down...
+INFO  
+================== Simulation finished at time 118,59 ==================
+
+DEBUG DeferredQueue >> max size: 5 added to middle: 0 added to tail: 2729
+
+
+                                         SIMULATION RESULTS
+
+Cloudlet|Status |DC|Host|Host PEs |VM|VM PEs   |CloudletLen|CloudletPEs|StartTime|FinishTime|ExecTime
+      ID|       |ID|  ID|CPU cores|ID|CPU cores|         MI|  CPU cores|  Seconds|   Seconds| Seconds
+-----------------------------------------------------------------------------------------------------
+       3|SUCCESS| 2|   3|       12| 3|        2|      20482|          2|     0,35|      1,35|    1,00
+       0|SUCCESS| 2|   0|       12| 0|        2|      20482|          2|     0,10|      1,46|    1,36
+       6|SUCCESS| 2|   1|       12| 1|        2|      21490|          2|     0,60|      2,58|    1,98
+       1|SUCCESS| 2|   1|       12| 1|        2|      46751|          2|     0,10|      2,97|    2,87
+       9|SUCCESS| 2|   0|       12| 0|        2|      19546|          2|     0,85|      3,69|    2,84
+      12|SUCCESS| 2|   3|       12| 3|        2|      21276|          2|     1,10|      3,91|    2,81
+      15|SUCCESS| 2|   1|       12| 1|        2|      19017|          2|     1,35|      4,02|    2,67
+      18|SUCCESS| 2|   0|       12| 0|        2|      19761|          2|     1,60|      6,01|    4,41
+      24|SUCCESS| 2|   1|       12| 1|        2|      21041|          2|     2,10|      6,23|    4,13
+      27|SUCCESS| 2|   2|       12| 2|        2|      21475|          2|     2,35|      6,73|    4,38
+      21|SUCCESS| 2|   0|       12| 0|        2|      19833|          2|     1,85|      6,84|    4,99
+      33|SUCCESS| 2|   1|       12| 1|        2|      20466|          2|     2,85|      8,12|    5,27
+      10|SUCCESS| 2|   2|       12| 2|        2|      49499|          2|     0,85|      8,54|    7,69
+      36|SUCCESS| 2|   2|       12| 2|        2|      20653|          2|     3,10|      8,65|    5,55
+      30|SUCCESS| 2|   3|       12| 3|        2|      21262|          2|     2,60|      8,76|    6,16
+      45|SUCCESS| 2|   2|       12| 2|        2|      18277|          2|     3,85|      9,56|    5,71
+      42|SUCCESS| 2|   3|       12| 3|        2|      17976|          2|     3,60|      9,89|    6,29
+       4|SUCCESS| 2|   0|       12| 0|        2|      46751|          2|     0,35|     10,34|    9,99
+      39|SUCCESS| 2|   0|       12| 0|        2|      20054|          2|     3,35|     10,82|    7,47
+      54|SUCCESS| 2|   2|       12| 2|        2|      18124|          2|     4,60|     11,30|    6,70
+      13|SUCCESS| 2|   3|       12| 3|        2|      40972|          2|     1,10|     11,52|   10,42
+       7|SUCCESS| 2|   0|       12| 0|        2|      43842|          2|     0,60|     11,74|   11,14
+      48|SUCCESS| 2|   1|       12| 1|        2|      20089|          2|     4,10|     11,85|    7,75
+      51|SUCCESS| 2|   0|       12| 0|        2|      18663|          2|     4,35|     12,39|    8,04
+      60|SUCCESS| 2|   1|       12| 1|        2|      18882|          2|     5,10|     14,32|    9,22
+      69|SUCCESS| 2|   2|       12| 2|        2|      19464|          2|     5,85|     14,95|    9,10
+      66|SUCCESS| 2|   3|       12| 3|        2|      17868|          2|     5,60|     14,95|    9,35
+      57|SUCCESS| 2|   3|       12| 3|        2|      20981|          2|     4,85|     15,28|   10,43
+      63|SUCCESS| 2|   0|       12| 0|        2|      20017|          2|     5,35|     15,72|   10,37
+      72|SUCCESS| 2|   1|       12| 1|        2|      17315|          2|     6,10|     15,94|    9,84
+      16|SUCCESS| 2|   3|       12| 3|        2|      44512|          2|     1,35|     15,94|   14,59
+      75|SUCCESS| 2|   1|       12| 1|        2|      19270|          2|     6,35|     18,47|   12,12
+      84|SUCCESS| 2|   2|       12| 2|        2|      20149|          2|     7,10|     18,69|   11,59
+      81|SUCCESS| 2|   3|       12| 3|        2|      19614|          2|     6,85|     19,61|   12,76
+      93|SUCCESS| 2|   2|       12| 2|        2|      19354|          2|     7,85|     19,83|   11,98
+      22|SUCCESS| 2|   0|       12| 0|        2|      40603|          2|     1,85|     20,19|   18,34
+      78|SUCCESS| 2|   1|       12| 1|        2|      20423|          2|     6,60|     20,41|   13,81
+      87|SUCCESS| 2|   0|       12| 0|        2|      20377|          2|     7,35|     21,29|   13,94
+      19|SUCCESS| 2|   3|       12| 3|        2|      47615|          2|     1,60|     21,94|   20,34
+     102|SUCCESS| 2|   2|       12| 2|        2|      19644|          2|     8,60|     22,05|   13,45
+      96|SUCCESS| 2|   0|       12| 0|        2|      20089|          2|     8,10|     23,01|   14,91
+      90|SUCCESS| 2|   3|       12| 3|        2|      21437|          2|     7,60|     23,57|   15,97
+     108|SUCCESS| 2|   0|       12| 0|        2|      18449|          2|     9,10|     23,68|   14,58
+      99|SUCCESS| 2|   1|       12| 1|        2|      19427|          2|     8,35|     24,01|   15,66
+     111|SUCCESS| 2|   3|       12| 3|        2|      18920|          2|     9,35|     24,90|   15,55
+     105|SUCCESS| 2|   1|       12| 1|        2|      20508|          2|     8,85|     26,65|   17,80
+     126|SUCCESS| 2|   2|       12| 2|        2|      19322|          2|    10,60|     27,11|   16,51
+     114|SUCCESS| 2|   2|       12| 2|        2|      21809|          2|     9,60|     27,44|   17,84
+     117|SUCCESS| 2|   0|       12| 0|        2|      20142|          2|     9,85|     27,55|   17,70
+     123|SUCCESS| 2|   1|       12| 1|        2|      19198|          2|    10,35|     28,59|   18,24
+     120|SUCCESS| 2|   1|       12| 1|        2|      20772|          2|    10,10|     30,09|   19,99
+     129|SUCCESS| 2|   0|       12| 0|        2|      20727|          2|    10,85|     30,71|   19,86
+     132|SUCCESS| 2|   1|       12| 1|        2|      19589|          2|    11,10|     30,71|   19,61
+     135|SUCCESS| 2|   2|       12| 2|        2|      20584|          2|    11,35|     30,71|   19,36
+     138|SUCCESS| 2|   2|       12| 2|        2|      20333|          2|    11,60|     30,93|   19,33
+       2|SUCCESS| 2|   2|       12| 2|        2|     112766|          2|     0,10|     32,02|   31,92
+     144|SUCCESS| 2|   3|       12| 3|        2|      20037|          2|    12,10|     32,79|   20,69
+     156|SUCCESS| 2|   1|       12| 1|        2|      18462|          2|    13,10|     33,33|   20,23
+     141|SUCCESS| 2|   1|       12| 1|        2|      20348|          2|    11,85|     33,44|   21,59
+     153|SUCCESS| 2|   2|       12| 2|        2|      19879|          2|    12,85|     33,44|   20,59
+     162|SUCCESS| 2|   2|       12| 2|        2|      18689|          2|    13,60|     33,44|   19,84
+      25|SUCCESS| 2|   0|       12| 0|        2|      50331|          2|     2,10|     34,61|   32,51
+     147|SUCCESS| 2|   0|       12| 0|        2|      21037|          2|    12,35|     34,72|   22,37
+     180|SUCCESS| 2|   2|       12| 2|        2|      17561|          2|    15,10|     34,83|   19,73
+     150|SUCCESS| 2|   3|       12| 3|        2|      21375|          2|    12,60|     35,95|   23,35
+     168|SUCCESS| 2|   3|       12| 3|        2|      19299|          2|    14,10|     36,06|   21,96
+      40|SUCCESS| 2|   0|       12| 0|        2|      44845|          2|     3,35|     36,28|   32,93
+     171|SUCCESS| 2|   1|       12| 1|        2|      19104|          2|    14,35|     36,73|   22,38
+     159|SUCCESS| 2|   0|       12| 0|        2|      21298|          2|    13,35|     37,57|   24,22
+     165|SUCCESS| 2|   0|       12| 0|        2|      21292|          2|    13,85|     38,68|   24,83
+     174|SUCCESS| 2|   0|       12| 0|        2|      20833|          2|    14,60|     39,67|   25,07
+     177|SUCCESS| 2|   3|       12| 3|        2|      20676|          2|    14,85|     39,78|   24,93
+     195|SUCCESS| 2|   0|       12| 0|        2|      18973|          2|    16,35|     40,26|   23,91
+     189|SUCCESS| 2|   1|       12| 1|        2|      19643|          2|    15,85|     40,70|   24,85
+     192|SUCCESS| 2|   3|       12| 3|        2|      20037|          2|    16,10|     41,26|   25,16
+     183|SUCCESS| 2|   2|       12| 2|        2|      21509|          2|    15,35|     41,48|   26,13
+     213|SUCCESS| 2|   2|       12| 2|        2|      18606|          2|    17,85|     41,59|   23,74
+     204|SUCCESS| 2|   3|       12| 3|        2|      19114|          2|    17,10|     41,70|   24,60
+     186|SUCCESS| 2|   0|       12| 0|        2|      20890|          2|    15,60|     42,03|   26,43
+      67|SUCCESS| 2|   3|       12| 3|        2|      39931|          2|     5,60|     42,03|   36,43
+      34|SUCCESS| 2|   1|       12| 1|        2|      53192|          2|     2,85|     42,14|   39,29
+      31|SUCCESS| 2|   3|       12| 3|        2|      53862|          2|     2,60|     42,69|   40,09
+     198|SUCCESS| 2|   1|       12| 1|        2|      20193|          2|    16,60|     43,13|   26,53
+     207|SUCCESS| 2|   0|       12| 0|        2|      19495|          2|    17,35|     43,24|   25,89
+     201|SUCCESS| 2|   2|       12| 2|        2|      21286|          2|    16,85|     44,19|   27,34
+     216|SUCCESS| 2|   3|       12| 3|        2|      19512|          2|    18,10|     44,19|   26,09
+     210|SUCCESS| 2|   1|       12| 1|        2|      19955|          2|    17,60|     44,66|   27,06
+     234|SUCCESS| 2|   1|       12| 1|        2|      17978|          2|    19,60|     44,77|   25,17
+     219|SUCCESS| 2|   0|       12| 0|        2|      19425|          2|    18,35|     45,10|   26,75
+      46|SUCCESS| 2|   3|       12| 3|        2|      48712|          2|     3,85|     45,31|   41,46
+     228|SUCCESS| 2|   0|       12| 0|        2|      19201|          2|    19,10|     46,11|   27,01
+     225|SUCCESS| 2|   2|       12| 2|        2|      20366|          2|    18,85|     46,44|   27,59
+      55|SUCCESS| 2|   2|       12| 2|        2|      49396|          2|     4,60|     46,88|   42,28
+     231|SUCCESS| 2|   3|       12| 3|        2|      19910|          2|    19,35|     47,21|   27,86
+     243|SUCCESS| 2|   3|       12| 3|        2|      19039|          2|    20,35|     47,32|   26,97
+     222|SUCCESS| 2|   1|       12| 1|        2|      20619|          2|    18,60|     47,76|   29,16
+      28|SUCCESS| 2|   0|       12| 0|        2|      56617|          2|     2,35|     47,98|   45,63
+     245|SUCCESS| 2|   0|       12| 0|        2|      18991|          2|    20,60|     48,42|   27,82
+     251|SUCCESS| 2|   0|       12| 0|        2|      18359|          2|    21,35|     48,53|   27,18
+     265|SUCCESS| 2|   1|       12| 1|        2|      16797|          2|    23,10|     48,53|   25,43
+     249|SUCCESS| 2|   3|       12| 3|        2|      19121|          2|    21,10|     48,75|   27,65
+     247|SUCCESS| 2|   1|       12| 1|        2|      19033|          2|    20,85|     48,86|   28,01
+     257|SUCCESS| 2|   2|       12| 2|        2|      18534|          2|    22,10|     48,86|   26,76
+     253|SUCCESS| 2|   0|       12| 0|        2|      18543|          2|    21,60|     49,19|   27,59
+     240|SUCCESS| 2|   0|       12| 0|        2|      20343|          2|    20,10|     50,00|   29,90
+     237|SUCCESS| 2|   2|       12| 2|        2|      21356|          2|    19,85|     50,00|   30,15
+      58|SUCCESS| 2|   2|       12| 2|        2|      50419|          2|     4,85|     50,44|   45,59
+     259|SUCCESS| 2|   2|       12| 2|        2|      19325|          2|    22,35|     50,66|   28,31
+      52|SUCCESS| 2|   0|       12| 0|        2|      49271|          2|     4,35|     51,21|   46,86
+     267|SUCCESS| 2|   1|       12| 1|        2|      18288|          2|    23,35|     51,65|   28,30
+      37|SUCCESS| 2|   1|       12| 1|        2|      57139|          2|     3,10|     52,31|   49,21
+     261|SUCCESS| 2|   2|       12| 2|        2|      20039|          2|    22,60|     52,31|   29,71
+      14|SUCCESS| 2|   2|       12| 2|        2|      84508|          2|     1,10|     52,42|   51,32
+     277|SUCCESS| 2|   0|       12| 0|        2|      17917|          2|    24,60|     52,86|   28,26
+     255|SUCCESS| 2|   0|       12| 0|        2|      20440|          2|    21,85|     53,08|   31,23
+     271|SUCCESS| 2|   2|       12| 2|        2|      19524|          2|    23,85|     53,30|   29,45
+     293|SUCCESS| 2|   2|       12| 2|        2|      17219|          2|    26,60|     53,30|   26,70
+     289|SUCCESS| 2|   3|       12| 3|        2|      17771|          2|    26,10|     54,14|   28,04
+      82|SUCCESS| 2|   1|       12| 1|        2|      42219|          2|     6,85|     54,47|   47,62
+      70|SUCCESS| 2|   3|       12| 3|        2|      46575|          2|     5,85|     55,13|   49,28
+     273|SUCCESS| 2|   3|       12| 3|        2|      20066|          2|    24,10|     55,24|   31,14
+     263|SUCCESS| 2|   2|       12| 2|        2|      21747|          2|    22,85|     55,57|   32,72
+     269|SUCCESS| 2|   1|       12| 1|        2|      20282|          2|    23,60|     55,79|   32,19
+     275|SUCCESS| 2|   0|       12| 0|        2|      19828|          2|    24,35|     56,01|   31,66
+     283|SUCCESS| 2|   1|       12| 1|        2|      18916|          2|    25,35|     56,01|   30,66
+     279|SUCCESS| 2|   0|       12| 0|        2|      19472|          2|    24,85|     56,12|   31,27
+     291|SUCCESS| 2|   2|       12| 2|        2|      19145|          2|    26,35|     56,23|   29,88
+     285|SUCCESS| 2|   1|       12| 1|        2|      19250|          2|    25,60|     57,03|   31,43
+     295|SUCCESS| 2|   2|       12| 2|        2|      19781|          2|    26,85|     58,03|   31,18
+     287|SUCCESS| 2|   3|       12| 3|        2|      20057|          2|    25,85|     58,03|   32,18
+     281|SUCCESS| 2|   0|       12| 0|        2|      20751|          2|    25,10|     58,90|   33,80
+      61|SUCCESS| 2|   1|       12| 1|        2|      50428|          2|     5,10|     58,90|   53,80
+     299|SUCCESS| 2|   1|       12| 1|        2|      19432|          2|    27,35|     59,96|   32,61
+      91|SUCCESS| 2|   3|       12| 3|        2|      44730|          2|     7,60|     60,29|   52,69
+     297|SUCCESS| 2|   3|       12| 3|        2|      20486|          2|    27,10|     60,72|   33,62
+     305|SUCCESS| 2|   3|       12| 3|        2|      19936|          2|    28,10|     61,16|   33,06
+     311|SUCCESS| 2|   2|       12| 2|        2|      20036|          2|    28,85|     61,27|   32,42
+      49|SUCCESS| 2|   1|       12| 1|        2|      56307|          2|     4,10|     61,38|   57,28
+     301|SUCCESS| 2|   1|       12| 1|        2|      20068|          2|    27,60|     61,49|   33,89
+     307|SUCCESS| 2|   3|       12| 3|        2|      20392|          2|    28,35|     62,41|   34,06
+     313|SUCCESS| 2|   2|       12| 2|        2|      21058|          2|    29,10|     63,45|   34,35
+     323|SUCCESS| 2|   3|       12| 3|        2|      19653|          2|    30,35|     63,78|   33,43
+      43|SUCCESS| 2|   3|       12| 3|        2|      60320|          2|     3,60|     64,44|   60,84
+     315|SUCCESS| 2|   3|       12| 3|        2|      20762|          2|    29,35|     64,44|   35,09
+     345|SUCCESS| 2|   0|       12| 0|        2|      17703|          2|    33,10|     64,66|   31,56
+     321|SUCCESS| 2|   1|       12| 1|        2|      19877|          2|    30,10|     64,66|   34,56
+     327|SUCCESS| 2|   2|       12| 2|        2|      20465|          2|    30,85|     64,66|   33,81
+     303|SUCCESS| 2|   1|       12| 1|        2|      21599|          2|    27,85|     64,76|   36,91
+     309|SUCCESS| 2|   2|       12| 2|        2|      22178|          2|    28,60|     64,76|   36,16
+     325|SUCCESS| 2|   0|       12| 0|        2|      19576|          2|    30,60|     64,87|   34,27
+     339|SUCCESS| 2|   2|       12| 2|        2|      19467|          2|    32,35|     64,87|   32,52
+     317|SUCCESS| 2|   1|       12| 1|        2|      20372|          2|    29,60|     64,98|   35,38
+      88|SUCCESS| 2|   1|       12| 1|        2|      46675|          2|     7,35|     65,20|   57,85
+     329|SUCCESS| 2|   2|       12| 2|        2|      20667|          2|    31,10|     65,31|   34,21
+      73|SUCCESS| 2|   1|       12| 1|        2|      50268|          2|     6,10|     65,42|   59,32
+     337|SUCCESS| 2|   2|       12| 2|        2|      19993|          2|    32,10|     65,42|   33,32
+     331|SUCCESS| 2|   3|       12| 3|        2|      19825|          2|    31,35|     65,42|   34,07
+     335|SUCCESS| 2|   1|       12| 1|        2|      19195|          2|    31,85|     65,75|   33,90
+      79|SUCCESS| 2|   1|       12| 1|        2|      49149|          2|     6,60|     66,19|   59,59
+     103|SUCCESS| 2|   2|       12| 2|        2|      48198|          2|     8,60|     66,19|   57,59
+     319|SUCCESS| 2|   1|       12| 1|        2|      20937|          2|    29,85|     66,30|   36,45
+     106|SUCCESS| 2|   1|       12| 1|        2|      44318|          2|     8,85|     67,02|   58,17
+      85|SUCCESS| 2|   1|       12| 1|        2|      48662|          2|     7,10|     67,68|   60,58
+     349|SUCCESS| 2|   1|       12| 1|        2|      19161|          2|    33,60|     67,90|   34,30
+     121|SUCCESS| 2|   1|       12| 1|        2|      42786|          2|    10,10|     68,56|   58,46
+     343|SUCCESS| 2|   0|       12| 0|        2|      19914|          2|    32,85|     68,78|   35,93
+     367|SUCCESS| 2|   2|       12| 2|        2|      19336|          2|    35,85|     68,89|   33,04
+     341|SUCCESS| 2|   0|       12| 0|        2|      20245|          2|    32,60|     69,11|   36,51
+     363|SUCCESS| 2|   3|       12| 3|        2|      19150|          2|    35,35|     69,22|   33,87
+     347|SUCCESS| 2|   0|       12| 0|        2|      19853|          2|    33,35|     69,33|   35,98
+     333|SUCCESS| 2|   0|       12| 0|        2|      21417|          2|    31,60|     69,97|   38,37
+     375|SUCCESS| 2|   2|       12| 2|        2|      19409|          2|    36,85|     70,19|   33,34
+     377|SUCCESS| 2|   2|       12| 2|        2|      19415|          2|    37,10|     70,52|   33,42
+     127|SUCCESS| 2|   3|       12| 3|        2|      44335|          2|    10,60|     70,74|   60,14
+     353|SUCCESS| 2|   1|       12| 1|        2|      20812|          2|    34,10|     71,46|   37,36
+     357|SUCCESS| 2|   0|       12| 0|        2|      20186|          2|    34,60|     71,68|   37,08
+     351|SUCCESS| 2|   1|       12| 1|        2|      21464|          2|    33,85|     72,33|   38,48
+     391|SUCCESS| 2|   2|       12| 2|        2|      19355|          2|    38,85|     72,33|   33,48
+     361|SUCCESS| 2|   1|       12| 1|        2|      20658|          2|    35,10|     72,44|   37,34
+     359|SUCCESS| 2|   2|       12| 2|        2|      22025|          2|    34,85|     72,44|   37,59
+     393|SUCCESS| 2|   2|       12| 2|        2|      19237|          2|    39,10|     72,44|   33,34
+      64|SUCCESS| 2|   0|       12| 0|        2|      57133|          2|     5,35|     72,88|   67,53
+     355|SUCCESS| 2|   0|       12| 0|        2|      21121|          2|    34,35|     73,21|   38,86
+     383|SUCCESS| 2|   0|       12| 0|        2|      18866|          2|    37,85|     73,21|   35,36
+     373|SUCCESS| 2|   0|       12| 0|        2|      19746|          2|    36,60|     73,43|   36,83
+     369|SUCCESS| 2|   1|       12| 1|        2|      20746|          2|    36,10|     73,76|   37,66
+     389|SUCCESS| 2|   1|       12| 1|        2|      19177|          2|    38,60|     73,76|   35,16
+     112|SUCCESS| 2|   3|       12| 3|        2|      48249|          2|     9,35|     73,87|   64,52
+     139|SUCCESS| 2|   2|       12| 2|        2|      46035|          2|    11,60|     73,98|   62,38
+      94|SUCCESS| 2|   3|       12| 3|        2|      51470|          2|     7,85|     74,09|   66,24
+     371|SUCCESS| 2|   0|       12| 0|        2|      20349|          2|    36,35|     74,30|   37,95
+     381|SUCCESS| 2|   0|       12| 0|        2|      19691|          2|    37,60|     74,52|   36,92
+      76|SUCCESS| 2|   0|       12| 0|        2|      55298|          2|     6,35|     74,85|   68,50
+     130|SUCCESS| 2|   0|       12| 0|        2|      45466|          2|    10,85|     75,18|   64,33
+     124|SUCCESS| 2|   2|       12| 2|        2|      49379|          2|    10,35|     75,40|   65,05
+     411|SUCCESS| 2|   1|       12| 1|        2|      18531|          2|    41,35|     75,51|   34,16
+     437|SUCCESS| 2|   2|       12| 2|        2|      17866|          2|    44,60|     75,84|   31,24
+      97|SUCCESS| 2|   0|       12| 0|        2|      51342|          2|     8,10|     75,95|   67,85
+     385|SUCCESS| 2|   0|       12| 0|        2|      20159|          2|    38,10|     76,06|   37,96
+     397|SUCCESS| 2|   0|       12| 0|        2|      19278|          2|    39,60|     76,06|   36,46
+     403|SUCCESS| 2|   1|       12| 1|        2|      19608|          2|    40,35|     76,39|   36,04
+     109|SUCCESS| 2|   1|       12| 1|        2|      49149|          2|     9,10|     76,71|   67,61
+     413|SUCCESS| 2|   1|       12| 1|        2|      19071|          2|    41,60|     76,71|   35,11
+     399|SUCCESS| 2|   0|       12| 0|        2|      19551|          2|    39,85|     76,82|   36,97
+     425|SUCCESS| 2|   3|       12| 3|        2|      18267|          2|    43,10|     76,82|   33,72
+     365|SUCCESS| 2|   3|       12| 3|        2|      22956|          2|    35,60|     76,93|   41,33
+     172|SUCCESS| 2|   1|       12| 1|        2|      41595|          2|    14,35|     77,59|   63,24
+     429|SUCCESS| 2|   1|       12| 1|        2|      18412|          2|    43,60|     77,59|   33,99
+     387|SUCCESS| 2|   0|       12| 0|        2|      20903|          2|    38,35|     77,70|   39,35
+     379|SUCCESS| 2|   3|       12| 3|        2|      22287|          2|    37,35|     77,81|   40,46
+     157|SUCCESS| 2|   3|       12| 3|        2|      43965|          2|    13,10|     78,03|   64,93
+     409|SUCCESS| 2|   0|       12| 0|        2|      19504|          2|    41,10|     78,14|   37,04
+     405|SUCCESS| 2|   3|       12| 3|        2|      20559|          2|    40,60|     78,36|   37,76
+     395|SUCCESS| 2|   0|       12| 0|        2|      20769|          2|    39,35|     78,58|   39,23
+     415|SUCCESS| 2|   1|       12| 1|        2|      19989|          2|    41,85|     78,58|   36,73
+     184|SUCCESS| 2|   2|       12| 2|        2|      42817|          2|    15,35|     78,58|   63,23
+     423|SUCCESS| 2|   3|       12| 3|        2|      19350|          2|    42,85|     78,69|   35,84
+     115|SUCCESS| 2|   3|       12| 3|        2|      50268|          2|     9,60|     78,80|   69,20
+     421|SUCCESS| 2|   3|       12| 3|        2|      20080|          2|    42,60|     79,75|   37,15
+     407|SUCCESS| 2|   3|       12| 3|        2|      21739|          2|    40,85|     80,86|   40,01
+     419|SUCCESS| 2|   0|       12| 0|        2|      20360|          2|    42,35|     80,97|   38,62
+     435|SUCCESS| 2|   0|       12| 0|        2|      19225|          2|    44,35|     80,97|   36,62
+     446|SUCCESS| 2|   2|       12| 2|        2|      19826|          2|    46,35|     80,97|   34,62
+     441|SUCCESS| 2|   3|       12| 3|        2|      19392|          2|    45,10|     81,19|   36,09
+     163|SUCCESS| 2|   2|       12| 2|        2|      46832|          2|    13,60|     81,30|   67,70
+     433|SUCCESS| 2|   3|       12| 3|        2|      20008|          2|    44,10|     81,30|   37,20
+     459|SUCCESS| 2|   2|       12| 2|        2|      18318|          2|    49,60|     81,63|   32,03
+     442|SUCCESS| 2|   1|       12| 1|        2|      19897|          2|    45,35|     81,85|   36,50
+     439|SUCCESS| 2|   1|       12| 1|        2|      20325|          2|    44,85|     82,07|   37,22
+     450|SUCCESS| 2|   2|       12| 2|        2|      19868|          2|    47,35|     82,07|   34,72
+     417|SUCCESS| 2|   0|       12| 0|        2|      21153|          2|    42,10|     82,18|   40,08
+     427|SUCCESS| 2|   0|       12| 0|        2|      20524|          2|    43,35|     82,29|   38,94
+     443|SUCCESS| 2|   0|       12| 0|        2|      19311|          2|    45,60|     82,29|   36,69
+     447|SUCCESS| 2|   0|       12| 0|        2|      19043|          2|    46,60|     82,73|   36,13
+     401|SUCCESS| 2|   0|       12| 0|        2|      22716|          2|    40,10|     82,84|   42,74
+     118|SUCCESS| 2|   0|       12| 0|        2|      51520|          2|     9,85|     82,95|   73,10
+     154|SUCCESS| 2|   3|       12| 3|        2|      47008|          2|    12,85|     82,95|   70,10
+     444|SUCCESS| 2|   3|       12| 3|        2|      20016|          2|    45,85|     83,06|   37,21
+     461|SUCCESS| 2|   1|       12| 1|        2|      18229|          2|    50,10|     83,39|   33,29
+     431|SUCCESS| 2|   1|       12| 1|        2|      21747|          2|    43,85|     83,50|   39,65
+     449|SUCCESS| 2|   1|       12| 1|        2|      20155|          2|    47,10|     83,83|   36,73
+     451|SUCCESS| 2|   0|       12| 0|        2|      19562|          2|    47,60|     84,53|   36,93
+     445|SUCCESS| 2|   1|       12| 1|        2|      21378|          2|    46,10|     84,97|   38,87
+     453|SUCCESS| 2|   1|       12| 1|        2|      20387|          2|    48,10|     85,08|   36,98
+     462|SUCCESS| 2|   2|       12| 2|        2|      20117|          2|    50,35|     85,30|   34,95
+     100|SUCCESS| 2|   1|       12| 1|        2|      55923|          2|     8,35|     85,52|   77,17
+     466|SUCCESS| 2|   2|       12| 2|        2|      19903|          2|    51,35|     85,96|   34,61
+     151|SUCCESS| 2|   3|       12| 3|        2|      49109|          2|    12,60|     85,96|   73,36
+     452|SUCCESS| 2|   3|       12| 3|        2|      20515|          2|    47,85|     85,96|   38,11
+     458|SUCCESS| 2|   0|       12| 0|        2|      19734|          2|    49,35|     86,29|   36,94
+     142|SUCCESS| 2|   2|       12| 2|        2|      52755|          2|    11,85|     86,29|   74,44
+     471|SUCCESS| 2|   2|       12| 2|        2|      19414|          2|    52,60|     86,29|   33,69
+     136|SUCCESS| 2|   0|       12| 0|        2|      50936|          2|    11,35|     86,40|   75,05
+     465|SUCCESS| 2|   1|       12| 1|        2|      19943|          2|    51,10|     86,97|   35,87
+     464|SUCCESS| 2|   3|       12| 3|        2|      19387|          2|    50,85|     86,97|   36,12
+     455|SUCCESS| 2|   0|       12| 0|        2|      20666|          2|    48,60|     87,19|   38,59
+     457|SUCCESS| 2|   1|       12| 1|        2|      21236|          2|    49,10|     87,30|   38,20
+     448|SUCCESS| 2|   3|       12| 3|        2|      21867|          2|    46,85|     87,30|   40,45
+     473|SUCCESS| 2|   1|       12| 1|        2|      19305|          2|    53,10|     87,63|   34,53
+     467|SUCCESS| 2|   0|       12| 0|        2|      19352|          2|    51,60|     87,74|   36,14
+     454|SUCCESS| 2|   2|       12| 2|        2|      22780|          2|    48,35|     87,85|   39,50
+     178|SUCCESS| 2|   3|       12| 3|        2|      47085|          2|    14,85|     87,85|   73,00
+     460|SUCCESS| 2|   3|       12| 3|        2|      20505|          2|    49,85|     87,85|   38,00
+     463|SUCCESS| 2|   0|       12| 0|        2|      20105|          2|    50,60|     87,96|   37,36
+     169|SUCCESS| 2|   2|       12| 2|        2|      50250|          2|    14,10|     88,07|   73,97
+     472|SUCCESS| 2|   3|       12| 3|        2|      19076|          2|    52,85|     88,29|   35,44
+     456|SUCCESS| 2|   3|       12| 3|        2|      21370|          2|    48,85|     88,40|   39,55
+     474|SUCCESS| 2|   2|       12| 2|        2|      20597|          2|    53,35|     88,84|   35,49
+     145|SUCCESS| 2|   3|       12| 3|        2|      51651|          2|    12,10|     88,95|   76,85
+     190|SUCCESS| 2|   2|       12| 2|        2|      48472|          2|    15,85|     89,06|   73,21
+     181|SUCCESS| 2|   3|       12| 3|        2|      47633|          2|    15,10|     89,17|   74,07
+     468|SUCCESS| 2|   3|       12| 3|        2|      20202|          2|    51,85|     89,17|   37,32
+     479|SUCCESS| 2|   0|       12| 0|        2|      18741|          2|    54,60|     89,28|   34,68
+     483|SUCCESS| 2|   2|       12| 2|        2|      19538|          2|    55,60|     89,28|   33,68
+     270|SUCCESS| 2|   0|       12| 0|        2|      38590|          2|    23,60|     89,39|   65,79
+     478|SUCCESS| 2|   2|       12| 2|        2|      20360|          2|    54,35|     89,39|   35,04
+     477|SUCCESS| 2|   1|       12| 1|        2|      20222|          2|    54,10|     89,72|   35,62
+     133|SUCCESS| 2|   0|       12| 0|        2|      53773|          2|    11,10|     90,05|   78,95
+     470|SUCCESS| 2|   0|       12| 0|        2|      20472|          2|    52,35|     90,05|   37,70
+     469|SUCCESS| 2|   1|       12| 1|        2|      21633|          2|    52,10|     90,27|   38,17
+       5|SUCCESS| 2|   3|       12| 3|        2|     112766|          2|     0,35|     90,60|   90,25
+     475|SUCCESS| 2|   0|       12| 0|        2|      20345|          2|    53,60|     90,82|   37,22
+     487|SUCCESS| 2|   2|       12| 2|        2|      20092|          2|    56,60|     90,93|   34,33
+     485|SUCCESS| 2|   1|       12| 1|        2|      20336|          2|    56,10|     91,48|   35,38
+     482|SUCCESS| 2|   0|       12| 0|        2|      19928|          2|    55,35|     91,59|   36,24
+     481|SUCCESS| 2|   1|       12| 1|        2|      20910|          2|    55,10|     91,59|   36,49
+     193|SUCCESS| 2|   3|       12| 3|        2|      47972|          2|    16,10|     91,59|   75,49
+     250|SUCCESS| 2|   3|       12| 3|        2|      42724|          2|    21,10|     91,59|   70,49
+     486|SUCCESS| 2|   0|       12| 0|        2|      19493|          2|    56,35|     91,70|   35,35
+     476|SUCCESS| 2|   3|       12| 3|        2|      20842|          2|    53,85|     91,81|   37,96
+     507|SUCCESS| 2|   2|       12| 2|        2|      17977|          2|    61,60|     92,03|   30,43
+     217|SUCCESS| 2|   3|       12| 3|        2|      45935|          2|    18,10|     92,03|   73,93
+     497|SUCCESS| 2|   1|       12| 1|        2|      19169|          2|    59,10|     92,14|   33,04
+     493|SUCCESS| 2|   1|       12| 1|        2|      19924|          2|    58,10|     92,36|   34,26
+     509|SUCCESS| 2|   1|       12| 1|        2|      17770|          2|    62,10|     92,36|   30,26
+     480|SUCCESS| 2|   3|       12| 3|        2|      20698|          2|    54,85|     92,36|   37,51
+     490|SUCCESS| 2|   0|       12| 0|        2|      19517|          2|    57,35|     92,47|   35,12
+     494|SUCCESS| 2|   0|       12| 0|        2|      18927|          2|    58,35|     92,47|   34,12
+     492|SUCCESS| 2|   3|       12| 3|        2|      19142|          2|    57,85|     92,47|   34,62
+     488|SUCCESS| 2|   3|       12| 3|        2|      19771|          2|    56,85|     92,58|   35,73
+     166|SUCCESS| 2|   2|       12| 2|        2|      53708|          2|    13,85|     92,69|   78,84
+     187|SUCCESS| 2|   2|       12| 2|        2|      51284|          2|    15,60|     92,69|   77,09
+     226|SUCCESS| 2|   2|       12| 2|        2|      47695|          2|    18,85|     92,91|   74,06
+     484|SUCCESS| 2|   3|       12| 3|        2|      20533|          2|    55,85|     92,91|   37,06
+     489|SUCCESS| 2|   1|       12| 1|        2|      20940|          2|    57,10|     93,02|   35,92
+     499|SUCCESS| 2|   2|       12| 2|        2|      19851|          2|    59,60|     93,13|   33,53
+     495|SUCCESS| 2|   2|       12| 2|        2|      20844|          2|    58,60|     93,68|   35,08
+     501|SUCCESS| 2|   1|       12| 1|        2|      19926|          2|    60,10|     93,79|   33,69
+     505|SUCCESS| 2|   1|       12| 1|        2|      19420|          2|    61,10|     93,90|   32,80
+     491|SUCCESS| 2|   2|       12| 2|        2|      21576|          2|    57,60|     93,90|   36,30
+     211|SUCCESS| 2|   1|       12| 1|        2|      48343|          2|    17,60|     94,01|   76,41
+     502|SUCCESS| 2|   0|       12| 0|        2|      19107|          2|    60,35|     94,12|   33,77
+     496|SUCCESS| 2|   3|       12| 3|        2|      19997|          2|    58,85|     94,34|   35,49
+     500|SUCCESS| 2|   3|       12| 3|        2|      19431|          2|    59,85|     94,34|   34,49
+     514|SUCCESS| 2|   0|       12| 0|        2|      17813|          2|    63,35|     94,45|   31,10
+     252|SUCCESS| 2|   2|       12| 2|        2|      46409|          2|    21,35|     94,45|   73,10
+     148|SUCCESS| 2|   0|       12| 0|        2|      55026|          2|    12,35|     94,67|   82,32
+     202|SUCCESS| 2|   2|       12| 2|        2|      51350|          2|    16,85|     94,78|   77,93
+     515|SUCCESS| 2|   2|       12| 2|        2|      18911|          2|    63,60|     94,89|   31,29
+     232|SUCCESS| 2|   3|       12| 3|        2|      46759|          2|    19,35|     94,89|   75,54
+     286|SUCCESS| 2|   2|       12| 2|        2|      43382|          2|    25,60|     95,44|   69,84
+     304|SUCCESS| 2|   2|       12| 2|        2|      41568|          2|    27,85|     95,44|   67,59
+     503|SUCCESS| 2|   2|       12| 2|        2|      21060|          2|    60,60|     95,44|   34,84
+     506|SUCCESS| 2|   0|       12| 0|        2|      19697|          2|    61,35|     95,55|   34,20
+     511|SUCCESS| 2|   2|       12| 2|        2|      20344|          2|    62,60|     95,88|   33,28
+     517|SUCCESS| 2|   1|       12| 1|        2|      19571|          2|    64,10|     95,99|   31,89
+     214|SUCCESS| 2|   2|       12| 2|        2|      51193|          2|    17,85|     95,99|   78,14
+     527|SUCCESS| 2|   2|       12| 2|        2|      18206|          2|    66,60|     96,10|   29,50
+     282|SUCCESS| 2|   3|       12| 3|        2|      42539|          2|    25,10|     96,10|   71,00
+     516|SUCCESS| 2|   3|       12| 3|        2|      18669|          2|    63,85|     96,10|   32,25
+     268|SUCCESS| 2|   3|       12| 3|        2|      44103|          2|    23,35|     96,21|   72,86
+     246|SUCCESS| 2|   0|       12| 0|        2|      46341|          2|    20,60|     96,32|   75,72
+       8|SUCCESS| 2|   1|       12| 1|        2|     109040|          2|     0,60|     96,32|   95,72
+     521|SUCCESS| 2|   1|       12| 1|        2|      19411|          2|    65,10|     96,54|   31,44
+     523|SUCCESS| 2|   2|       12| 2|        2|      19171|          2|    65,60|     96,54|   30,94
+     513|SUCCESS| 2|   1|       12| 1|        2|      20832|          2|    63,10|     96,98|   33,88
+     504|SUCCESS| 2|   3|       12| 3|        2|      20987|          2|    60,85|     96,98|   36,13
+     498|SUCCESS| 2|   0|       12| 0|        2|      21953|          2|    59,35|     97,09|   37,74
+      20|SUCCESS| 2|   2|       12| 2|        2|     103587|          2|     1,60|     97,09|   95,49
+     522|SUCCESS| 2|   0|       12| 0|        2|      18997|          2|    65,35|     97,20|   31,85
+     519|SUCCESS| 2|   2|       12| 2|        2|      20430|          2|    64,60|     97,20|   32,60
+     510|SUCCESS| 2|   0|       12| 0|        2|      20726|          2|    62,35|     97,42|   35,07
+     235|SUCCESS| 2|   1|       12| 1|        2|      49145|          2|    19,60|     97,53|   77,93
+     260|SUCCESS| 2|   1|       12| 1|        2|      46598|          2|    22,35|     97,53|   75,18
+     531|SUCCESS| 2|   2|       12| 2|        2|      19291|          2|    67,60|     97,86|   30,26
+     524|SUCCESS| 2|   1|       12| 1|        2|      20292|          2|    65,85|     97,97|   32,12
+     266|SUCCESS| 2|   2|       12| 2|        2|      47954|          2|    23,10|     98,08|   74,98
+     220|SUCCESS| 2|   3|       12| 3|        2|      50328|          2|    18,35|     98,08|   79,73
+     508|SUCCESS| 2|   3|       12| 3|        2|      21300|          2|    61,85|     98,08|   36,23
+     160|SUCCESS| 2|   0|       12| 0|        2|      56305|          2|    13,35|     98,19|   84,84
+     518|SUCCESS| 2|   0|       12| 0|        2|      20374|          2|    64,35|     98,30|   33,95
+     530|SUCCESS| 2|   0|       12| 0|        2|      19025|          2|    67,35|     98,41|   31,06
+     238|SUCCESS| 2|   2|       12| 2|        2|      51440|          2|    19,85|     98,52|   78,67
+     512|SUCCESS| 2|   3|       12| 3|        2|      21304|          2|    62,85|     98,63|   35,78
+     278|SUCCESS| 2|   1|       12| 1|        2|      45697|          2|    24,60|     98,74|   74,14
+     525|SUCCESS| 2|   3|       12| 3|        2|      19784|          2|    66,10|     98,96|   32,86
+     533|SUCCESS| 2|   1|       12| 1|        2|      19981|          2|    68,10|     99,07|   30,97
+     520|SUCCESS| 2|   3|       12| 3|        2|      20616|          2|    64,85|     99,07|   34,22
+     535|SUCCESS| 2|   2|       12| 2|        2|      20024|          2|    68,60|     99,18|   30,58
+     241|SUCCESS| 2|   0|       12| 0|        2|      49323|          2|    20,10|     99,29|   79,19
+     526|SUCCESS| 2|   0|       12| 0|        2|      20349|          2|    66,35|     99,40|   33,05
+     312|SUCCESS| 2|   1|       12| 1|        2|      43042|          2|    28,85|     99,51|   70,66
+     208|SUCCESS| 2|   0|       12| 0|        2|      52526|          2|    17,35|     99,73|   82,38
+     536|SUCCESS| 2|   1|       12| 1|        2|      20207|          2|    68,85|     99,73|   30,88
+     541|SUCCESS| 2|   1|       12| 1|        2|      19477|          2|    70,10|     99,73|   29,63
+     196|SUCCESS| 2|   0|       12| 0|        2|      53850|          2|    16,35|     99,84|   83,49
+     248|SUCCESS| 2|   1|       12| 1|        2|      50087|          2|    20,85|     99,84|   78,99
+     529|SUCCESS| 2|   1|       12| 1|        2|      21264|          2|    67,10|     99,84|   32,74
+     528|SUCCESS| 2|   3|       12| 3|        2|      20219|          2|    66,85|     99,84|   32,99
+     537|SUCCESS| 2|   3|       12| 3|        2|      19291|          2|    69,10|    100,17|   31,07
+     542|SUCCESS| 2|   0|       12| 0|        2|      19366|          2|    70,35|    100,50|   30,15
+     539|SUCCESS| 2|   2|       12| 2|        2|      20910|          2|    69,60|    100,61|   31,01
+     547|SUCCESS| 2|   2|       12| 2|        2|      19788|          2|    71,60|    100,61|   29,01
+     262|SUCCESS| 2|   3|       12| 3|        2|      48541|          2|    22,60|    100,61|   78,01
+     548|SUCCESS| 2|   1|       12| 1|        2|      19560|          2|    71,85|    100,72|   28,87
+     538|SUCCESS| 2|   0|       12| 0|        2|      20255|          2|    69,35|    100,83|   31,48
+     551|SUCCESS| 2|   2|       12| 2|        2|      19455|          2|    72,60|    100,83|   28,23
+     559|SUCCESS| 2|   2|       12| 2|        2|      18288|          2|    74,60|    100,83|   26,23
+     534|SUCCESS| 2|   0|       12| 0|        2|      20813|          2|    68,35|    100,94|   32,59
+     350|SUCCESS| 2|   0|       12| 0|        2|      40177|          2|    33,60|    101,05|   67,45
+     223|SUCCESS| 2|   1|       12| 1|        2|      53388|          2|    18,60|    101,05|   82,45
+     544|SUCCESS| 2|   1|       12| 1|        2|      20469|          2|    70,85|    101,05|   30,20
+     543|SUCCESS| 2|   2|       12| 2|        2|      20800|          2|    70,60|    101,05|   30,45
+     199|SUCCESS| 2|   1|       12| 1|        2|      55786|          2|    16,60|    101,27|   84,67
+     300|SUCCESS| 2|   3|       12| 3|        2|      45586|          2|    27,35|    101,71|   74,36
+     532|SUCCESS| 2|   3|       12| 3|        2|      21430|          2|    67,85|    101,71|   33,86
+     553|SUCCESS| 2|   3|       12| 3|        2|      18674|          2|    73,10|    101,71|   28,61
+     229|SUCCESS| 2|   0|       12| 0|        2|      52790|          2|    19,10|    101,82|   82,72
+     280|SUCCESS| 2|   2|       12| 2|        2|      50447|          2|    24,85|    102,04|   77,19
+     322|SUCCESS| 2|   2|       12| 2|        2|      46277|          2|    30,10|    102,04|   71,94
+     344|SUCCESS| 2|   1|       12| 1|        2|      43034|          2|    32,85|    102,15|   69,30
+     555|SUCCESS| 2|   2|       12| 2|        2|      20312|          2|    73,60|    102,15|   28,55
+     562|SUCCESS| 2|   2|       12| 2|        2|      19307|          2|    75,35|    102,15|   26,80
+     318|SUCCESS| 2|   3|       12| 3|        2|      44261|          2|    29,60|    102,15|   72,55
+     550|SUCCESS| 2|   0|       12| 0|        2|      20186|          2|    72,35|    102,26|   29,91
+     540|SUCCESS| 2|   3|       12| 3|        2|      20975|          2|    69,85|    102,26|   32,41
+     546|SUCCESS| 2|   0|       12| 0|        2|      20982|          2|    71,35|    102,48|   31,13
+     175|SUCCESS| 2|   0|       12| 0|        2|      58775|          2|    14,60|    102,59|   87,99
+     272|SUCCESS| 2|   1|       12| 1|        2|      50282|          2|    23,85|    102,59|   78,74
+     561|SUCCESS| 2|   1|       12| 1|        2|      19867|          2|    75,10|    102,70|   27,60
+     274|SUCCESS| 2|   2|       12| 2|        2|      51937|          2|    24,10|    102,70|   78,60
+     332|SUCCESS| 2|   2|       12| 2|        2|      46185|          2|    31,35|    102,70|   71,35
+     370|SUCCESS| 2|   2|       12| 2|        2|      42907|          2|    36,10|    102,70|   66,60
+     557|SUCCESS| 2|   3|       12| 3|        2|      19198|          2|    74,10|    102,70|   28,60
+     554|SUCCESS| 2|   0|       12| 0|        2|      20317|          2|    73,35|    102,81|   29,46
+     552|SUCCESS| 2|   1|       12| 1|        2|      21243|          2|    72,85|    102,81|   29,96
+     565|SUCCESS| 2|   1|       12| 1|        2|      19632|          2|    76,10|    102,92|   26,82
+     244|SUCCESS| 2|   3|       12| 3|        2|      52975|          2|    20,35|    102,92|   82,57
+     276|SUCCESS| 2|   3|       12| 3|        2|      49329|          2|    24,35|    102,92|   78,57
+     549|SUCCESS| 2|   3|       12| 3|        2|      20451|          2|    72,10|    102,92|   30,82
+     306|SUCCESS| 2|   1|       12| 1|        2|      47417|          2|    28,10|    103,03|   74,93
+     254|SUCCESS| 2|   1|       12| 1|        2|      52939|          2|    21,60|    103,14|   81,54
+     316|SUCCESS| 2|   2|       12| 2|        2|      48327|          2|    29,35|    103,14|   73,79
+     302|SUCCESS| 2|   0|       12| 0|        2|      46985|          2|    27,60|    103,25|   75,65
+     314|SUCCESS| 2|   0|       12| 0|        2|      45733|          2|    29,10|    103,25|   74,15
+     566|SUCCESS| 2|   2|       12| 2|        2|      20134|          2|    76,35|    103,25|   26,90
+     570|SUCCESS| 2|   2|       12| 2|        2|      20060|          2|    77,35|    103,58|   26,23
+     560|SUCCESS| 2|   3|       12| 3|        2|      20048|          2|    74,85|    103,80|   28,95
+     264|SUCCESS| 2|   0|       12| 0|        2|      51754|          2|    22,85|    104,02|   81,17
+     567|SUCCESS| 2|   0|       12| 0|        2|      20021|          2|    76,60|    104,02|   27,42
+     572|SUCCESS| 2|   3|       12| 3|        2|      18806|          2|    77,85|    104,02|   26,17
+     556|SUCCESS| 2|   1|       12| 1|        2|      22625|          2|    73,85|    104,24|   30,39
+     294|SUCCESS| 2|   1|       12| 1|        2|      50347|          2|    26,60|    104,35|   77,75
+     569|SUCCESS| 2|   1|       12| 1|        2|      20932|          2|    77,10|    104,35|   27,25
+     545|SUCCESS| 2|   3|       12| 3|        2|      22678|          2|    71,10|    104,35|   33,25
+     563|SUCCESS| 2|   0|       12| 0|        2|      21230|          2|    75,60|    104,46|   28,86
+      41|SUCCESS| 2|   1|       12| 1|        2|      90090|          2|     3,35|    104,46|  101,11
+      11|SUCCESS| 2|   0|       12| 0|        2|     105826|          2|     0,85|    104,57|  103,72
+     571|SUCCESS| 2|   0|       12| 0|        2|      20239|          2|    77,60|    104,57|   26,97
+      62|SUCCESS| 2|   2|       12| 2|        2|      86375|          2|     5,10|    104,57|   99,47
+     564|SUCCESS| 2|   3|       12| 3|        2|      20519|          2|    75,85|    104,57|   28,72
+     348|SUCCESS| 2|   2|       12| 2|        2|      47588|          2|    33,35|    104,68|   71,33
+     284|SUCCESS| 2|   0|       12| 0|        2|      50678|          2|    25,35|    104,79|   79,44
+     336|SUCCESS| 2|   0|       12| 0|        2|      45634|          2|    31,85|    104,79|   72,94
+     558|SUCCESS| 2|   0|       12| 0|        2|      22382|          2|    74,35|    104,90|   30,55
+      71|SUCCESS| 2|   2|       12| 2|        2|      84254|          2|     5,85|    104,90|   99,05
+     288|SUCCESS| 2|   1|       12| 1|        2|      51835|          2|    25,85|    105,01|   79,16
+     205|SUCCESS| 2|   3|       12| 3|        2|      58882|          2|    17,10|    105,12|   88,02
+     374|SUCCESS| 2|   3|       12| 3|        2|      43004|          2|    36,60|    105,12|   68,52
+     568|SUCCESS| 2|   3|       12| 3|        2|      20657|          2|    76,85|    105,12|   28,27
+     366|SUCCESS| 2|   0|       12| 0|        2|      43886|          2|    35,60|    105,23|   69,63
+     328|SUCCESS| 2|   0|       12| 0|        2|      47440|          2|    30,85|    105,45|   74,60
+     324|SUCCESS| 2|   1|       12| 1|        2|      49164|          2|    30,35|    105,45|   75,10
+     330|SUCCESS| 2|   1|       12| 1|        2|      48593|          2|    31,10|    105,45|   74,35
+     296|SUCCESS| 2|   0|       12| 0|        2|      50593|          2|    26,85|    105,56|   78,71
+      17|SUCCESS| 2|   1|       12| 1|        2|     107374|          2|     1,35|    105,56|  104,21
+     290|SUCCESS| 2|   0|       12| 0|        2|      51697|          2|    26,10|    105,89|   79,79
+     356|SUCCESS| 2|   1|       12| 1|        2|      47145|          2|    34,35|    106,00|   71,65
+      23|SUCCESS| 2|   3|       12| 3|        2|     100492|          2|     1,85|    106,00|  104,15
+     346|SUCCESS| 2|   3|       12| 3|        2|      46587|          2|    33,10|    106,11|   73,01
+     386|SUCCESS| 2|   2|       12| 2|        2|      46899|          2|    38,10|    106,22|   68,12
+     352|SUCCESS| 2|   3|       12| 3|        2|      46228|          2|    33,85|    106,22|   72,37
+      26|SUCCESS| 2|   1|       12| 1|        2|     101592|          2|     2,10|    106,33|  104,23
+     362|SUCCESS| 2|   2|       12| 2|        2|      49014|          2|    35,10|    106,33|   71,23
+     404|SUCCESS| 2|   0|       12| 0|        2|      42940|          2|    40,35|    106,44|   66,09
+      65|SUCCESS| 2|   1|       12| 1|        2|      83495|          2|     5,35|    106,44|  101,09
+     354|SUCCESS| 2|   2|       12| 2|        2|      49839|          2|    34,10|    106,44|   72,34
+     364|SUCCESS| 2|   1|       12| 1|        2|      47963|          2|    35,35|    106,77|   71,42
+     258|SUCCESS| 2|   0|       12| 0|        2|      56897|          2|    22,10|    106,88|   84,78
+     376|SUCCESS| 2|   0|       12| 0|        2|      45705|          2|    36,85|    106,88|   70,03
+     338|SUCCESS| 2|   1|       12| 1|        2|      50437|          2|    32,10|    106,99|   74,89
+     342|SUCCESS| 2|   2|       12| 2|        2|      52380|          2|    32,60|    107,21|   74,61
+      47|SUCCESS| 2|   2|       12| 2|        2|      96608|          2|     3,85|    107,32|  103,47
+     320|SUCCESS| 2|   0|       12| 0|        2|      51623|          2|    29,85|    107,43|   77,58
+     292|SUCCESS| 2|   3|       12| 3|        2|      53663|          2|    26,35|    107,43|   81,08
+     390|SUCCESS| 2|   0|       12| 0|        2|      45878|          2|    38,60|    107,54|   68,94
+      53|SUCCESS| 2|   1|       12| 1|        2|      90442|          2|     4,35|    107,76|  103,41
+     310|SUCCESS| 2|   3|       12| 3|        2|      52476|          2|    28,60|    107,87|   79,27
+     406|SUCCESS| 2|   1|       12| 1|        2|      47169|          2|    40,60|    107,98|   67,38
+     334|SUCCESS| 2|   3|       12| 3|        2|      50502|          2|    31,60|    107,98|   76,38
+     378|SUCCESS| 2|   1|       12| 1|        2|      49356|          2|    37,10|    108,09|   70,99
+     298|SUCCESS| 2|   2|       12| 2|        2|      58185|          2|    27,10|    108,09|   80,99
+     256|SUCCESS| 2|   3|       12| 3|        2|      58532|          2|    21,85|    108,09|   86,24
+     358|SUCCESS| 2|   3|       12| 3|        2|      49039|          2|    34,60|    108,31|   73,71
+     426|SUCCESS| 2|   2|       12| 2|        2|      48209|          2|    43,10|    108,64|   65,54
+      32|SUCCESS| 2|   0|       12| 0|        2|      98499|          2|     2,60|    108,75|  106,15
+     372|SUCCESS| 2|   1|       12| 1|        2|      51665|          2|    36,35|    108,86|   72,51
+     432|SUCCESS| 2|   2|       12| 2|        2|      48209|          2|    43,85|    108,86|   65,01
+     360|SUCCESS| 2|   0|       12| 0|        2|      51390|          2|    34,85|    108,97|   74,12
+      35|SUCCESS| 2|   3|       12| 3|        2|      97651|          2|     2,85|    108,97|  106,12
+     424|SUCCESS| 2|   1|       12| 1|        2|      48209|          2|    42,85|    109,08|   66,23
+     440|SUCCESS| 2|   2|       12| 2|        2|      48209|          2|    44,85|    109,08|   64,23
+     384|SUCCESS| 2|   1|       12| 1|        2|      51391|          2|    37,85|    109,19|   71,34
+     434|SUCCESS| 2|   1|       12| 1|        2|      48209|          2|    44,10|    109,30|   65,20
+     368|SUCCESS| 2|   3|       12| 3|        2|      50208|          2|    35,85|    109,41|   73,56
+     422|SUCCESS| 2|   0|       12| 0|        2|      48209|          2|    42,60|    109,63|   67,03
+      59|SUCCESS| 2|   3|       12| 3|        2|      89501|          2|     4,85|    109,74|  104,89
+     414|SUCCESS| 2|   2|       12| 2|        2|      51760|          2|    41,60|    109,85|   68,25
+     430|SUCCESS| 2|   0|       12| 0|        2|      48209|          2|    43,60|    109,96|   66,36
+     398|SUCCESS| 2|   1|       12| 1|        2|      52771|          2|    39,60|    110,07|   70,47
+     438|SUCCESS| 2|   0|       12| 0|        2|      48209|          2|    44,60|    110,18|   65,58
+     392|SUCCESS| 2|   1|       12| 1|        2|      53659|          2|    38,85|    110,18|   71,33
+     396|SUCCESS| 2|   2|       12| 2|        2|      53873|          2|    39,35|    110,18|   70,83
+      29|SUCCESS| 2|   2|       12| 2|        2|     113838|          2|     2,35|    110,29|  107,94
+     380|SUCCESS| 2|   2|       12| 2|        2|      55470|          2|    37,35|    110,29|   72,94
+     308|SUCCESS| 2|   0|       12| 0|        2|      59341|          2|    28,35|    110,40|   82,05
+      56|SUCCESS| 2|   0|       12| 0|        2|      93896|          2|     4,60|    110,51|  105,91
+     410|SUCCESS| 2|   3|       12| 3|        2|      49052|          2|    41,10|    110,51|   69,41
+     408|SUCCESS| 2|   2|       12| 2|        2|      54252|          2|    40,85|    110,62|   69,77
+     326|SUCCESS| 2|   3|       12| 3|        2|      56090|          2|    30,60|    110,62|   80,02
+     416|SUCCESS| 2|   3|       12| 3|        2|      48811|          2|    41,85|    110,62|   68,77
+     382|SUCCESS| 2|   3|       12| 3|        2|      51642|          2|    37,60|    110,73|   73,13
+     400|SUCCESS| 2|   3|       12| 3|        2|      50309|          2|    39,85|    110,73|   70,88
+     428|SUCCESS| 2|   3|       12| 3|        2|      48209|          2|    43,35|    110,73|   67,38
+     436|SUCCESS| 2|   3|       12| 3|        2|      48209|          2|    44,35|    110,95|   66,60
+     418|SUCCESS| 2|   1|       12| 1|        2|      54769|          2|    42,10|    111,17|   69,07
+     394|SUCCESS| 2|   3|       12| 3|        2|      51908|          2|    39,10|    111,17|   72,07
+     340|SUCCESS| 2|   3|       12| 3|        2|      56686|          2|    32,35|    111,28|   78,93
+     420|SUCCESS| 2|   2|       12| 2|        2|      56042|          2|    42,35|    111,50|   69,15
+     412|SUCCESS| 2|   0|       12| 0|        2|      54706|          2|    41,35|    111,72|   70,37
+     402|SUCCESS| 2|   2|       12| 2|        2|      58275|          2|    40,10|    111,83|   71,73
+     388|SUCCESS| 2|   3|       12| 3|        2|      55012|          2|    38,35|    112,05|   73,70
+      50|SUCCESS| 2|   3|       12| 3|        2|      98933|          2|     4,10|    112,16|  108,06
+      95|SUCCESS| 2|   2|       12| 2|        2|      96504|          2|     7,85|    112,84|  104,99
+     122|SUCCESS| 2|   0|       12| 0|        2|      87826|          2|    10,10|    113,06|  102,96
+      98|SUCCESS| 2|   3|       12| 3|        2|      90175|          2|     8,10|    113,17|  105,07
+      89|SUCCESS| 2|   0|       12| 0|        2|      94394|          2|     7,35|    113,28|  105,93
+     140|SUCCESS| 2|   0|       12| 0|        2|      87906|          2|    11,60|    113,90|  102,30
+     143|SUCCESS| 2|   1|       12| 1|        2|      89705|          2|    11,85|    113,90|  102,05
+      38|SUCCESS| 2|   2|       12| 2|        2|     119052|          2|     3,10|    113,90|  110,80
+     158|SUCCESS| 2|   1|       12| 1|        2|      90935|          2|    13,10|    114,72|  101,62
+      77|SUCCESS| 2|   2|       12| 2|        2|     107718|          2|     6,35|    114,72|  108,37
+     113|SUCCESS| 2|   1|       12| 1|        2|      96933|          2|     9,35|    114,83|  105,48
+      80|SUCCESS| 2|   0|       12| 0|        2|     102656|          2|     6,60|    114,94|  108,34
+      44|SUCCESS| 2|   0|       12| 0|        2|     113324|          2|     3,60|    115,16|  111,56
+     146|SUCCESS| 2|   2|       12| 2|        2|      96028|          2|    12,10|    115,16|  103,06
+     104|SUCCESS| 2|   3|       12| 3|        2|      96636|          2|     8,60|    115,16|  106,56
+      68|SUCCESS| 2|   0|       12| 0|        2|     107604|          2|     5,60|    115,49|  109,89
+     155|SUCCESS| 2|   2|       12| 2|        2|      96281|          2|    12,85|    115,49|  102,64
+     176|SUCCESS| 2|   1|       12| 1|        2|      92521|          2|    14,60|    115,60|  101,00
+      83|SUCCESS| 2|   3|       12| 3|        2|     103707|          2|     6,85|    115,82|  108,97
+     116|SUCCESS| 2|   2|       12| 2|        2|     104793|          2|     9,60|    115,93|  106,33
+      74|SUCCESS| 2|   3|       12| 3|        2|     105877|          2|     6,10|    115,93|  109,83
+     131|SUCCESS| 2|   3|       12| 3|        2|      95529|          2|    10,85|    115,93|  105,08
+      86|SUCCESS| 2|   2|       12| 2|        2|     111420|          2|     7,10|    116,04|  108,94
+     137|SUCCESS| 2|   3|       12| 3|        2|      95669|          2|    11,35|    116,04|  104,69
+     152|SUCCESS| 2|   0|       12| 0|        2|      96396|          2|    12,60|    116,26|  103,66
+      92|SUCCESS| 2|   1|       12| 1|        2|     107189|          2|     7,60|    116,26|  108,66
+     194|SUCCESS| 2|   2|       12| 2|        2|      98667|          2|    16,10|    116,72|  100,62
+     185|SUCCESS| 2|   3|       12| 3|        2|      94019|          2|    15,35|    116,72|  101,37
+     149|SUCCESS| 2|   1|       12| 1|        2|     101182|          2|    12,35|    116,83|  104,48
+     191|SUCCESS| 2|   1|       12| 1|        2|      96837|          2|    15,85|    116,83|  100,98
+     134|SUCCESS| 2|   1|       12| 1|        2|     103842|          2|    11,10|    116,94|  105,84
+     101|SUCCESS| 2|   0|       12| 0|        2|     109475|          2|     8,35|    117,16|  108,81
+     197|SUCCESS| 2|   3|       12| 3|        2|      95543|          2|    16,35|    117,16|  100,81
+     188|SUCCESS| 2|   0|       12| 0|        2|      97891|          2|    15,60|    117,27|  101,67
+     206|SUCCESS| 2|   2|       12| 2|        2|     101837|          2|    17,10|    117,38|  100,28
+     128|SUCCESS| 2|   2|       12| 2|        2|     112485|          2|    10,60|    117,49|  106,89
+     218|SUCCESS| 2|   2|       12| 2|        2|     101837|          2|    18,10|    117,49|   99,39
+     230|SUCCESS| 2|   2|       12| 2|        2|     101837|          2|    19,10|    117,60|   98,50
+     164|SUCCESS| 2|   1|       12| 1|        2|     105585|          2|    13,60|    117,71|  104,11
+     182|SUCCESS| 2|   1|       12| 1|        2|     103719|          2|    15,10|    117,71|  102,61
+     203|SUCCESS| 2|   1|       12| 1|        2|     101837|          2|    16,85|    117,71|  100,86
+     242|SUCCESS| 2|   2|       12| 2|        2|     101837|          2|    20,10|    117,71|   97,61
+     110|SUCCESS| 2|   0|       12| 0|        2|     112562|          2|     9,10|    117,82|  108,72
+     215|SUCCESS| 2|   1|       12| 1|        2|     101837|          2|    17,85|    117,82|   99,97
+     107|SUCCESS| 2|   2|       12| 2|        2|     122870|          2|     8,85|    117,82|  108,97
+     200|SUCCESS| 2|   0|       12| 0|        2|     101837|          2|    16,60|    117,93|  101,33
+     227|SUCCESS| 2|   1|       12| 1|        2|     101837|          2|    18,85|    117,93|   99,08
+     239|SUCCESS| 2|   1|       12| 1|        2|     101837|          2|    19,85|    117,93|   98,08
+     167|SUCCESS| 2|   0|       12| 0|        2|     106109|          2|    13,85|    118,04|  104,19
+     212|SUCCESS| 2|   0|       12| 0|        2|     101837|          2|    17,60|    118,04|  100,44
+     125|SUCCESS| 2|   1|       12| 1|        2|     114417|          2|    10,35|    118,04|  107,69
+     173|SUCCESS| 2|   2|       12| 2|        2|     120568|          2|    14,35|    118,04|  103,69
+     209|SUCCESS| 2|   3|       12| 3|        2|     101837|          2|    17,35|    118,04|  100,69
+     221|SUCCESS| 2|   0|       12| 0|        2|     101837|          2|    18,35|    118,15|   99,80
+     233|SUCCESS| 2|   0|       12| 0|        2|     101837|          2|    19,35|    118,15|   98,80
+     161|SUCCESS| 2|   3|       12| 3|        2|     107339|          2|    13,35|    118,15|  104,80
+     170|SUCCESS| 2|   3|       12| 3|        2|     107043|          2|    14,10|    118,15|  104,05
+     224|SUCCESS| 2|   3|       12| 3|        2|     101837|          2|    18,60|    118,15|   99,55
+     179|SUCCESS| 2|   0|       12| 0|        2|     108206|          2|    14,85|    118,26|  103,41
+     236|SUCCESS| 2|   3|       12| 3|        2|     101837|          2|    19,60|    118,26|   98,66
+     119|SUCCESS| 2|   3|       12| 3|        2|     126117|          2|     9,85|    118,48|  108,63
+-----------------------------------------------------------------------------------------------------
+Simulation finished in: 118,59 seconds.
+Total tasks executed: 573
+Average MI: 40738,03
+Average execution latency: 51,53
+MI 90th percentile: 96624,80
+Average tail execution latency: 102,54
+Maximum task execution time violations: 239

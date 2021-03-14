@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[greek,english]{babel}
+\usepackage{alphabeta}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{minted}
+\usepackage{enumitem}
+\usepackage{array}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=black,
+}
+
+\begin{document}
+\newpage
+
+\Huge{A Context Sensitive Offloading Scheme for Mobile Cloud Computing Service}
+\par
+\vspace{0.5cm}
+\huge{Ενδεικτική τρίτη μέθοδος επίλυσης του προβλήματος του Task Offloading.}
+\par
+\vspace{0.4cm}
+\large{Η τρίτη μέθοδος επίλυσης του προβλήματος του task offloading που προτείνουμε αφορά κυρίως μια τοπολογία δικτύου κινητών συσκευών που μεταξύ τους δημιουργούν ένα Ad hoc δίκτυο (MANET, mobile ad hoc network) διευρύνοντας έτσι τις επιλογές του διαμοιρασμού των διεργασιών. Πλέον πέρα από task offloading σε κάποιο cloudlet ή cloud, δεδομένων των συνθηκών που θα αναλυθούν παρακάτω, έχουμε την δυνατότητα να διαμοιράσουμε τις διεργασίες στις κινητές συσκευές που αποτελούν το MANET. Τέλος να τονίσουμε πως στην συγκεκριμένη αντιμετώπιση μεγάλο ρόλο παίζει το μέσο ασύρματης πρόσβασης στο δίκτυο (WiFi, Bluetooth, 3G, 4G) και πως ο αλγόριθμος της απόφασης έχει σχεδιαστεί γύρω από αυτό.
+}
+\par
+\vspace{0.4cm}
+\large{
+Αρχικά ο αλγόριθμος δέχεται ως παραμέτρους τα tasks προς εκτέλεση και το Context Monitor. Το Context Monitor αποτελεί μια συλλογή κρίσιμων ως προς την απόφαση παραμέτρων (τον συνολικό αριθμό των instruction που έχει η διεργασία, τη μέση χρήση της CPU, την μνήμη, την μπαταρία, το μέσο πρόσβασης στο δίκτυο, το bandwidth του δικτύου κ.α). Έπειτα μέσω των δοθέντων μαθηματικών σχέσεων υπολογίζονται τα κόστη για τα local execution, MANET execution, cloudlet execution και cloud execution αντίστοιχα. Στη συνέχεια ελέγχεται το μέσο ασύρματης πρόσβασης στο δίκτυο. Στην περίπτωση που η συσκευή έχει ενεργοποιημένο το WiFi, επιλέγεται η μονάδα που της αντιστοιχεί το ελάχιστο κόστος εκτέλεσης που υπολογίσαμε πριν. Στο ενδεχόμενο όπου το WiFi δεν είναι διαθέσιμο αλλά το Bluetooth interface παρέχει πρόσβαση στο Ad hoc δίκτυο τότε επιλέγεται το μικρότερο κόστος εκτέλεσης ανάμεσα σε local execution και MANET execution. Τέλος, για περιπτώσεις όπου υπάρχει πρόσβαση μόνο σε κυψελωτό δίκτυο επιλέγουμε πάλι την εκτέλεση με το μικρότερο κόστος, αυτή τη φορά ανάμεσα σε local execution και cloud execution. Να σημειώσουμε πως σε κάθε από τα παραπάνω ενδεχόμενα, ελέγχεται πάντα η διαθεσιμότητα των υποψήφιων προς task offloading μονάδων.      
+}
+
+\par
+\vspace{0.4cm}
+\large{
+Κλείνοντας αξίζει να αναφέρουμε πως η παραπάνω προσέγγιση είναι εύκολα επεκτάσιμη με την άφιξη νέων τεχνολογιών όπως για παράδειγμα ενός νέου interface που θα μπορούσε να αντικαταστίσει το Bluetooth ως μέσο πρόσβασης στο MANET.      
+}
+
+\par
+\vspace{0.5cm}
+\large{
+\href{https://ieeexplore.ieee.org/abstract/document/7214129}{\textbf{Πηγή:}} B. Zhou, A. V. Dastjerdi, R. N. Calheiros, S. N. Srirama and R. Buyya, "A Context Sensitive Offloading Scheme for Mobile Cloud Computing Service," 2015 IEEE 8th International Conference on Cloud Computing, New York, NY, 2015, pp. 869-876, doi: 10.1109/CLOUD.2015.119.      
+}
+
+
+\end{document}
